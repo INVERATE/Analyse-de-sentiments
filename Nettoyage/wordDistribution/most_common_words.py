@@ -2,7 +2,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-n_words = 51
+n_words = 50
 
 df = pd.read_csv("Reviews.csv")
 

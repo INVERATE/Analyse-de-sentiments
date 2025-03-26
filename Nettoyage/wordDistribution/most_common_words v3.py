@@ -1,8 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-#hello fanny
-
 # Parameters
 n_words_graph = 50  # Number of words to plot
 n_words_csv = -1  # Number of words to save to CSV (-1 for all)

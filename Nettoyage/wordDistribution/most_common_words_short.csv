@@ -1,2158 +1,1535 @@
-Word,Frequency
-the,"{'count': 242, 'score': {5: 154, 1: 28, 4: 38, 2: 8, 3: 14}}"
-and,"{'count': 208, 'score': {5: 151, 4: 29, 2: 6, 1: 11, 3: 11}}"
-I,"{'count': 173, 'score': {5: 116, 4: 21, 2: 11, 1: 16, 3: 9}}"
-a,"{'count': 161, 'score': {5: 118, 4: 25, 1: 10, 2: 2, 3: 6}}"
-to,"{'count': 125, 'score': {5: 84, 1: 11, 4: 16, 2: 6, 3: 8}}"
-of,"{'count': 118, 'score': {5: 85, 4: 16, 1: 7, 3: 5, 2: 5}}"
-is,"{'count': 111, 'score': {5: 62, 4: 28, 2: 6, 1: 7, 3: 8}}"
-in,"{'count': 81, 'score': {4: 9, 2: 2, 5: 60, 1: 6, 3: 4}}"
-for,"{'count': 77, 'score': {2: 3, 4: 11, 5: 54, 1: 5, 3: 4}}"
-it,"{'count': 72, 'score': {5: 53, 4: 10, 1: 4, 3: 3, 2: 2}}"
-this,"{'count': 60, 'score': {5: 39, 1: 3, 4: 13, 2: 1, 3: 4}}"
-my,"{'count': 57, 'score': {4: 7, 5: 41, 1: 4, 2: 2, 3: 3}}"
-have,"{'count': 56, 'score': {5: 41, 2: 2, 1: 2, 4: 6, 3: 5}}"
-with,"{'count': 52, 'score': {4: 9, 5: 38, 3: 2, 1: 3}}"
-you,"{'count': 48, 'score': {4: 4, 2: 1, 5: 35, 3: 6, 1: 2}}"
-was,"{'count': 46, 'score': {1: 6, 2: 1, 5: 33, 4: 4, 3: 2}}"
-that,"{'count': 43, 'score': {4: 6, 5: 33, 1: 1, 3: 2, 2: 1}}"
-but,"{'count': 41, 'score': {5: 29, 4: 5, 3: 3, 2: 1, 1: 3}}"
-The,"{'count': 37, 'score': {5: 20, 4: 9, 2: 2, 1: 3, 3: 3}}"
-are,"{'count': 37, 'score': {4: 6, 2: 2, 5: 25, 3: 3, 1: 1}}"
-food,"{'count': 35, 'score': {5: 29, 1: 3, 4: 1, 3: 2}}"
-like,"{'count': 34, 'score': {5: 20, 2: 4, 4: 3, 1: 4, 3: 3}}"
-so,"{'count': 34, 'score': {5: 22, 2: 3, 4: 6, 3: 1, 1: 2}}"
-/><br,"{'count': 33, 'score': {5: 27, 4: 6}}"
-as,"{'count': 32, 'score': {1: 2, 5: 21, 4: 7, 3: 2}}"
-not,"{'count': 32, 'score': {4: 10, 1: 6, 2: 3, 5: 11, 3: 2}}"
-dog,"{'count': 31, 'score': {5: 28, 3: 3}}"
-can,"{'count': 29, 'score': {5: 18, 2: 1, 4: 4, 3: 1, 1: 5}}"
-them,"{'count': 27, 'score': {5: 19, 2: 2, 1: 1, 4: 4, 3: 1}}"
-good,"{'count': 27, 'score': {5: 20, 4: 5, 2: 1, 3: 1}}"
-or,"{'count': 27, 'score': {1: 1, 5: 20, 4: 4, 3: 1, 2: 1}}"
-This,"{'count': 27, 'score': {4: 4, 5: 19, 3: 2, 1: 2}}"
-on,"{'count': 27, 'score': {5: 23, 4: 1, 3: 3}}"
-we,"{'count': 27, 'score': {5: 25, 3: 2}}"
-at,"{'count': 25, 'score': {5: 11, 2: 2, 3: 6, 4: 2, 1: 4}}"
-these,"{'count': 25, 'score': {4: 5, 5: 18, 3: 2}}"
-very,"{'count': 23, 'score': {4: 4, 2: 1, 5: 12, 3: 3, 1: 3}}"
-all,"{'count': 21, 'score': {5: 14, 4: 3, 3: 2, 1: 2}}"
-be,"{'count': 21, 'score': {5: 13, 4: 5, 1: 3}}"
-were,"{'count': 21, 'score': {1: 4, 5: 16, 4: 1}}"
-has,"{'count': 21, 'score': {4: 1, 5: 17, 3: 3}}"
-your,"{'count': 20, 'score': {5: 12, 4: 5, 3: 3}}"
-they,"{'count': 20, 'score': {4: 4, 2: 2, 5: 12, 3: 2}}"
-really,"{'count': 19, 'score': {5: 18, 4: 1}}"
-one,"{'count': 18, 'score': {5: 16, 2: 1, 1: 1}}"
-little,"{'count': 18, 'score': {5: 14, 3: 2, 1: 2}}"
-than,"{'count': 17, 'score': {5: 14, 1: 1, 4: 1, 3: 1}}"
-love,"{'count': 17, 'score': {5: 14, 4: 1, 2: 1, 1: 1}}"
-up,"{'count': 17, 'score': {5: 14, 3: 1, 1: 2}}"
-taste,"{'count': 17, 'score': {5: 9, 4: 2, 2: 2, 1: 3, 3: 1}}"
-when,"{'count': 17, 'score': {1: 6, 4: 3, 5: 4, 3: 4}}"
-McCann's,"{'count': 17, 'score': {4: 8, 5: 9}}"
-too,"{'count': 16, 'score': {4: 4, 5: 10, 2: 1, 1: 1}}"
-just,"{'count': 16, 'score': {5: 13, 1: 2, 3: 1}}"
-will,"{'count': 16, 'score': {5: 11, 1: 3, 4: 2}}"
-other,"{'count': 16, 'score': {5: 14, 4: 1, 3: 1}}"
-My,"{'count': 15, 'score': {5: 12, 4: 1, 1: 2}}"
-It,"{'count': 15, 'score': {4: 5, 5: 5, 2: 2, 3: 2, 1: 1}}"
-great,"{'count': 15, 'score': {5: 12, 4: 3}}"
-had,"{'count': 15, 'score': {5: 10, 4: 1, 1: 3, 3: 1}}"
-don't,"{'count': 15, 'score': {5: 12, 4: 2, 1: 1}}"
-use,"{'count': 15, 'score': {5: 12, 4: 2, 1: 1}}"
-get,"{'count': 15, 'score': {5: 11, 4: 1, 3: 3}}"
-oatmeal,"{'count': 15, 'score': {4: 6, 5: 8, 1: 1}}"
-me,"{'count': 14, 'score': {5: 7, 4: 3, 2: 1, 3: 1, 1: 2}}"
-product,"{'count': 13, 'score': {5: 12, 1: 1}}"
-if,"{'count': 13, 'score': {1: 3, 5: 9, 4: 1}}"
-been,"{'count': 13, 'score': {4: 2, 5: 9, 1: 1, 2: 1}}"
-some,"{'count': 13, 'score': {2: 1, 5: 4, 4: 2, 3: 5, 1: 1}}"
-because,"{'count': 13, 'score': {5: 12, 4: 1}}"
-from,"{'count': 13, 'score': {5: 11, 4: 2}}"
-buy,"{'count': 13, 'score': {5: 8, 1: 1, 4: 1, 3: 2, 2: 1}}"
-water,"{'count': 13, 'score': {5: 11, 4: 2}}"
-better,"{'count': 12, 'score': {5: 8, 4: 4}}"
--,"{'count': 12, 'score': {4: 2, 5: 9, 3: 1}}"
-it.,"{'count': 12, 'score': {2: 1, 5: 7, 4: 1, 3: 1, 1: 2}}"
-no,"{'count': 12, 'score': {5: 9, 4: 1, 2: 1, 3: 1}}"
-make,"{'count': 12, 'score': {5: 7, 4: 4, 1: 1}}"
-more,"{'count': 11, 'score': {5: 8, 1: 1, 3: 2}}"
-only,"{'count': 11, 'score': {4: 4, 5: 6, 1: 1}}"
-would,"{'count': 11, 'score': {4: 2, 5: 7, 1: 1, 2: 1}}"
-I'm,"{'count': 11, 'score': {5: 8, 4: 2, 2: 1}}"
-They,"{'count': 11, 'score': {5: 7, 1: 1, 4: 3}}"
-time,"{'count': 11, 'score': {2: 1, 4: 4, 5: 5, 1: 1}}"
-&,"{'count': 11, 'score': {5: 8, 4: 2, 1: 1}}"
-sugar,"{'count': 11, 'score': {5: 4, 4: 6, 1: 1}}"
-she,"{'count': 10, 'score': {5: 10}}"
-got,"{'count': 10, 'score': {2: 1, 4: 1, 1: 1, 5: 7}}"
-much,"{'count': 10, 'score': {4: 1, 5: 6, 3: 2, 1: 1}}"
-food.,"{'count': 10, 'score': {5: 8, 1: 1, 3: 1}}"
-find,"{'count': 10, 'score': {5: 7, 1: 1, 4: 1, 3: 1}}"
-our,"{'count': 10, 'score': {5: 10}}"
-about,"{'count': 10, 'score': {5: 8, 3: 1, 1: 1}}"
-I've,"{'count': 10, 'score': {1: 1, 5: 5, 4: 1, 2: 3}}"
-instant,"{'count': 10, 'score': {4: 5, 5: 5}}"
-do,"{'count': 10, 'score': {4: 2, 5: 6, 3: 1, 1: 1}}"
-bought,"{'count': 9, 'score': {5: 9}}"
-brand,"{'count': 9, 'score': {4: 3, 5: 5, 3: 1}}"
-flavors,"{'count': 9, 'score': {5: 6, 4: 1, 3: 2}}"
-eat,"{'count': 9, 'score': {5: 7, 1: 1, 4: 1}}"
-hot,"{'count': 9, 'score': {5: 9}}"
-i,"{'count': 9, 'score': {4: 1, 5: 7, 1: 1}}"
-am,"{'count': 9, 'score': {5: 8, 3: 1}}"
-by,"{'count': 9, 'score': {5: 7, 4: 1, 1: 1}}"
-/>I,"{'count': 9, 'score': {5: 9}}"
-well,"{'count': 9, 'score': {5: 9}}"
-who,"{'count': 9, 'score': {5: 6, 4: 1, 1: 1, 3: 1}}"
-could,"{'count': 9, 'score': {5: 5, 3: 1, 1: 3}}"
-Natural,"{'count': 9, 'score': {3: 2, 5: 7}}"
-Balance,"{'count': 9, 'score': {3: 2, 5: 7}}"
-found,"{'count': 8, 'score': {5: 5, 2: 1, 4: 1, 1: 1}}"
-recommend,"{'count': 8, 'score': {4: 2, 5: 6}}"
-her,"{'count': 8, 'score': {5: 8}}"
-it's,"{'count': 8, 'score': {5: 6, 2: 1, 1: 1}}"
-never,"{'count': 8, 'score': {5: 7, 1: 1}}"
-any,"{'count': 8, 'score': {5: 6, 3: 1, 1: 1}}"
-what,"{'count': 8, 'score': {5: 7, 1: 1}}"
-take,"{'count': 8, 'score': {2: 2, 5: 4, 4: 1, 3: 1}}"
-ever,"{'count': 8, 'score': {5: 7, 1: 1}}"
-Amazon,"{'count': 8, 'score': {5: 7, 4: 1}}"
-Brown,"{'count': 8, 'score': {5: 5, 4: 3}}"
-bears,"{'count': 8, 'score': {5: 8}}"
-dogs,"{'count': 8, 'score': {3: 2, 5: 6}}"
-an,"{'count': 7, 'score': {1: 2, 5: 3, 4: 2}}"
-If,"{'count': 7, 'score': {4: 1, 2: 1, 5: 3, 3: 2}}"
-taffy,"{'count': 7, 'score': {5: 4, 4: 3}}"
-good.,"{'count': 7, 'score': {5: 4, 4: 1, 3: 1, 1: 1}}"
-now,"{'count': 7, 'score': {5: 4, 1: 2, 4: 1}}"
-their,"{'count': 7, 'score': {5: 4, 1: 2, 3: 1}}"
-every,"{'count': 7, 'score': {5: 5, 4: 1, 2: 1}}"
-know,"{'count': 7, 'score': {5: 6, 1: 1}}"
-We,"{'count': 7, 'score': {5: 7}}"
-home,"{'count': 7, 'score': {5: 6, 4: 1}}"
-both,"{'count': 7, 'score': {5: 6, 3: 1}}"
-tried,"{'count': 7, 'score': {1: 1, 5: 3, 3: 3}}"
-loves,"{'count': 7, 'score': {5: 7}}"
-also,"{'count': 7, 'score': {5: 6, 1: 1}}"
-store,"{'count': 7, 'score': {5: 6, 4: 1}}"
-always,"{'count': 7, 'score': {5: 7}}"
-tastes,"{'count': 7, 'score': {4: 1, 5: 6}}"
-after,"{'count': 7, 'score': {4: 2, 5: 4, 1: 1}}"
-same,"{'count': 7, 'score': {5: 5, 3: 1, 1: 1}}"
-bad,"{'count': 7, 'score': {5: 4, 2: 2, 1: 1}}"
-allergies,"{'count': 7, 'score': {5: 7}}"
-into,"{'count': 6, 'score': {4: 3, 5: 3}}"
-out,"{'count': 6, 'score': {4: 1, 5: 3, 2: 1, 3: 1}}"
-made,"{'count': 6, 'score': {2: 1, 5: 5}}"
-flavor,"{'count': 6, 'score': {2: 2, 1: 2, 3: 1, 4: 1}}"
-Great,"{'count': 6, 'score': {5: 4, 4: 2}}"
-There,"{'count': 6, 'score': {5: 3, 4: 1, 3: 1, 2: 1}}"
-"me,","{'count': 6, 'score': {4: 1, 5: 2, 3: 1, 1: 2}}"
-two,"{'count': 6, 'score': {4: 2, 1: 1, 5: 3}}"
-candy,"{'count': 6, 'score': {5: 5, 1: 1}}"
-sauce,"{'count': 6, 'score': {5: 6}}"
-bottle,"{'count': 6, 'score': {5: 6}}"
-want,"{'count': 6, 'score': {5: 6}}"
-eating,"{'count': 6, 'score': {1: 2, 2: 2, 5: 2}}"
-need,"{'count': 6, 'score': {1: 1, 4: 3, 5: 2}}"
-It's,"{'count': 6, 'score': {5: 4, 4: 1, 2: 1}}"
-still,"{'count': 6, 'score': {5: 5, 1: 1}}"
-over,"{'count': 6, 'score': {5: 5, 4: 1}}"
-price,"{'count': 6, 'score': {5: 4, 3: 2}}"
-Instant,"{'count': 6, 'score': {4: 2, 5: 4}}"
-best,"{'count': 6, 'score': {4: 3, 5: 2, 3: 1}}"
-variety,"{'count': 6, 'score': {4: 2, 5: 4}}"
-cold,"{'count': 6, 'score': {4: 2, 5: 3, 3: 1}}"
-regular,"{'count': 6, 'score': {4: 2, 5: 4}}"
-its,"{'count': 6, 'score': {5: 6}}"
-Apples,"{'count': 6, 'score': {5: 4, 4: 2}}"
-Maple,"{'count': 6, 'score': {5: 2, 4: 4}}"
-milk,"{'count': 6, 'score': {5: 6}}"
-different,"{'count': 6, 'score': {5: 5, 3: 1}}"
-since,"{'count': 6, 'score': {5: 5, 4: 1}}"
-see,"{'count': 6, 'score': {3: 1, 4: 1, 5: 4}}"
-mix,"{'count': 6, 'score': {5: 6}}"
-These,"{'count': 6, 'score': {4: 1, 5: 5}}"
-natural,"{'count': 6, 'score': {5: 6}}"
-small,"{'count': 5, 'score': {1: 1, 5: 4}}"
-then,"{'count': 5, 'score': {4: 2, 3: 1, 5: 2}}"
-his,"{'count': 5, 'score': {4: 1, 5: 3, 3: 1}}"
-ordered,"{'count': 5, 'score': {2: 1, 4: 1, 5: 3}}"
-price.,"{'count': 5, 'score': {5: 4, 4: 1}}"
-bit,"{'count': 5, 'score': {4: 1, 5: 4}}"
---,"{'count': 5, 'score': {4: 1, 5: 4}}"
-makes,"{'count': 5, 'score': {5: 5}}"
-once,"{'count': 5, 'score': {5: 4, 3: 1}}"
-back,"{'count': 5, 'score': {5: 5}}"
-go,"{'count': 5, 'score': {5: 2, 4: 2, 2: 1}}"
-new,"{'count': 5, 'score': {1: 4, 5: 1}}"
-fresh,"{'count': 5, 'score': {4: 1, 2: 1, 5: 3}}"
-You,"{'count': 5, 'score': {5: 4, 1: 1}}"
-purchased,"{'count': 5, 'score': {5: 2, 2: 1, 1: 1, 4: 1}}"
-each,"{'count': 5, 'score': {5: 5}}"
-(Pack,"{'count': 5, 'score': {5: 4, 4: 1}}"
-quality,"{'count': 5, 'score': {5: 3, 3: 2}}"
-won't,"{'count': 5, 'score': {5: 3, 4: 1, 3: 1}}"
-.,"{'count': 5, 'score': {1: 2, 4: 3}}"
-coffee,"{'count': 5, 'score': {5: 5}}"
-getting,"{'count': 5, 'score': {5: 5}}"
-should,"{'count': 5, 'score': {4: 2, 5: 2, 3: 1}}"
-"Cinnamon,","{'count': 5, 'score': {5: 4, 4: 1}}"
-almost,"{'count': 5, 'score': {5: 4, 2: 1}}"
-She,"{'count': 5, 'score': {5: 5}}"
-stuff,"{'count': 5, 'score': {5: 4, 3: 1}}"
-you're,"{'count': 5, 'score': {5: 3, 3: 1, 1: 1}}"
-order,"{'count': 5, 'score': {4: 1, 5: 2, 3: 2}}"
-something,"{'count': 5, 'score': {3: 1, 1: 1, 5: 3}}"
-foods,"{'count': 5, 'score': {3: 1, 5: 4}}"
-down,"{'count': 5, 'score': {3: 2, 5: 2, 1: 1}}"
-flavored,"{'count': 5, 'score': {5: 5}}"
-day,"{'count': 5, 'score': {5: 5}}"
-gummy,"{'count': 5, 'score': {5: 5}}"
-own,"{'count': 5, 'score': {5: 5}}"
-itching,"{'count': 5, 'score': {3: 4, 5: 1}}"
-products,"{'count': 4, 'score': {5: 2, 2: 2}}"
-actually,"{'count': 4, 'score': {1: 1, 4: 1, 5: 2}}"
-sure,"{'count': 4, 'score': {1: 1, 5: 3}}"
-around,"{'count': 4, 'score': {4: 1, 5: 3}}"
-case,"{'count': 4, 'score': {4: 1, 5: 2, 1: 1}}"
-And,"{'count': 4, 'score': {4: 2, 5: 2}}"
-cut,"{'count': 4, 'score': {4: 1, 5: 2, 3: 1}}"
-looking,"{'count': 4, 'score': {2: 2, 1: 1, 5: 1}}"
-many,"{'count': 4, 'score': {4: 1, 5: 2, 1: 1}}"
-there,"{'count': 4, 'score': {4: 1, 5: 2, 2: 1}}"
-which,"{'count': 4, 'score': {5: 3, 4: 1}}"
-did,"{'count': 4, 'score': {5: 3, 3: 1}}"
-expensive,"{'count': 4, 'score': {5: 4}}"
-combination,"{'count': 4, 'score': {5: 4}}"
-us,"{'count': 4, 'score': {5: 4}}"
-When,"{'count': 4, 'score': {5: 4}}"
-simply,"{'count': 4, 'score': {5: 4}}"
-Just,"{'count': 4, 'score': {5: 2, 1: 2}}"
-"it,","{'count': 4, 'score': {5: 4}}"
-going,"{'count': 4, 'score': {5: 3, 4: 1}}"
-bag,"{'count': 4, 'score': {1: 1, 5: 3}}"
-while,"{'count': 4, 'score': {5: 3, 1: 1}}"
-dry,"{'count': 4, 'score': {5: 4}}"
-recommended,"{'count': 4, 'score': {5: 4}}"
-perfect,"{'count': 4, 'score': {5: 4}}"
-likes,"{'count': 4, 'score': {5: 4}}"
-right,"{'count': 4, 'score': {5: 4}}"
-again,"{'count': 4, 'score': {1: 1, 5: 1, 2: 1, 3: 1}}"
-hard,"{'count': 4, 'score': {4: 1, 5: 1, 1: 2}}"
-sweet,"{'count': 4, 'score': {5: 3, 3: 1}}"
-sugar-free,"{'count': 4, 'score': {5: 1, 1: 3}}"
-pretty,"{'count': 4, 'score': {5: 4}}"
-most,"{'count': 4, 'score': {5: 3, 2: 1}}"
-less,"{'count': 4, 'score': {5: 3, 3: 1}}"
-Oatmeal,"{'count': 4, 'score': {4: 1, 5: 3}}"
-three,"{'count': 4, 'score': {4: 2, 5: 2}}"
-even,"{'count': 4, 'score': {4: 3, 5: 1}}"
-oatmeal.,"{'count': 4, 'score': {4: 1, 5: 3}}"
-high,"{'count': 4, 'score': {4: 2, 5: 2}}"
-product.,"{'count': 4, 'score': {4: 2, 5: 2}}"
-"Oatmeal,","{'count': 4, 'score': {5: 3, 4: 1}}"
-half,"{'count': 4, 'score': {5: 4}}"
-low-fat,"{'count': 4, 'score': {5: 4}}"
-add,"{'count': 4, 'score': {5: 3, 3: 1}}"
-THE,"{'count': 4, 'score': {4: 4}}"
-AND,"{'count': 4, 'score': {4: 4}}"
-2,"{'count': 4, 'score': {5: 4}}"
-here,"{'count': 4, 'score': {5: 3, 3: 1}}"
-Our,"{'count': 4, 'score': {5: 4}}"
-didn't,"{'count': 4, 'score': {3: 1, 5: 3}}"
-box,"{'count': 4, 'score': {3: 2, 4: 1, 5: 1}}"
-free,"{'count': 4, 'score': {5: 4}}"
-So,"{'count': 4, 'score': {5: 3, 3: 1}}"
-nice,"{'count': 4, 'score': {5: 4}}"
-last,"{'count': 4, 'score': {4: 1, 5: 3}}"
-used,"{'count': 4, 'score': {3: 2, 5: 1, 1: 1}}"
-beans,"{'count': 4, 'score': {4: 2, 5: 2}}"
-before,"{'count': 4, 'score': {5: 3, 4: 1}}"
-chocolate,"{'count': 4, 'score': {5: 3, 1: 1}}"
-years,"{'count': 4, 'score': {5: 3, 1: 1}}"
-powder,"{'count': 4, 'score': {5: 4}}"
-started,"{'count': 4, 'score': {5: 3, 3: 1}}"
-sports,"{'count': 4, 'score': {5: 3, 2: 1}}"
-think,"{'count': 4, 'score': {5: 4}}"
-off,"{'count': 4, 'score': {5: 4}}"
-Lamb,"{'count': 4, 'score': {5: 4}}"
-him,"{'count': 4, 'score': {5: 4}}"
-several,"{'count': 3, 'score': {5: 3}}"
-Product,"{'count': 3, 'score': {1: 1, 5: 2}}"
-arrived,"{'count': 3, 'score': {1: 1, 5: 2}}"
-tiny,"{'count': 3, 'score': {4: 2, 1: 1}}"
-highly,"{'count': 3, 'score': {4: 1, 5: 2}}"
-ingredient,"{'count': 3, 'score': {2: 1, 3: 1, 5: 1}}"
-soft,"{'count': 3, 'score': {5: 3}}"
-everyone,"{'count': 3, 'score': {5: 3}}"
-loved,"{'count': 3, 'score': {5: 2, 4: 1}}"
-it!,"{'count': 3, 'score': {5: 3}}"
-definitely,"{'count': 3, 'score': {5: 3}}"
-buying,"{'count': 3, 'score': {5: 3}}"
-cats,"{'count': 3, 'score': {5: 1, 1: 2}}"
-healthy,"{'count': 3, 'score': {5: 2, 3: 1}}"
-eats,"{'count': 3, 'score': {5: 3}}"
-unique,"{'count': 3, 'score': {5: 2, 4: 1}}"
-realized,"{'count': 3, 'score': {5: 3}}"
-One,"{'count': 3, 'score': {5: 2, 4: 1}}"
-put,"{'count': 3, 'score': {5: 2, 1: 1}}"
-higher,"{'count': 3, 'score': {5: 3}}"
-first,"{'count': 3, 'score': {1: 2, 4: 1}}"
-full,"{'count': 3, 'score': {1: 1, 5: 2}}"
-similar,"{'count': 3, 'score': {1: 1, 5: 2}}"
-Twizzlers,"{'count': 3, 'score': {5: 3}}"
-pounds,"{'count': 3, 'score': {5: 3}}"
-six,"{'count': 3, 'score': {5: 3}}"
-them.,"{'count': 3, 'score': {2: 1, 5: 1, 4: 1}}"
-shared,"{'count': 3, 'score': {5: 3}}"
-enjoyed,"{'count': 3, 'score': {5: 3}}"
-ordering,"{'count': 3, 'score': {5: 3}}"
-favorite,"{'count': 3, 'score': {5: 3}}"
-Licorice,"{'count': 3, 'score': {5: 3}}"
-fast,"{'count': 3, 'score': {5: 3}}"
-amounts,"{'count': 3, 'score': {5: 2, 1: 1}}"
-6)</a>,"{'count': 3, 'score': {5: 3}}"
-After,"{'count': 3, 'score': {5: 3}}"
-able,"{'count': 3, 'score': {5: 3}}"
-",","{'count': 3, 'score': {1: 1, 4: 2}}"
-No,"{'count': 3, 'score': {1: 2, 5: 1}}"
-watch,"{'count': 3, 'score': {5: 3}}"
-instead,"{'count': 3, 'score': {5: 1, 4: 2}}"
-"However,","{'count': 3, 'score': {5: 1, 3: 2}}"
-minute,"{'count': 3, 'score': {5: 3}}"
-brands,"{'count': 3, 'score': {4: 1, 5: 2}}"
-microwave,"{'count': 3, 'score': {4: 1, 5: 2}}"
-thing,"{'count': 3, 'score': {4: 1, 5: 2}}"
-Oats,"{'count': 3, 'score': {4: 1, 3: 1, 1: 1}}"
-But,"{'count': 3, 'score': {4: 1, 3: 1, 5: 1}}"
-morning,"{'count': 3, 'score': {4: 1, 5: 2}}"
-cinnamon,"{'count': 3, 'score': {4: 1, 5: 2}}"
-brown,"{'count': 3, 'score': {4: 2, 5: 1}}"
-time.,"{'count': 3, 'score': {5: 2, 4: 1}}"
-second,"{'count': 3, 'score': {5: 2, 4: 1}}"
-Irish,"{'count': 3, 'score': {5: 2, 4: 1}}"
-Variety,"{'count': 3, 'score': {5: 2, 4: 1}}"
-Pack,"{'count': 3, 'score': {5: 2, 4: 1}}"
-"Regular,","{'count': 3, 'score': {5: 2, 4: 1}}"
-"Sugar,","{'count': 3, 'score': {5: 2, 4: 1}}"
-10-Count,"{'count': 3, 'score': {5: 2, 4: 1}}"
-Boxes,"{'count': 3, 'score': {5: 2, 4: 1}}"
-thought,"{'count': 3, 'score': {4: 1, 5: 1, 1: 1}}"
-I'd,"{'count': 3, 'score': {4: 1, 1: 2}}"
-give,"{'count': 3, 'score': {4: 2, 5: 1}}"
-For,"{'count': 3, 'score': {5: 3}}"
-grocery,"{'count': 3, 'score': {5: 3}}"
-What,"{'count': 3, 'score': {5: 3}}"
-cup,"{'count': 3, 'score': {5: 3}}"
-MY,"{'count': 3, 'score': {4: 3}}"
-OF,"{'count': 3, 'score': {4: 3}}"
-WITH,"{'count': 3, 'score': {4: 3}}"
-A,"{'count': 3, 'score': {4: 3}}"
-IT,"{'count': 3, 'score': {4: 3}}"
-TO,"{'count': 3, 'score': {4: 3}}"
-flavors.,"{'count': 3, 'score': {5: 2, 1: 1}}"
-packs,"{'count': 3, 'score': {5: 3}}"
-why,"{'count': 3, 'score': {5: 3}}"
-followed,"{'count': 3, 'score': {5: 2, 1: 1}}"
-cooks,"{'count': 3, 'score': {5: 3}}"
-"good,","{'count': 3, 'score': {5: 1, 3: 1, 1: 1}}"
-giving,"{'count': 3, 'score': {5: 1, 4: 1, 3: 1}}"
-top,"{'count': 3, 'score': {5: 3}}"
-experiment,"{'count': 3, 'score': {5: 3}}"
-In,"{'count': 3, 'score': {5: 2, 1: 1}}"
-whole,"{'count': 3, 'score': {5: 2, 1: 1}}"
-family,"{'count': 3, 'score': {5: 3}}"
-/>This,"{'count': 3, 'score': {5: 3}}"
-seems,"{'count': 3, 'score': {3: 1, 5: 2}}"
-probably,"{'count': 3, 'score': {3: 1, 4: 1, 5: 1}}"
-again.,"{'count': 3, 'score': {3: 2, 5: 1}}"
-I'll,"{'count': 3, 'score': {4: 3}}"
-way,"{'count': 3, 'score': {1: 2, 2: 1}}"
-people,"{'count': 3, 'score': {4: 1, 1: 1, 5: 1}}"
-whose,"{'count': 3, 'score': {4: 2, 5: 1}}"
-all.,"{'count': 3, 'score': {3: 1, 2: 1, 1: 1}}"
-roasted,"{'count': 3, 'score': {4: 1, 5: 2}}"
-delicious,"{'count': 3, 'score': {5: 2, 1: 1}}"
-On,"{'count': 3, 'score': {5: 3}}"
-enough,"{'count': 3, 'score': {5: 2, 2: 1}}"
-local,"{'count': 3, 'score': {5: 2, 1: 1}}"
-While,"{'count': 3, 'score': {3: 2, 5: 1}}"
-endurolyte,"{'count': 3, 'score': {5: 3}}"
-bike,"{'count': 3, 'score': {5: 3}}"
-"powder,","{'count': 3, 'score': {5: 3}}"
-electrolytes,"{'count': 3, 'score': {5: 3}}"
-cannot,"{'count': 3, 'score': {5: 2, 1: 1}}"
-works,"{'count': 3, 'score': {5: 3}}"
-using,"{'count': 3, 'score': {5: 3}}"
-fact,"{'count': 3, 'score': {5: 3}}"
-grape,"{'count': 3, 'score': {5: 3}}"
-maltitol,"{'count': 3, 'score': {1: 3}}"
-symptoms,"{'count': 3, 'score': {1: 2, 5: 1}}"
-year,"{'count': 3, 'score': {1: 1, 5: 2}}"
-tea,"{'count': 3, 'score': {1: 1, 5: 2}}"
-weather,"{'count': 3, 'score': {5: 2, 3: 1}}"
-he,"{'count': 3, 'score': {5: 3}}"
-try,"{'count': 3, 'score': {5: 1, 3: 2}}"
-"food,","{'count': 3, 'score': {3: 1, 5: 2}}"
-limited,"{'count': 3, 'score': {3: 1, 5: 2}}"
-allergic,"{'count': 3, 'score': {5: 3}}"
-3,"{'count': 3, 'score': {5: 3}}"
-wet,"{'count': 3, 'score': {5: 3}}"
-quality.,"{'count': 2, 'score': {5: 2}}"
-better.,"{'count': 2, 'score': {5: 2}}"
-peanuts,"{'count': 2, 'score': {1: 1, 4: 1}}"
-sized,"{'count': 2, 'score': {1: 1, 5: 1}}"
-Not,"{'count': 2, 'score': {1: 1, 4: 1}}"
-few,"{'count': 2, 'score': {4: 1, 5: 1}}"
-nuts,"{'count': 2, 'score': {4: 2}}"
-sugar.,"{'count': 2, 'score': {4: 1, 5: 1}}"
-yummy,"{'count': 2, 'score': {4: 1, 5: 1}}"
-treat.,"{'count': 2, 'score': {4: 2}}"
-familiar,"{'count': 2, 'score': {4: 1, 2: 1}}"
-treat,"{'count': 2, 'score': {4: 1, 1: 1}}"
-selling,"{'count': 2, 'score': {4: 1, 5: 1}}"
-believe,"{'count': 2, 'score': {2: 1, 1: 1}}"
-assortment,"{'count': 2, 'score': {5: 1, 3: 1}}"
-five,"{'count': 2, 'score': {4: 1, 5: 1}}"
-pound,"{'count': 2, 'score': {4: 1, 5: 1}}"
-particular,"{'count': 2, 'score': {4: 1, 5: 1}}"
-"kids,","{'count': 2, 'score': {4: 1, 3: 1}}"
-chewy.,"{'count': 2, 'score': {5: 2}}"
-party,"{'count': 2, 'score': {5: 2}}"
-Very,"{'count': 2, 'score': {5: 2}}"
-Good,"{'count': 2, 'score': {5: 2}}"
-amount,"{'count': 2, 'score': {5: 2}}"
-cactus,"{'count': 2, 'score': {5: 2}}"
-tequila,"{'count': 2, 'score': {5: 2}}"
-"ingredients,","{'count': 2, 'score': {5: 2}}"
-flavour,"{'count': 2, 'score': {5: 2}}"
-kind!,"{'count': 2, 'score': {5: 2}}"
-picked,"{'count': 2, 'score': {5: 2}}"
-trip,"{'count': 2, 'score': {5: 2}}"
-brought,"{'count': 2, 'score': {5: 2}}"
-totally,"{'count': 2, 'score': {5: 2}}"
-blown,"{'count': 2, 'score': {5: 2}}"
-away!,"{'count': 2, 'score': {5: 2}}"
-couldn't,"{'count': 2, 'score': {5: 2}}"
-anywhere,"{'count': 2, 'score': {5: 2}}"
-city,"{'count': 2, 'score': {5: 2}}"
-bummed.<br,"{'count': 2, 'score': {5: 2}}"
-"/>Now,","{'count': 2, 'score': {5: 2}}"
-magic,"{'count': 2, 'score': {5: 2}}"
-"internet,","{'count': 2, 'score': {5: 2}}"
-ecstatic,"{'count': 2, 'score': {5: 2}}"
-it.<br,"{'count': 2, 'score': {5: 2}}"
-/>If,"{'count': 2, 'score': {5: 2}}"
-sauce..I,"{'count': 2, 'score': {5: 2}}"
-mean,"{'count': 2, 'score': {5: 2}}"
-"sauce,","{'count': 2, 'score': {5: 2}}"
-tastelessly,"{'count': 2, 'score': {5: 2}}"
-burns,"{'count': 2, 'score': {5: 2}}"
-"throat,","{'count': 2, 'score': {5: 2}}"
-grab,"{'count': 2, 'score': {5: 2}}"
-Tequila,"{'count': 2, 'score': {5: 2}}"
-Picante,"{'count': 2, 'score': {5: 2}}"
-Gourmet,"{'count': 2, 'score': {5: 2}}"
-de,"{'count': 2, 'score': {5: 2}}"
-Inclan.,"{'count': 2, 'score': {5: 2}}"
-realize,"{'count': 2, 'score': {5: 2}}"
-sauce.<br,"{'count': 2, 'score': {5: 2}}"
-/>Thank,"{'count': 2, 'score': {5: 2}}"
-"personal,","{'count': 2, 'score': {5: 2}}"
-incredible,"{'count': 2, 'score': {5: 2}}"
-service!,"{'count': 2, 'score': {5: 2}}"
-weight,"{'count': 2, 'score': {5: 2}}"
-chubby,"{'count': 2, 'score': {5: 2}}"
-boy,"{'count': 2, 'score': {5: 2}}"
-years.,"{'count': 2, 'score': {1: 1, 5: 1}}"
-bowls,"{'count': 2, 'score': {1: 2}}"
-touch,"{'count': 2, 'score': {1: 1, 4: 1}}"
-noticed,"{'count': 2, 'score': {1: 1, 5: 1}}"
-reviews,"{'count': 2, 'score': {1: 1, 5: 1}}"
-"Unfortunately,","{'count': 2, 'score': {1: 1, 5: 1}}"
-eat.,"{'count': 2, 'score': {1: 1, 5: 1}}"
-came,"{'count': 2, 'score': {4: 1, 5: 1}}"
-delicious!,"{'count': 2, 'score': {4: 1, 5: 1}}"
-Strawberry,"{'count': 2, 'score': {5: 2}}"
-sweet.,"{'count': 2, 'score': {2: 1, 5: 1}}"
-stay,"{'count': 2, 'score': {2: 1, 5: 1}}"
-more.,"{'count': 2, 'score': {5: 2}}"
-Y,"{'count': 2, 'score': {5: 2}}"
-S,"{'count': 2, 'score': {5: 2}}"
-"Candies,","{'count': 2, 'score': {5: 2}}"
-Inc.,"{'count': 2, 'score': {5: 2}}"
-Apple,"{'count': 2, 'score': {5: 1, 4: 1}}"
-"Twists,","{'count': 2, 'score': {5: 2}}"
-Green,"{'count': 2, 'score': {5: 1, 4: 1}}"
-cool,"{'count': 2, 'score': {5: 2}}"
-Guinness,"{'count': 2, 'score': {5: 2}}"
-Twist,"{'count': 2, 'score': {5: 2}}"
-Thank,"{'count': 2, 'score': {5: 1, 1: 1}}"
-delivered,"{'count': 2, 'score': {5: 2}}"
-husband,"{'count': 2, 'score': {5: 2}}"
-times,"{'count': 2, 'score': {5: 2}}"
-we're,"{'count': 2, 'score': {5: 1, 3: 1}}"
-to.,"{'count': 2, 'score': {5: 2}}"
-"tasty,","{'count': 2, 'score': {5: 2}}"
-worth,"{'count': 2, 'score': {5: 2}}"
-"href=""http://www.amazon.com/gp/product/B001GVISJM"">Twizzlers,","{'count': 2, 'score': {5: 2}}"
-"Strawberry,","{'count': 2, 'score': {5: 2}}"
-16-Ounce,"{'count': 2, 'score': {5: 2}}"
-Bags,"{'count': 2, 'score': {5: 2}}"
-candy.,"{'count': 2, 'score': {5: 2}}"
-lived,"{'count': 2, 'score': {5: 1, 1: 1}}"
-"now,","{'count': 2, 'score': {5: 2}}"
-someone,"{'count': 2, 'score': {5: 2}}"
-stock,"{'count': 2, 'score': {5: 1, 4: 1}}"
-up.,"{'count': 2, 'score': {5: 2}}"
-All,"{'count': 2, 'score': {5: 1, 4: 1}}"
-say,"{'count': 2, 'score': {5: 1, 4: 1}}"
-now.,"{'count': 2, 'score': {5: 2}}"
-/><a,"{'count': 2, 'score': {5: 2}}"
-glad,"{'count': 2, 'score': {4: 1, 3: 1}}"
-size.,"{'count': 2, 'score': {4: 1, 5: 1}}"
-door,"{'count': 2, 'score': {4: 1, 5: 1}}"
-deal,"{'count': 2, 'score': {4: 1, 5: 1}}"
-guess,"{'count': 2, 'score': {5: 1, 3: 1}}"
-dark,"{'count': 2, 'score': {5: 1, 4: 1}}"
-/>These,"{'count': 2, 'score': {5: 2}}"
-/>The,"{'count': 2, 'score': {5: 1, 4: 1}}"
-easy,"{'count': 2, 'score': {5: 1, 4: 1}}"
-:),"{'count': 2, 'score': {5: 2}}"
-"taste,","{'count': 2, 'score': {5: 2}}"
-minutes,"{'count': 2, 'score': {4: 1, 5: 1}}"
-prepare,"{'count': 2, 'score': {4: 1, 5: 1}}"
-tried.,"{'count': 2, 'score': {4: 1, 2: 1}}"
-pack,"{'count': 2, 'score': {4: 1, 5: 1}}"
-boiling,"{'count': 2, 'score': {4: 1, 5: 1}}"
-extreme,"{'count': 2, 'score': {4: 1, 1: 1}}"
-/>McCann's,"{'count': 2, 'score': {4: 1, 5: 1}}"
-cane,"{'count': 2, 'score': {4: 2}}"
-corn,"{'count': 2, 'score': {4: 2}}"
-helped,"{'count': 2, 'score': {4: 1, 5: 1}}"
-"though,","{'count': 2, 'score': {4: 1, 5: 1}}"
-plus,"{'count': 2, 'score': {4: 2}}"
-tasty,"{'count': 2, 'score': {4: 1, 5: 1}}"
-without,"{'count': 2, 'score': {4: 1, 5: 1}}"
-guar,"{'count': 2, 'score': {4: 2}}"
-convenience,"{'count': 2, 'score': {4: 1, 5: 1}}"
-Maybe,"{'count': 2, 'score': {4: 1, 5: 1}}"
-thick,"{'count': 2, 'score': {4: 1, 5: 1}}"
-brand.,"{'count': 2, 'score': {4: 1, 5: 1}}"
-does,"{'count': 2, 'score': {4: 1, 5: 1}}"
-"sweetness,","{'count': 2, 'score': {4: 1, 2: 1}}"
-you.,"{'count': 2, 'score': {4: 1, 5: 1}}"
-apple,"{'count': 2, 'score': {4: 1, 5: 1}}"
-too.,"{'count': 2, 'score': {4: 1, 5: 1}}"
-tell,"{'count': 2, 'score': {4: 1, 5: 1}}"
-excellent,"{'count': 2, 'score': {5: 2}}"
-"flavor,","{'count': 2, 'score': {5: 1, 2: 1}}"
-meal,"{'count': 2, 'score': {5: 2}}"
-may,"{'count': 2, 'score': {5: 2}}"
-longer,"{'count': 2, 'score': {5: 2}}"
-morning.,"{'count': 2, 'score': {5: 2}}"
-non-instant,"{'count': 2, 'score': {5: 2}}"
-"meal,","{'count': 2, 'score': {4: 1, 5: 1}}"
-those,"{'count': 2, 'score': {5: 2}}"
-health,"{'count': 2, 'score': {5: 2}}"
-else,"{'count': 2, 'score': {5: 2}}"
-More,"{'count': 2, 'score': {5: 2}}"
-NATE,"{'count': 2, 'score': {4: 2}}"
-FOR,"{'count': 2, 'score': {4: 2}}"
-COFFEE,"{'count': 2, 'score': {4: 2}}"
-HE,"{'count': 2, 'score': {4: 2}}"
-At,"{'count': 2, 'score': {5: 2}}"
-per,"{'count': 2, 'score': {5: 2}}"
-earth,"{'count': 2, 'score': {5: 2}}"
-isn't,"{'count': 2, 'score': {5: 2}}"
-empty,"{'count': 2, 'score': {5: 1, 4: 1}}"
-this.,"{'count': 2, 'score': {5: 1, 3: 1}}"
-"quick,","{'count': 2, 'score': {5: 1, 4: 1}}"
-done,"{'count': 2, 'score': {5: 2}}"
-under,"{'count': 2, 'score': {5: 1, 4: 1}}"
-/>,"{'count': 2, 'score': {5: 2}}"
-difference,"{'count': 2, 'score': {5: 2}}"
-between,"{'count': 2, 'score': {5: 1, 3: 1}}"
-body,"{'count': 2, 'score': {5: 2}}"
-end,"{'count': 2, 'score': {5: 2}}"
-person,"{'count': 2, 'score': {5: 1, 1: 1}}"
-save,"{'count': 2, 'score': {5: 2}}"
-overly,"{'count': 2, 'score': {5: 2}}"
-breakfast,"{'count': 2, 'score': {5: 1, 4: 1}}"
-doesn't,"{'count': 2, 'score': {3: 1, 2: 1}}"
-quite,"{'count': 2, 'score': {3: 1, 5: 1}}"
-Though,"{'count': 2, 'score': {5: 1, 1: 1}}"
-package,"{'count': 2, 'score': {5: 2}}"
-taste.,"{'count': 2, 'score': {5: 1, 3: 1}}"
-flavor.,"{'count': 2, 'score': {4: 1, 3: 1}}"
-fine,"{'count': 2, 'score': {4: 1, 5: 1}}"
-"again,","{'count': 2, 'score': {4: 1, 5: 1}}"
-variety.,"{'count': 2, 'score': {4: 1, 5: 1}}"
-nothing,"{'count': 2, 'score': {3: 1, 5: 1}}"
-least,"{'count': 2, 'score': {3: 1, 2: 1}}"
-"soft,","{'count': 2, 'score': {1: 1, 5: 1}}"
-Perfect,"{'count': 2, 'score': {5: 2}}"
-wasn't,"{'count': 2, 'score': {4: 1, 5: 1}}"
-Vermont,"{'count': 2, 'score': {4: 2}}"
-along,"{'count': 2, 'score': {4: 1, 5: 1}}"
-jaw,"{'count': 2, 'score': {4: 2}}"
-Bean,"{'count': 2, 'score': {4: 2}}"
-"milk,","{'count': 2, 'score': {4: 1, 5: 1}}"
-nose,"{'count': 2, 'score': {4: 2}}"
-ordinary,"{'count': 2, 'score': {4: 2}}"
-especially,"{'count': 2, 'score': {4: 1, 5: 1}}"
-spices,"{'count': 2, 'score': {4: 1, 5: 1}}"
-south,"{'count': 2, 'score': {3: 1, 5: 1}}"
-roast,"{'count': 2, 'score': {4: 1, 5: 1}}"
-popcorn,"{'count': 2, 'score': {4: 1, 1: 1}}"
-slightly,"{'count': 2, 'score': {4: 1, 5: 1}}"
-1/3,"{'count': 2, 'score': {5: 2}}"
-wonderful,"{'count': 2, 'score': {5: 2}}"
-friends,"{'count': 2, 'score': {5: 2}}"
-Arrived,"{'count': 2, 'score': {5: 1, 1: 1}}"
-Halloween,"{'count': 2, 'score': {5: 2}}"
-goes,"{'count': 2, 'score': {5: 2}}"
-chocolates,"{'count': 2, 'score': {5: 1, 1: 1}}"
-bags,"{'count': 2, 'score': {5: 2}}"
-online,"{'count': 2, 'score': {5: 2}}"
-cheaper,"{'count': 2, 'score': {5: 2}}"
-6,"{'count': 2, 'score': {1: 2}}"
-desert,"{'count': 2, 'score': {5: 2}}"
-rides,"{'count': 2, 'score': {5: 2}}"
-laced,"{'count': 2, 'score': {5: 2}}"
-rides.,"{'count': 2, 'score': {5: 2}}"
-camelbaks,"{'count': 2, 'score': {5: 2}}"
-powder.,"{'count': 2, 'score': {5: 2}}"
-"great,","{'count': 2, 'score': {5: 1, 3: 1}}"
-tablets,"{'count': 2, 'score': {5: 2}}"
-drink,"{'count': 2, 'score': {5: 2}}"
-during,"{'count': 2, 'score': {5: 2}}"
-long,"{'count': 2, 'score': {5: 2}}"
-cramping,"{'count': 2, 'score': {5: 1, 1: 1}}"
-1,"{'count': 2, 'score': {5: 2}}"
-low,"{'count': 2, 'score': {5: 1, 1: 1}}"
-diet,"{'count': 2, 'score': {5: 2}}"
-ago,"{'count': 2, 'score': {5: 1, 1: 1}}"
-having,"{'count': 2, 'score': {5: 2}}"
-heart,"{'count': 2, 'score': {5: 1, 1: 1}}"
-might,"{'count': 2, 'score': {5: 2}}"
-looked,"{'count': 2, 'score': {5: 2}}"
-across,"{'count': 2, 'score': {5: 2}}"
-problems,"{'count': 2, 'score': {5: 2}}"
-Mango,"{'count': 2, 'score': {2: 2}}"
-hint,"{'count': 2, 'score': {2: 2}}"
-unfortunately,"{'count': 2, 'score': {2: 1, 1: 1}}"
-consuming,"{'count': 2, 'score': {2: 1, 1: 1}}"
-various,"{'count': 2, 'score': {2: 1, 5: 1}}"
-come,"{'count': 2, 'score': {2: 1, 5: 1}}"
-tasted.,"{'count': 2, 'score': {2: 1, 5: 1}}"
-gummi,"{'count': 2, 'score': {5: 2}}"
-type,"{'count': 2, 'score': {5: 2}}"
-later,"{'count': 2, 'score': {5: 1, 1: 1}}"
-pastry,"{'count': 2, 'score': {5: 2}}"
-great.,"{'count': 2, 'score': {5: 2}}"
-gone,"{'count': 2, 'score': {5: 1, 1: 1}}"
-sweetener,"{'count': 2, 'score': {1: 2}}"
-body.,"{'count': 2, 'score': {1: 1, 5: 1}}"
-short,"{'count': 2, 'score': {1: 2}}"
-learned,"{'count': 2, 'score': {1: 1, 5: 1}}"
-As,"{'count': 2, 'score': {1: 1, 3: 1}}"
-chocolate.,"{'count': 2, 'score': {1: 1, 5: 1}}"
-label,"{'count': 2, 'score': {1: 2}}"
-sugarfree,"{'count': 2, 'score': {1: 2}}"
-next,"{'count': 2, 'score': {1: 1, 5: 1}}"
-eaten,"{'count': 2, 'score': {1: 1, 5: 1}}"
-through,"{'count': 2, 'score': {5: 2}}"
-since.,"{'count': 2, 'score': {5: 2}}"
-purchasing,"{'count': 2, 'score': {5: 2}}"
-items.,"{'count': 2, 'score': {5: 2}}"
-fun,"{'count': 2, 'score': {5: 2}}"
-creamers,"{'count': 2, 'score': {5: 2}}"
-hate,"{'count': 2, 'score': {5: 2}}"
-"cream,","{'count': 2, 'score': {5: 2}}"
-idea,"{'count': 2, 'score': {5: 2}}"
-problem,"{'count': 2, 'score': {5: 2}}"
-"Also,","{'count': 2, 'score': {5: 2}}"
-mixing,"{'count': 2, 'score': {5: 2}}"
-bean,"{'count': 2, 'score': {5: 2}}"
-/>All,"{'count': 2, 'score': {5: 2}}"
-reason,"{'count': 2, 'score': {5: 1, 3: 1}}"
-increased,"{'count': 2, 'score': {3: 2}}"
-lamb,"{'count': 2, 'score': {3: 2}}"
-pet.,"{'count': 2, 'score': {3: 1, 5: 1}}"
-food!,"{'count': 2, 'score': {5: 2}}"
-environmental,"{'count': 2, 'score': {5: 2}}"
-prescription,"{'count': 2, 'score': {5: 2}}"
-finally,"{'count': 2, 'score': {5: 2}}"
-happy,"{'count': 2, 'score': {5: 2}}"
-cause,"{'count': 2, 'score': {5: 2}}"
-vet,"{'count': 2, 'score': {5: 2}}"
-Dry,"{'count': 2, 'score': {5: 2}}"
-Rice,"{'count': 2, 'score': {5: 2}}"
-wonders,"{'count': 2, 'score': {5: 2}}"
-allergy's,"{'count': 2, 'score': {5: 2}}"
-ages,"{'count': 2, 'score': {5: 2}}"
-standard,"{'count': 2, 'score': {5: 2}}"
-switched,"{'count': 2, 'score': {5: 2}}"
-couple,"{'count': 2, 'score': {5: 2}}"
-balance.,"{'count': 2, 'score': {5: 2}}"
-dogs.,"{'count': 2, 'score': {5: 2}}"
-old,"{'count': 2, 'score': {5: 2}}"
-shipping,"{'count': 2, 'score': {5: 2}}"
-golden,"{'count': 2, 'score': {5: 2}}"
-balance,"{'count': 2, 'score': {5: 2}}"
-1-1/2,"{'count': 2, 'score': {5: 2}}"
-"foods,","{'count': 2, 'score': {5: 2}}"
-normal,"{'count': 2, 'score': {5: 2}}"
-Vitality,"{'count': 1, 'score': {5: 1}}"
-canned,"{'count': 1, 'score': {5: 1}}"
-looks,"{'count': 1, 'score': {5: 1}}"
-stew,"{'count': 1, 'score': {5: 1}}"
-processed,"{'count': 1, 'score': {5: 1}}"
-meat,"{'count': 1, 'score': {5: 1}}"
-smells,"{'count': 1, 'score': {5: 1}}"
-Labrador,"{'count': 1, 'score': {5: 1}}"
-finicky,"{'count': 1, 'score': {5: 1}}"
-appreciates,"{'count': 1, 'score': {5: 1}}"
-most.,"{'count': 1, 'score': {5: 1}}"
-labeled,"{'count': 1, 'score': {1: 1}}"
-Jumbo,"{'count': 1, 'score': {1: 1}}"
-Salted,"{'count': 1, 'score': {1: 1}}"
-Peanuts...the,"{'count': 1, 'score': {1: 1}}"
-unsalted.,"{'count': 1, 'score': {1: 1}}"
-error,"{'count': 1, 'score': {1: 1}}"
-vendor,"{'count': 1, 'score': {1: 1}}"
-intended,"{'count': 1, 'score': {1: 1}}"
-represent,"{'count': 1, 'score': {1: 1}}"
-"""Jumbo"".","{'count': 1, 'score': {1: 1}}"
-confection,"{'count': 1, 'score': {4: 1}}"
-centuries.,"{'count': 1, 'score': {4: 1}}"
-"light,","{'count': 1, 'score': {4: 1}}"
-pillowy,"{'count': 1, 'score': {4: 1}}"
-citrus,"{'count': 1, 'score': {4: 1}}"
-gelatin,"{'count': 1, 'score': {4: 1}}"
-Filberts.,"{'count': 1, 'score': {4: 1}}"
-squares,"{'count': 1, 'score': {4: 1}}"
-liberally,"{'count': 1, 'score': {4: 1}}"
-coated,"{'count': 1, 'score': {4: 1}}"
-powdered,"{'count': 1, 'score': {4: 1}}"
-mouthful,"{'count': 1, 'score': {4: 1}}"
-heaven.,"{'count': 1, 'score': {4: 1}}"
-"chewy,","{'count': 1, 'score': {4: 1}}"
-flavorful.,"{'count': 1, 'score': {4: 1}}"
-story,"{'count': 1, 'score': {4: 1}}"
-C.S.,"{'count': 1, 'score': {4: 1}}"
-Lewis',"{'count': 1, 'score': {4: 1}}"
-"""The","{'count': 1, 'score': {4: 1}}"
-"Lion,","{'count': 1, 'score': {4: 1}}"
-"Witch,","{'count': 1, 'score': {4: 1}}"
-"Wardrobe""","{'count': 1, 'score': {4: 1}}"
-seduces,"{'count': 1, 'score': {4: 1}}"
-Edmund,"{'count': 1, 'score': {4: 1}}"
-Brother,"{'count': 1, 'score': {4: 1}}"
-Sisters,"{'count': 1, 'score': {4: 1}}"
-Witch.,"{'count': 1, 'score': {4: 1}}"
-secret,"{'count': 1, 'score': {2: 1}}"
-Robitussin,"{'count': 1, 'score': {2: 1}}"
-addition,"{'count': 1, 'score': {2: 1}}"
-Root,"{'count': 1, 'score': {2: 1}}"
-Beer,"{'count': 1, 'score': {2: 1}}"
-Extract,"{'count': 1, 'score': {2: 1}}"
-(which,"{'count': 1, 'score': {2: 1}}"
-good),"{'count': 1, 'score': {2: 1}}"
-cherry,"{'count': 1, 'score': {2: 1}}"
-soda.,"{'count': 1, 'score': {2: 1}}"
-medicinal.,"{'count': 1, 'score': {2: 1}}"
-wide,"{'count': 1, 'score': {5: 1}}"
-taffy.,"{'count': 1, 'score': {5: 1}}"
-Delivery,"{'count': 1, 'score': {5: 1}}"
-quick.,"{'count': 1, 'score': {5: 1}}"
-"lover,","{'count': 1, 'score': {5: 1}}"
-deal.,"{'count': 1, 'score': {5: 1}}"
-wild,"{'count': 1, 'score': {4: 1}}"
-hair,"{'count': 1, 'score': {4: 1}}"
-bag.,"{'count': 1, 'score': {4: 1}}"
-enjoyable,"{'count': 1, 'score': {4: 1}}"
-flavors:,"{'count': 1, 'score': {4: 1}}"
-"watermelon,","{'count': 1, 'score': {4: 1}}"
-root,"{'count': 1, 'score': {4: 1}}"
-"beer,","{'count': 1, 'score': {4: 1}}"
-"melon,","{'count': 1, 'score': {4: 1}}"
-"peppermint,","{'count': 1, 'score': {4: 1}}"
-"grape,","{'count': 1, 'score': {4: 1}}"
-etc.,"{'count': 1, 'score': {4: 1}}"
-complaint,"{'count': 1, 'score': {4: 1}}"
-red/black,"{'count': 1, 'score': {4: 1}}"
-licorice-flavored,"{'count': 1, 'score': {4: 1}}"
-pieces,"{'count': 1, 'score': {4: 1}}"
-(just,"{'count': 1, 'score': {4: 1}}"
-favorites).,"{'count': 1, 'score': {4: 1}}"
-Between,"{'count': 1, 'score': {4: 1}}"
-"husband,","{'count': 1, 'score': {4: 1}}"
-lasted,"{'count': 1, 'score': {4: 1}}"
-weeks!,"{'count': 1, 'score': {4: 1}}"
-delightful,"{'count': 1, 'score': {4: 1}}"
-saltwater,"{'count': 1, 'score': {5: 1}}"
-Each,"{'count': 1, 'score': {5: 1}}"
-individually,"{'count': 1, 'score': {5: 1}}"
-wrapped,"{'count': 1, 'score': {5: 1}}"
-well.,"{'count': 1, 'score': {5: 1}}"
-None,"{'count': 1, 'score': {5: 1}}"
-candies,"{'count': 1, 'score': {5: 1}}"
-stuck,"{'count': 1, 'score': {5: 1}}"
-"together,","{'count': 1, 'score': {5: 1}}"
-happen,"{'count': 1, 'score': {5: 1}}"
-"version,","{'count': 1, 'score': {5: 1}}"
-Fralinger's.,"{'count': 1, 'score': {5: 1}}"
-Would,"{'count': 1, 'score': {5: 1}}"
-candy!,"{'count': 1, 'score': {5: 1}}"
-served,"{'count': 1, 'score': {5: 1}}"
-beach-themed,"{'count': 1, 'score': {5: 1}}"
-amazing.,"{'count': 1, 'score': {5: 1}}"
-satisfying!!,"{'count': 1, 'score': {5: 1}}"
-Right,"{'count': 1, 'score': {5: 1}}"
-mostly,"{'count': 1, 'score': {5: 1}}"
-sprouting,"{'count': 1, 'score': {5: 1}}"
-grass.,"{'count': 1, 'score': {5: 1}}"
-rotate,"{'count': 1, 'score': {5: 1}}"
-Wheatgrass,"{'count': 1, 'score': {5: 1}}"
-Rye,"{'count': 1, 'score': {5: 1}}"
-digestion.,"{'count': 1, 'score': {5: 1}}"
-Also,"{'count': 1, 'score': {5: 1}}"
-puppies.,"{'count': 1, 'score': {5: 1}}"
-required,"{'count': 1, 'score': {5: 1}}"
-feeding.,"{'count': 1, 'score': {5: 1}}"
-boys,"{'count': 1, 'score': {5: 1}}"
-needed,"{'count': 1, 'score': {5: 1}}"
-lose,"{'count': 1, 'score': {5: 1}}"
-didn't.,"{'count': 1, 'score': {5: 1}}"
-floor,"{'count': 1, 'score': {5: 1}}"
-"guy,","{'count': 1, 'score': {5: 1}}"
-"protein-rich,","{'count': 1, 'score': {5: 1}}"
-by-product,"{'count': 1, 'score': {5: 1}}"
-where,"{'count': 1, 'score': {5: 1}}"
-skinny,"{'count': 1, 'score': {5: 1}}"
-jump.,"{'count': 1, 'score': {5: 1}}"
-sits,"{'count': 1, 'score': {5: 1}}"
-stale.,"{'count': 1, 'score': {5: 1}}"
-losing,"{'count': 1, 'score': {5: 1}}"
-ounce,"{'count': 1, 'score': {5: 1}}"
-week.,"{'count': 1, 'score': {5: 1}}"
-happily,"{'count': 1, 'score': {1: 1}}"
-Felidae,"{'count': 1, 'score': {1: 1}}"
-Platinum,"{'count': 1, 'score': {1: 1}}"
-shape,"{'count': 1, 'score': {1: 1}}"
-different.,"{'count': 1, 'score': {1: 1}}"
-sit,"{'count': 1, 'score': {1: 1}}"
-kitties,"{'count': 1, 'score': {1: 1}}"
-related,"{'count': 1, 'score': {1: 1}}"
-formula,"{'count': 1, 'score': {1: 1}}"
-changes,"{'count': 1, 'score': {1: 1}}"
-past.,"{'count': 1, 'score': {1: 1}}"
-flavor!,"{'count': 1, 'score': {4: 1}}"
-securely,"{'count': 1, 'score': {4: 1}}"
-packed...,"{'count': 1, 'score': {4: 1}}"
-Twizzlers!,"{'count': 1, 'score': {4: 1}}"
-guilty,"{'count': 1, 'score': {5: 1}}"
-pleasure,"{'count': 1, 'score': {5: 1}}"
-yummy.,"{'count': 1, 'score': {5: 1}}"
-Six,"{'count': 1, 'score': {5: 1}}"
-son,"{'count': 1, 'score': {5: 1}}"
-I.,"{'count': 1, 'score': {5: 1}}"
-daughter,"{'count': 1, 'score': {5: 1}}"
-twizzlers,"{'count': 1, 'score': {5: 1}}"
-shipment,"{'count': 1, 'score': {5: 1}}"
-hit,"{'count': 1, 'score': {5: 1}}"
-spot.,"{'count': 1, 'score': {5: 1}}"
-exactly,"{'count': 1, 'score': {5: 1}}"
-expect...six,"{'count': 1, 'score': {5: 1}}"
-packages,"{'count': 1, 'score': {5: 1}}"
-strawberry,"{'count': 1, 'score': {5: 1}}"
-twizzlers.,"{'count': 1, 'score': {5: 1}}"
-watching,"{'count': 1, 'score': {2: 1}}"
-TV,"{'count': 1, 'score': {2: 1}}"
-movies!,"{'count': 1, 'score': {2: 1}}"
-transfer,"{'count': 1, 'score': {2: 1}}"
-zip,"{'count': 1, 'score': {2: 1}}"
-lock,"{'count': 1, 'score': {2: 1}}"
-baggie,"{'count': 1, 'score': {2: 1}}"
-satisfied,"{'count': 1, 'score': {5: 1}}"
-Twizzler,"{'count': 1, 'score': {5: 1}}"
-purchase.,"{'count': 1, 'score': {5: 1}}"
-others,"{'count': 1, 'score': {5: 1}}"
-"Twizzlers,","{'count': 1, 'score': {5: 1}}"
-childhood,"{'count': 1, 'score': {5: 1}}"
-"candy,","{'count': 1, 'score': {5: 1}}"
-Lancaster,"{'count': 1, 'score': {5: 1}}"
-Pennsylvania,"{'count': 1, 'score': {5: 1}}"
-oldest,"{'count': 1, 'score': {5: 1}}"
-confectionery,"{'count': 1, 'score': {5: 1}}"
-Firms,"{'count': 1, 'score': {5: 1}}"
-United,"{'count': 1, 'score': {5: 1}}"
-"States,","{'count': 1, 'score': {5: 1}}"
-Subsidiary,"{'count': 1, 'score': {5: 1}}"
-Hershey,"{'count': 1, 'score': {5: 1}}"
-"Company,","{'count': 1, 'score': {5: 1}}"
-Company,"{'count': 1, 'score': {5: 1}}"
-established,"{'count': 1, 'score': {5: 1}}"
-1845,"{'count': 1, 'score': {5: 1}}"
-Young,"{'count': 1, 'score': {5: 1}}"
-"Smylie,","{'count': 1, 'score': {5: 1}}"
-Color,"{'count': 1, 'score': {5: 1}}"
-Blue,"{'count': 1, 'score': {5: 1}}"
-Raspberry,"{'count': 1, 'score': {5: 1}}"
-all<br,"{'count': 1, 'score': {5: 1}}"
-keep,"{'count': 1, 'score': {5: 1}}"
-place,"{'count': 1, 'score': {5: 1}}"
-fridge.,"{'count': 1, 'score': {5: 1}}"
-According,"{'count': 1, 'score': {5: 1}}"
-Book,"{'count': 1, 'score': {5: 1}}"
-"Records,","{'count': 1, 'score': {5: 1}}"
-longest,"{'count': 1, 'score': {5: 1}}"
-measured,"{'count': 1, 'score': {5: 1}}"
-1.200,"{'count': 1, 'score': {5: 1}}"
-Feet,"{'count': 1, 'score': {5: 1}}"
-(370,"{'count': 1, 'score': {5: 1}}"
-M),"{'count': 1, 'score': {5: 1}}"
-weighted,"{'count': 1, 'score': {5: 1}}"
-100,"{'count': 1, 'score': {5: 1}}"
-Pounds,"{'count': 1, 'score': {5: 1}}"
-(45,"{'count': 1, 'score': {5: 1}}"
-Kg),"{'count': 1, 'score': {5: 1}}"
-Record-Breaking,"{'count': 1, 'score': {5: 1}}"
-became,"{'count': 1, 'score': {5: 1}}"
-World,"{'count': 1, 'score': {5: 1}}"
-Record,"{'count': 1, 'score': {5: 1}}"
-July,"{'count': 1, 'score': {5: 1}}"
-"19,","{'count': 1, 'score': {5: 1}}"
-1998.,"{'count': 1, 'score': {5: 1}}"
-Kosher!,"{'count': 1, 'score': {5: 1}}"
-Candy,"{'count': 1, 'score': {5: 1}}"
-reasonable,"{'count': 1, 'score': {5: 1}}"
-bound,"{'count': 1, 'score': {5: 1}}"
-unable,"{'count': 1, 'score': {5: 1}}"
-me.,"{'count': 1, 'score': {5: 1}}"
-addict.,"{'count': 1, 'score': {5: 1}}"
-We've,"{'count': 1, 'score': {5: 1}}"
-government,"{'count': 1, 'score': {5: 1}}"
-employees,"{'count': 1, 'score': {5: 1}}"
-living,"{'count': 1, 'score': {5: 1}}"
-overseas,"{'count': 1, 'score': {5: 1}}"
-can't,"{'count': 1, 'score': {5: 1}}"
-country,"{'count': 1, 'score': {5: 1}}"
-assigned,"{'count': 1, 'score': {5: 1}}"
-They've,"{'count': 1, 'score': {5: 1}}"
-packed,"{'count': 1, 'score': {5: 1}}"
-arrive,"{'count': 1, 'score': {5: 1}}"
-timely,"{'count': 1, 'score': {5: 1}}"
-manner.,"{'count': 1, 'score': {5: 1}}"
-currently,"{'count': 1, 'score': {5: 1}}"
-overseas.,"{'count': 1, 'score': {5: 1}}"
-He,"{'count': 1, 'score': {5: 1}}"
-"these,","{'count': 1, 'score': {5: 1}}"
-apparently,"{'count': 1, 'score': {5: 1}}"
-staff,"{'count': 1, 'score': {5: 1}}"
-also.<br,"{'count': 1, 'score': {5: 1}}"
-/>There,"{'count': 1, 'score': {5: 1}}"
-generous,"{'count': 1, 'score': {5: 1}}"
-16-ounce,"{'count': 1, 'score': {5: 1}}"
-"bag,","{'count': 1, 'score': {5: 1}}"
-<a,"{'count': 1, 'score': {5: 1}}"
-remember,"{'count': 1, 'score': {5: 1}}"
-kid,"{'count': 1, 'score': {5: 1}}"
-hasn't,"{'count': 1, 'score': {5: 1}}"
-dropped,"{'count': 1, 'score': {5: 1}}"
-Still,"{'count': 1, 'score': {5: 1}}"
-superb,"{'count': 1, 'score': {5: 1}}"
-disappointed,"{'count': 1, 'score': {5: 1}}"
-with.,"{'count': 1, 'score': {5: 1}}"
-watchers,"{'count': 1, 'score': {5: 1}}"
-craving,"{'count': 1, 'score': {5: 1}}"
-US,"{'count': 1, 'score': {5: 1}}"
-7,"{'count': 1, 'score': {5: 1}}"
-yrs,"{'count': 1, 'score': {5: 1}}"
-miss,"{'count': 1, 'score': {5: 1}}"
-Twizzlers!!,"{'count': 1, 'score': {5: 1}}"
-visit,"{'count': 1, 'score': {5: 1}}"
-visits,"{'count': 1, 'score': {5: 1}}"
-YUM!<br,"{'count': 1, 'score': {5: 1}}"
-/>Sell,"{'count': 1, 'score': {5: 1}}"
-Mexico,"{'count': 1, 'score': {5: 1}}"
-faithful,"{'count': 1, 'score': {5: 1}}"
-"buyer,","{'count': 1, 'score': {5: 1}}"
-often,"{'count': 1, 'score': {5: 1}}"
-received,"{'count': 1, 'score': {5: 1}}"
-advertised.<br,"{'count': 1, 'score': {5: 1}}"
-red,"{'count': 1, 'score': {1: 1}}"
-plan,"{'count': 1, 'score': {1: 1}}"
-chewy,"{'count': 1, 'score': {1: 1}}"
-carried,"{'count': 1, 'score': {4: 1}}"
-batteries.,"{'count': 1, 'score': {4: 1}}"
-finding,"{'count': 1, 'score': {4: 1}}"
-elsewhere,"{'count': 1, 'score': {4: 1}}"
-such,"{'count': 1, 'score': {4: 1}}"
-garage,"{'count': 1, 'score': {4: 1}}"
-opener.<br,"{'count': 1, 'score': {4: 1}}"
-/>Great,"{'count': 1, 'score': {4: 1}}"
-Mum,"{'count': 1, 'score': {5: 1}}"
-diabetic,"{'count': 1, 'score': {5: 1}}"
-needs,"{'count': 1, 'score': {5: 1}}"
-"intake,","{'count': 1, 'score': {5: 1}}"
-father,"{'count': 1, 'score': {5: 1}}"
-chooses,"{'count': 1, 'score': {5: 1}}"
-limit,"{'count': 1, 'score': {5: 1}}"
-unnecessary,"{'count': 1, 'score': {5: 1}}"
-intake,"{'count': 1, 'score': {5: 1}}"
-she's,"{'count': 1, 'score': {5: 1}}"
-tooth,"{'count': 1, 'score': {5: 1}}"
-LOVED,"{'count': 1, 'score': {5: 1}}"
-"toffees,","{'count': 1, 'score': {5: 1}}"
-they're,"{'count': 1, 'score': {5: 1}}"
-guilt,"{'count': 1, 'score': {5: 1}}"
-free!,"{'count': 1, 'score': {5: 1}}"
-impressed,"{'count': 1, 'score': {5: 1}}"
-i've,"{'count': 1, 'score': {5: 1}}"
-myself,"{'count': 1, 'score': {5: 1}}"
-(w,"{'count': 1, 'score': {5: 1}}"
-chocolate),"{'count': 1, 'score': {5: 1}}"
-office,"{'count': 1, 'score': {5: 1}}"
-i'll,"{'count': 1, 'score': {5: 1}}"
-snacking,"{'count': 1, 'score': {5: 1}}"
-sugary,"{'count': 1, 'score': {5: 1}}"
-sweets.<br,"{'count': 1, 'score': {5: 1}}"
-EXCELLENT!,"{'count': 1, 'score': {5: 1}}"
-huge,"{'count': 1, 'score': {5: 1}}"
-fan.,"{'count': 1, 'score': {5: 1}}"
-mother,"{'count': 1, 'score': {5: 1}}"
-machine,"{'count': 1, 'score': {5: 1}}"
-talked,"{'count': 1, 'score': {5: 1}}"
-trying,"{'count': 1, 'score': {5: 1}}"
-Latte,"{'count': 1, 'score': {5: 1}}"
-Macciato.,"{'count': 1, 'score': {5: 1}}"
-Coffee,"{'count': 1, 'score': {5: 1}}"
-Shop,"{'count': 1, 'score': {5: 1}}"
-"products,","{'count': 1, 'score': {5: 1}}"
-(as,"{'count': 1, 'score': {5: 1}}"
-usually,"{'count': 1, 'score': {5: 1}}"
-non-coffee,"{'count': 1, 'score': {5: 1}}"
-drinker!).<br,"{'count': 1, 'score': {5: 1}}"
-Dolche,"{'count': 1, 'score': {5: 1}}"
-Guesto,"{'count': 1, 'score': {5: 1}}"
-Machine,"{'count': 1, 'score': {5: 1}}"
-super,"{'count': 1, 'score': {5: 1}}"
-prepares,"{'count': 1, 'score': {5: 1}}"
-Coffee/Latte/Cappuccino/etc,"{'count': 1, 'score': {5: 1}}"
-(if,"{'count': 1, 'score': {5: 1}}"
-heated,"{'count': 1, 'score': {5: 1}}"
-up).,"{'count': 1, 'score': {5: 1}}"
-Dolce,"{'count': 1, 'score': {5: 1}}"
-Gusto,"{'count': 1, 'score': {5: 1}}"
-anyone.,"{'count': 1, 'score': {5: 1}}"
-Too,"{'count': 1, 'score': {5: 1}}"
-I'am,"{'count': 1, 'score': {5: 1}}"
-myself!,"{'count': 1, 'score': {5: 1}}"
-offer,"{'count': 1, 'score': {5: 1}}"
-thanks,"{'count': 1, 'score': {5: 1}}"
-product.<br,"{'count': 1, 'score': {5: 1}}"
-/>Staral,"{'count': 1, 'score': {5: 1}}"
-must,"{'count': 1, 'score': {4: 1}}"
-scrape,"{'count': 1, 'score': {4: 1}}"
-together,"{'count': 1, 'score': {4: 1}}"
-escaping,"{'count': 1, 'score': {4: 1}}"
-"fact,","{'count': 1, 'score': {4: 1}}"
-"however,","{'count': 1, 'score': {4: 1}}"
-nowhere,"{'count': 1, 'score': {4: 1}}"
-near,"{'count': 1, 'score': {4: 1}}"
-requiring,"{'count': 1, 'score': {4: 1}}"
-stovetop,"{'count': 1, 'score': {4: 1}}"
-preparation.,"{'count': 1, 'score': {4: 1}}"
-"Still,","{'count': 1, 'score': {4: 1}}"
-gets,"{'count': 1, 'score': {4: 1}}"
-"organic,","{'count': 1, 'score': {4: 1}}"
-all-natural,"{'count': 1, 'score': {4: 1}}"
-varieties,"{'count': 1, 'score': {4: 1}}"
-prepared,"{'count': 1, 'score': {4: 1}}"
-adding,"{'count': 1, 'score': {4: 1}}"
-convenient,"{'count': 1, 'score': {4: 1}}"
-issue.<br,"{'count': 1, 'score': {4: 1}}"
-actual,"{'count': 1, 'score': {4: 1}}"
-fructose,"{'count': 1, 'score': {4: 1}}"
-syrup,"{'count': 1, 'score': {4: 1}}"
-decide,"{'count': 1, 'score': {4: 1}}"
-Real,"{'count': 1, 'score': {4: 1}}"
-harmful,"{'count': 1, 'score': {4: 1}}"
-stuff.,"{'count': 1, 'score': {4: 1}}"
-"like,","{'count': 1, 'score': {4: 1}}"
-thickeners.,"{'count': 1, 'score': {4: 1}}"
-heat,"{'count': 1, 'score': {4: 1}}"
-"creamy,","{'count': 1, 'score': {4: 1}}"
-gum.,"{'count': 1, 'score': {4: 1}}"
-gum,"{'count': 1, 'score': {4: 1}}"
-"why,","{'count': 1, 'score': {4: 1}}"
-sitting,"{'count': 1, 'score': {4: 1}}"
-bowl,"{'count': 1, 'score': {4: 1}}"
-"while,","{'count': 1, 'score': {4: 1}}"
-becomes,"{'count': 1, 'score': {4: 1}}"
-gluey.,"{'count': 1, 'score': {4: 1}}"
-uses,"{'count': 1, 'score': {4: 1}}"
-fructouse,"{'count': 1, 'score': {4: 1}}"
-"syrup,","{'count': 1, 'score': {4: 1}}"
-doctors,"{'count': 1, 'score': {4: 1}}"
-form,"{'count': 1, 'score': {4: 1}}"
-Steel,"{'count': 1, 'score': {4: 1}}"
-Cut,"{'count': 1, 'score': {4: 1}}"
-Oats.,"{'count': 1, 'score': {4: 1}}"
-maple,"{'count': 1, 'score': {4: 1}}"
-Plus,"{'count': 1, 'score': {4: 1}}"
-require,"{'count': 1, 'score': {4: 1}}"
-doctoring,"{'count': 1, 'score': {4: 1}}"
-apart.,"{'count': 1, 'score': {4: 1}}"
-become,"{'count': 1, 'score': {5: 1}}"
-soggy,"{'count': 1, 'score': {5: 1}}"
-hits,"{'count': 1, 'score': {5: 1}}"
-bowl.,"{'count': 1, 'score': {5: 1}}"
-holds,"{'count': 1, 'score': {5: 1}}"
-"texture,","{'count': 1, 'score': {5: 1}}"
-oat,"{'count': 1, 'score': {5: 1}}"
-"excellent,","{'count': 1, 'score': {5: 1}}"
-"too,","{'count': 1, 'score': {5: 1}}"
-"eaten,","{'count': 1, 'score': {5: 1}}"
-close,"{'count': 1, 'score': {5: 1}}"
-variety.<br,"{'count': 1, 'score': {5: 1}}"
-6),"{'count': 1, 'score': {5: 1}}"
-6)<br,"{'count': 1, 'score': {4: 1}}"
-/>I'm,"{'count': 1, 'score': {4: 1}}"
-fan,"{'count': 1, 'score': {4: 1}}"
-steel-cut,"{'count': 1, 'score': {4: 1}}"
-"oats,","{'count': 1, 'score': {4: 1}}"
-try.,"{'count': 1, 'score': {4: 1}}"
-hardy,"{'count': 1, 'score': {4: 1}}"
-"sweet,","{'count': 1, 'score': {4: 1}}"
-folks,"{'count': 1, 'score': {4: 1}}"
-(post-bariatric,"{'count': 1, 'score': {4: 1}}"
-surgery),"{'count': 1, 'score': {4: 1}}"
-"palatable,","{'count': 1, 'score': {4: 1}}"
-easily,"{'count': 1, 'score': {4: 1}}"
-"digestible,","{'count': 1, 'score': {4: 1}}"
-fiber,"{'count': 1, 'score': {4: 1}}"
-bloat.,"{'count': 1, 'score': {4: 1}}"
-celiac,"{'count': 1, 'score': {5: 1}}"
-disease,"{'count': 1, 'score': {5: 1}}"
-lifesaver,"{'count': 1, 'score': {5: 1}}"
-store!,"{'count': 1, 'score': {5: 1}}"
-flavors!!!<br,"{'count': 1, 'score': {5: 1}}"
-"/>Thanks,<br","{'count': 1, 'score': {5: 1}}"
-/>Abby,"{'count': 1, 'score': {5: 1}}"
-know?,"{'count': 1, 'score': {5: 1}}"
-(make,"{'count': 1, 'score': {5: 1}}"
-raisins;nuke,"{'count': 1, 'score': {5: 1}}"
-90,"{'count': 1, 'score': {5: 1}}"
-seconds).,"{'count': 1, 'score': {5: 1}}"
-Kroger,"{'count': 1, 'score': {5: 1}}"
-maybe,"{'count': 1, 'score': {5: 1}}"
-tastier,"{'count': 1, 'score': {5: 1}}"
-texture,"{'count': 1, 'score': {5: 1}}"
-something.,"{'count': 1, 'score': {5: 1}}"
-"Mmm,","{'count': 1, 'score': {5: 1}}"
-convenient!,"{'count': 1, 'score': {5: 1}}"
-WAS,"{'count': 1, 'score': {4: 1}}"
-VISITING,"{'count': 1, 'score': {4: 1}}"
-FRIEND,"{'count': 1, 'score': {4: 1}}"
-OTHER,"{'count': 1, 'score': {4: 1}}"
-MORNING,"{'count': 1, 'score': {4: 1}}"
-CAME,"{'count': 1, 'score': {4: 1}}"
-OUT,"{'count': 1, 'score': {4: 1}}"
-HIS,"{'count': 1, 'score': {4: 1}}"
-STORAGE,"{'count': 1, 'score': {4: 1}}"
-ROOM,"{'count': 1, 'score': {4: 1}}"
-(,"{'count': 1, 'score': {4: 1}}"
-PACKET,"{'count': 1, 'score': {4: 1}}"
-McCANNS,"{'count': 1, 'score': {4: 1}}"
-INSTANT,"{'count': 1, 'score': {4: 1}}"
-IRISH,"{'count': 1, 'score': {4: 1}}"
-OATMEAL,"{'count': 1, 'score': {4: 1}}"
-.),"{'count': 1, 'score': {4: 1}}"
-SUGGESTED,"{'count': 1, 'score': {4: 1}}"
-THAT,"{'count': 1, 'score': {4: 1}}"
-TRY,"{'count': 1, 'score': {4: 1}}"
-OWN,"{'count': 1, 'score': {4: 1}}"
-USE,"{'count': 1, 'score': {4: 1}}"
-",IN","{'count': 1, 'score': {4: 1}}"
-STASH,"{'count': 1, 'score': {4: 1}}"
-SOMETIMES,"{'count': 1, 'score': {4: 1}}"
-DOSE,"{'count': 1, 'score': {4: 1}}"
-NOT,"{'count': 1, 'score': {4: 1}}"
-GIVE,"{'count': 1, 'score': {4: 1}}"
-YOU,"{'count': 1, 'score': {4: 1}}"
-CHANCE,"{'count': 1, 'score': {4: 1}}"
-SAY,"{'count': 1, 'score': {4: 1}}"
-NO,"{'count': 1, 'score': {4: 1}}"
-SO,"{'count': 1, 'score': {4: 1}}"
-ENDED,"{'count': 1, 'score': {4: 1}}"
-UP,"{'count': 1, 'score': {4: 1}}"
-TRYING,"{'count': 1, 'score': {4: 1}}"
-APPLE,"{'count': 1, 'score': {4: 1}}"
-CINN,"{'count': 1, 'score': {4: 1}}"
-FOUND,"{'count': 1, 'score': {4: 1}}"
-BE,"{'count': 1, 'score': {4: 1}}"
-VERY,"{'count': 1, 'score': {4: 1}}"
-TASTEFULL,"{'count': 1, 'score': {4: 1}}"
-WHEN,"{'count': 1, 'score': {4: 1}}"
-MADE,"{'count': 1, 'score': {4: 1}}"
-WATER,"{'count': 1, 'score': {4: 1}}"
-OR,"{'count': 1, 'score': {4: 1}}"
-POWDERED,"{'count': 1, 'score': {4: 1}}"
-MILK,"{'count': 1, 'score': {4: 1}}"
-GOES,"{'count': 1, 'score': {4: 1}}"
-GOOD,"{'count': 1, 'score': {4: 1}}"
-O.J.,"{'count': 1, 'score': {4: 1}}"
-SLICE,"{'count': 1, 'score': {4: 1}}"
-TOAST,"{'count': 1, 'score': {4: 1}}"
-YOUR,"{'count': 1, 'score': {4: 1}}"
-READY,"{'count': 1, 'score': {4: 1}}"
-TAKE,"{'count': 1, 'score': {4: 1}}"
-ON,"{'count': 1, 'score': {4: 1}}"
-WORLD...OR,"{'count': 1, 'score': {4: 1}}"
-DAY,"{'count': 1, 'score': {4: 1}}"
-AT,"{'count': 1, 'score': {4: 1}}"
-LEAST..,"{'count': 1, 'score': {4: 1}}"
-JERRY,"{'count': 1, 'score': {4: 1}}"
-REITH...,"{'count': 1, 'score': {4: 1}}"
-wife,"{'count': 1, 'score': {5: 1}}"
-reccomended,"{'count': 1, 'score': {5: 1}}"
-daughter.,"{'count': 1, 'score': {5: 1}}"
-She's,"{'count': 1, 'score': {5: 1}}"
-"happy,","{'count': 1, 'score': {5: 1}}"
-happy!!!<br,"{'count': 1, 'score': {5: 1}}"
-"href=""http://www.amazon.com/gp/product/B001EO5QW8"">McCANN'S","{'count': 1, 'score': {5: 1}}"
-great!<br,"{'count': 1, 'score': {5: 1}}"
-$0.30,"{'count': 1, 'score': {5: 1}}"
-cents,"{'count': 1, 'score': {5: 1}}"
-understand,"{'count': 1, 'score': {5: 1}}"
-up.<br,"{'count': 1, 'score': {5: 1}}"
-/>Maple,"{'count': 1, 'score': {5: 1}}"
-"terrific,","{'count': 1, 'score': {5: 1}}"
-apples,"{'count': 1, 'score': {5: 1}}"
-"cinnamon,","{'count': 1, 'score': {5: 1}}"
-regular.,"{'count': 1, 'score': {5: 1}}"
-tired,"{'count': 1, 'score': {5: 1}}"
-ole,"{'count': 1, 'score': {5: 1}}"
-"thing,","{'count': 1, 'score': {5: 1}}"
-great.<br,"{'count': 1, 'score': {5: 1}}"
-boil,"{'count': 1, 'score': {5: 1}}"
-"pot,","{'count': 1, 'score': {5: 1}}"
-packet,"{'count': 1, 'score': {5: 1}}"
-"bowl,","{'count': 1, 'score': {5: 1}}"
-pour,"{'count': 1, 'score': {5: 1}}"
-"water,","{'count': 1, 'score': {5: 1}}"
-expand,"{'count': 1, 'score': {5: 1}}"
-2x,"{'count': 1, 'score': {5: 1}}"
-size!<br,"{'count': 1, 'score': {5: 1}}"
-/>Taste,"{'count': 1, 'score': {5: 1}}"
-takes,"{'count': 1, 'score': {5: 1}}"
-prepare.<br,"{'count': 1, 'score': {5: 1}}"
-/>Not,"{'count': 1, 'score': {5: 1}}"
-"Convenient,","{'count': 1, 'score': {5: 1}}"
-"healthy,","{'count': 1, 'score': {5: 1}}"
-"quality,","{'count': 1, 'score': {5: 1}}"
-extremely,"{'count': 1, 'score': {5: 1}}"
-cheap...,"{'count': 1, 'score': {5: 1}}"
-"connoisseur,","{'count': 1, 'score': {5: 1}}"
-whether,"{'count': 1, 'score': {5: 1}}"
-raw,"{'count': 1, 'score': {5: 1}}"
-pellet,"{'count': 1, 'score': {5: 1}}"
-state,"{'count': 1, 'score': {5: 1}}"
-"hour,","{'count': 1, 'score': {5: 1}}"
-sloth,"{'count': 1, 'score': {5: 1}}"
-addled,"{'count': 1, 'score': {5: 1}}"
-"instant,","{'count': 1, 'score': {5: 1}}"
-minutes.,"{'count': 1, 'score': {5: 1}}"
-that's,"{'count': 1, 'score': {5: 1}}"
-"sure,","{'count': 1, 'score': {5: 1}}"
-beauty,"{'count': 1, 'score': {5: 1}}"
-available,"{'count': 1, 'score': {5: 1}}"
-regular.<br,"{'count': 1, 'score': {5: 1}}"
-allows,"{'count': 1, 'score': {5: 1}}"
-"explored,","{'count': 1, 'score': {5: 1}}"
-chance,"{'count': 1, 'score': {5: 1}}"
-experience,"{'count': 1, 'score': {5: 1}}"
-well-known,"{'count': 1, 'score': {5: 1}}"
-oatmeals.,"{'count': 1, 'score': {5: 1}}"
-personally,"{'count': 1, 'score': {5: 1}}"
-thicker,"{'count': 1, 'score': {5: 1}}"
-America.,"{'count': 1, 'score': {5: 1}}"
-tends,"{'count': 1, 'score': {5: 1}}"
-liquidy,"{'count': 1, 'score': {5: 1}}"
-add.,"{'count': 1, 'score': {5: 1}}"
-1300watt,"{'count': 1, 'score': {5: 1}}"
-twenty-seven,"{'count': 1, 'score': {5: 1}}"
-"seconds,","{'count': 1, 'score': {5: 1}}"
-handle,"{'count': 1, 'score': {5: 1}}"
-how,"{'count': 1, 'score': {5: 1}}"
-use.<br,"{'count': 1, 'score': {5: 1}}"
-consider,"{'count': 1, 'score': {5: 1}}"
-offering,"{'count': 1, 'score': {5: 1}}"
-lot,"{'count': 1, 'score': {5: 1}}"
-you'll,"{'count': 1, 'score': {5: 1}}"
-ten-count,"{'count': 1, 'score': {5: 1}}"
-boxes.,"{'count': 1, 'score': {5: 1}}"
-"oatmeal-eaters,","{'count': 1, 'score': {5: 1}}"
-single,"{'count': 1, 'score': {5: 1}}"
-alone,"{'count': 1, 'score': {5: 1}}"
-"well,","{'count': 1, 'score': {5: 1}}"
-$3.00,"{'count': 1, 'score': {5: 1}}"
-box.<br,"{'count': 1, 'score': {5: 1}}"
-/>It,"{'count': 1, 'score': {5: 1}}"
-Tastes,"{'count': 1, 'score': {5: 1}}"
-choice.,"{'count': 1, 'score': {5: 1}}"
-none,"{'count': 1, 'score': {5: 1}}"
-sugary.,"{'count': 1, 'score': {5: 1}}"
-"minutes,","{'count': 1, 'score': {5: 1}}"
-excellent.,"{'count': 1, 'score': {5: 1}}"
-steel,"{'count': 1, 'score': {5: 1}}"
-oats,"{'count': 1, 'score': {5: 1}}"
-cook,"{'count': 1, 'score': {5: 1}}"
-often.<br,"{'count': 1, 'score': {5: 1}}"
-convenient.<br,"{'count': 1, 'score': {5: 1}}"
-/>Anything,"{'count': 1, 'score': {5: 1}}"
-keeps,"{'count': 1, 'score': {5: 1}}"
-regularly,"{'count': 1, 'score': {5: 1}}"
-thing.,"{'count': 1, 'score': {5: 1}}"
-wholesome,"{'count': 1, 'score': {3: 1}}"
-supermarket,"{'count': 1, 'score': {3: 1}}"
-"brands,","{'count': 1, 'score': {3: 1}}"
-somewhat,"{'count': 1, 'score': {3: 1}}"
-mushy,"{'count': 1, 'score': {3: 1}}"
-either.,"{'count': 1, 'score': {3: 1}}"
-pass,"{'count': 1, 'score': {3: 1}}"
-muster,"{'count': 1, 'score': {3: 1}}"
-best.,"{'count': 1, 'score': {5: 1}}"
-wouldn't,"{'count': 1, 'score': {5: 1}}"
-follow,"{'count': 1, 'score': {5: 1}}"
-directions,"{'count': 1, 'score': {5: 1}}"
-comes,"{'count': 1, 'score': {5: 1}}"
-soupy,"{'count': 1, 'score': {5: 1}}"
-That,"{'count': 1, 'score': {5: 1}}"
-of.,"{'count': 1, 'score': {5: 1}}"
-differce,"{'count': 1, 'score': {3: 1}}"
-Oaker,"{'count': 1, 'score': {3: 1}}"
-mushy.,"{'count': 1, 'score': {3: 1}}"
-Sugar,"{'count': 1, 'score': {4: 1}}"
-added.,"{'count': 1, 'score': {4: 1}}"
-Cinnamon,"{'count': 1, 'score': {4: 1}}"
-OK.,"{'count': 1, 'score': {4: 1}}"
-satisfying,"{'count': 1, 'score': {4: 1}}"
-Sugar.,"{'count': 1, 'score': {4: 1}}"
-big,"{'count': 1, 'score': {3: 1}}"
-stores.,"{'count': 1, 'score': {3: 1}}"
-carbs,"{'count': 1, 'score': {3: 1}}"
-sugars.,"{'count': 1, 'score': {3: 1}}"
-Save,"{'count': 1, 'score': {3: 1}}"
-money,"{'count': 1, 'score': {3: 1}}"
-Its,"{'count': 1, 'score': {1: 1}}"
-"mushy,","{'count': 1, 'score': {1: 1}}"
-Quaker,"{'count': 1, 'score': {1: 1}}"
-go.,"{'count': 1, 'score': {1: 1}}"
-Got,"{'count': 1, 'score': {5: 1}}"
-bloody,"{'count': 1, 'score': {5: 1}}"
-mary,"{'count': 1, 'score': {5: 1}}"
-"seller,","{'count': 1, 'score': {5: 1}}"
-advertising,"{'count': 1, 'score': {5: 1}}"
-"worked..lol,","{'count': 1, 'score': {5: 1}}"
-"them,","{'count': 1, 'score': {5: 1}}"
-"buddies,","{'count': 1, 'score': {5: 1}}"
-them...,"{'count': 1, 'score': {5: 1}}"
-im,"{'count': 1, 'score': {5: 1}}"
-"more,","{'count': 1, 'score': {5: 1}}"
-"yet,...","{'count': 1, 'score': {5: 1}}"
-is.,"{'count': 1, 'score': {5: 1}}"
-"Hot,","{'count': 1, 'score': {5: 1}}"
-"""burn","{'count': 1, 'score': {5: 1}}"
-mouth,"{'count': 1, 'score': {5: 1}}"
-forever,"{'count': 1, 'score': {5: 1}}"
-"hot""","{'count': 1, 'score': {5: 1}}"
-temp...,"{'count': 1, 'score': {5: 1}}"
-us..,"{'count': 1, 'score': {5: 1}}"
-looked.,"{'count': 1, 'score': {4: 1}}"
-Country,"{'count': 1, 'score': {4: 1}}"
-Store,"{'count': 1, 'score': {4: 1}}"
-Weston,"{'count': 1, 'score': {4: 1}}"
-"harp,","{'count': 1, 'score': {4: 1}}"
-Cranberry,"{'count': 1, 'score': {4: 1}}"
-Horseradish,"{'count': 1, 'score': {4: 1}}"
-"Sauce,","{'count': 1, 'score': {4: 1}}"
-Fartless,"{'count': 1, 'score': {4: 1}}"
-Black,"{'count': 1, 'score': {4: 1}}"
-"Salsa,","{'count': 1, 'score': {4: 1}}"
-Cider,"{'count': 1, 'score': {4: 1}}"
-"Jelly,","{'count': 1, 'score': {4: 1}}"
-Newton's,"{'count': 1, 'score': {4: 1}}"
-Cradle,"{'count': 1, 'score': {4: 1}}"
-Art,"{'count': 1, 'score': {4: 1}}"
-Motion,"{'count': 1, 'score': {4: 1}}"
-staple,"{'count': 1, 'score': {4: 1}}"
-Syrup.<br,"{'count': 1, 'score': {4: 1}}"
-/>Back,"{'count': 1, 'score': {4: 1}}"
-Ass,"{'count': 1, 'score': {4: 1}}"
-Kickin,"{'count': 1, 'score': {4: 1}}"
-Peanuts.,"{'count': 1, 'score': {4: 1}}"
-hot.,"{'count': 1, 'score': {4: 1}}"
-activate,"{'count': 1, 'score': {4: 1}}"
-perspiration,"{'count': 1, 'score': {4: 1}}"
-glands,"{'count': 1, 'score': {4: 1}}"
-behind,"{'count': 1, 'score': {4: 1}}"
-ears,"{'count': 1, 'score': {4: 1}}"
-arms.,"{'count': 1, 'score': {4: 1}}"
-requires,"{'count': 1, 'score': {4: 1}}"
-beverage,"{'count': 1, 'score': {4: 1}}"
-"advertised,","{'count': 1, 'score': {4: 1}}"
-glass,"{'count': 1, 'score': {4: 1}}"
-Kleenex,"{'count': 1, 'score': {4: 1}}"
-run.,"{'count': 1, 'score': {4: 1}}"
-look,"{'count': 1, 'score': {4: 1}}"
-already,"{'count': 1, 'score': {4: 1}}"
-ideas,"{'count': 1, 'score': {4: 1}}"
-work.,"{'count': 1, 'score': {4: 1}}"
-suspect,"{'count': 1, 'score': {4: 1}}"
-hitting,"{'count': 1, 'score': {4: 1}}"
-goodies,"{'count': 1, 'score': {4: 1}}"
-"absence,","{'count': 1, 'score': {4: 1}}"
-colleague,"{'count': 1, 'score': {4: 1}}"
-Greg.,"{'count': 1, 'score': {4: 1}}"
-work,"{'count': 1, 'score': {4: 1}}"
-earliest,"{'count': 1, 'score': {4: 1}}"
-opportunity,"{'count': 1, 'score': {4: 1}}"
-contents,"{'count': 1, 'score': {4: 1}}"
-Planters,"{'count': 1, 'score': {4: 1}}"
-Peanuts,"{'count': 1, 'score': {4: 1}}"
-"can,","{'count': 1, 'score': {4: 1}}"
-crying,"{'count': 1, 'score': {4: 1}}"
-running,"{'count': 1, 'score': {4: 1}}"
-return.<br,"{'count': 1, 'score': {4: 1}}"
-shaken,"{'count': 1, 'score': {4: 1}}"
-ensure,"{'count': 1, 'score': {4: 1}}"
-evenly,"{'count': 1, 'score': {4: 1}}"
-distributed.,"{'count': 1, 'score': {4: 1}}"
-important,"{'count': 1, 'score': {4: 1}}"
-wash,"{'count': 1, 'score': {4: 1}}"
-hands,"{'count': 1, 'score': {4: 1}}"
-consumption,"{'count': 1, 'score': {4: 1}}"
-eyes.<br,"{'count': 1, 'score': {4: 1}}"
-/>You'll,"{'count': 1, 'score': {4: 1}}"
-Ass-Kickin',"{'count': 1, 'score': {4: 1}}"
-Peanuts.<br,"{'count': 1, 'score': {4: 1}}"
-/>P.S.,"{'count': 1, 'score': {4: 1}}"
-sharing,"{'count': 1, 'score': {4: 1}}"
-"peanuts,","{'count': 1, 'score': {4: 1}}"
-"deliberately,","{'count': 1, 'score': {4: 1}}"
-Greg,"{'count': 1, 'score': {4: 1}}"
-harp,"{'count': 1, 'score': {4: 1}}"
-Christmas.,"{'count': 1, 'score': {4: 1}}"
-He'll,"{'count': 1, 'score': {4: 1}}"
-insulted.,"{'count': 1, 'score': {4: 1}}"
-spicy,"{'count': 1, 'score': {3: 1}}"
-texas,"{'count': 1, 'score': {3: 1}}"
-spicy.,"{'count': 1, 'score': {3: 1}}"
-doubt,"{'count': 1, 'score': {3: 1}}"
-habanero,"{'count': 1, 'score': {3: 1}}"
-notch,"{'count': 1, 'score': {3: 1}}"
-two.,"{'count': 1, 'score': {3: 1}}"
-stove-top,"{'count': 1, 'score': {4: 1}}"
-popper,"{'count': 1, 'score': {4: 1}}"
-(but,"{'count': 1, 'score': {4: 1}}"
-"outside,","{'count': 1, 'score': {4: 1}}"
-course).,"{'count': 1, 'score': {4: 1}}"
-(Coffee,"{'count': 1, 'score': {4: 1}}"
-Direct,"{'count': 1, 'score': {4: 1}}"
-Mexican,"{'count': 1, 'score': {4: 1}}"
-Altura),"{'count': 1, 'score': {4: 1}}"
-seem,"{'count': 1, 'score': {4: 1}}"
-well-suited,"{'count': 1, 'score': {4: 1}}"
-method.,"{'count': 1, 'score': {4: 1}}"
-cracks,"{'count': 1, 'score': {4: 1}}"
-"distinct,","{'count': 1, 'score': {4: 1}}"
-medium,"{'count': 1, 'score': {4: 1}}"
-results,"{'count': 1, 'score': {4: 1}}"
-aroma,"{'count': 1, 'score': {4: 1}}"
-strong,"{'count': 1, 'score': {4: 1}}"
-persistent.,"{'count': 1, 'score': {4: 1}}"
-"smooth,","{'count': 1, 'score': {4: 1}}"
-"velvety,","{'count': 1, 'score': {4: 1}}"
-yet,"{'count': 1, 'score': {4: 1}}"
-lively.,"{'count': 1, 'score': {4: 1}}"
-large,"{'count': 1, 'score': {5: 1}}"
-cast,"{'count': 1, 'score': {5: 1}}"
-iron,"{'count': 1, 'score': {5: 1}}"
-pan,"{'count': 1, 'score': {5: 1}}"
-grill,"{'count': 1, 'score': {5: 1}}"
-(about,"{'count': 1, 'score': {5: 1}}"
-time).,"{'count': 1, 'score': {5: 1}}"
-smell,"{'count': 1, 'score': {5: 1}}"
-"importantly,","{'count': 1, 'score': {5: 1}}"
-smooth;,"{'count': 1, 'score': {5: 1}}"
-bitter,"{'count': 1, 'score': {5: 1}}"
-aftertaste.,"{'count': 1, 'score': {5: 1}}"
-numerous,"{'count': 1, 'score': {5: 1}}"
-"occasions,","{'count': 1, 'score': {5: 1}}"
-we've,"{'count': 1, 'score': {5: 1}}"
-send,"{'count': 1, 'score': {5: 1}}"
-much.,"{'count': 1, 'score': {5: 1}}"
-Deal,"{'count': 1, 'score': {5: 1}}"
-awesome!,"{'count': 1, 'score': {5: 1}}"
-indicated,"{'count': 1, 'score': {5: 1}}"
-satisfy,"{'count': 1, 'score': {5: 1}}"
-trick,"{'count': 1, 'score': {5: 1}}"
-treaters.,"{'count': 1, 'score': {5: 1}}"
-store's,"{'count': 1, 'score': {5: 1}}"
-"chocolate,","{'count': 1, 'score': {5: 1}}"
-say.,"{'count': 1, 'score': {5: 1}}"
-everything,"{'count': 1, 'score': {5: 1}}"
-loves.,"{'count': 1, 'score': {5: 1}}"
-With,"{'count': 1, 'score': {5: 1}}"
-here.,"{'count': 1, 'score': {5: 1}}"
-Kit,"{'count': 1, 'score': {5: 1}}"
-"Kat,","{'count': 1, 'score': {5: 1}}"
-"Reeses,","{'count': 1, 'score': {5: 1}}"
-"product,","{'count': 1, 'score': {5: 1}}"
-size!,"{'count': 1, 'score': {5: 1}}"
-"plenty,","{'count': 1, 'score': {5: 1}}"
-shipped,"{'count': 1, 'score': {5: 1}}"
-promptly.,"{'count': 1, 'score': {5: 1}}"
-kids,"{'count': 1, 'score': {5: 1}}"
-neighborhood,"{'count': 1, 'score': {5: 1}}"
-liked,"{'count': 1, 'score': {5: 1}}"
-candies!,"{'count': 1, 'score': {5: 1}}"
-"but,","{'count': 1, 'score': {5: 1}}"
-sent,"{'count': 1, 'score': {5: 1}}"
-daughters,"{'count': 1, 'score': {5: 1}}"
-class,"{'count': 1, 'score': {5: 1}}"
-share.,"{'count': 1, 'score': {5: 1}}"
-many.,"{'count': 1, 'score': {5: 1}}"
-Watch,"{'count': 1, 'score': {3: 1}}"
-prices,"{'count': 1, 'score': {3: 1}}"
-gold,"{'count': 1, 'score': {3: 1}}"
-"purchase,","{'count': 1, 'score': {3: 1}}"
-was<br,"{'count': 1, 'score': {3: 1}}"
-/>$3-4,"{'count': 1, 'score': {3: 1}}"
-Target.,"{'count': 1, 'score': {3: 1}}"
-"expensive,","{'count': 1, 'score': {5: 1}}"
-compete,"{'count': 1, 'score': {5: 1}}"
-"stores,","{'count': 1, 'score': {5: 1}}"
-"that,","{'count': 1, 'score': {5: 1}}"
-days,"{'count': 1, 'score': {1: 1}}"
-stale,"{'count': 1, 'score': {1: 1}}"
-bags!!,"{'count': 1, 'score': {1: 1}}"
-pill,"{'count': 1, 'score': {5: 1}}"
-form.,"{'count': 1, 'score': {5: 1}}"
-Long,"{'count': 1, 'score': {5: 1}}"
-dirt,"{'count': 1, 'score': {5: 1}}"
-camelbak,"{'count': 1, 'score': {5: 1}}"
-heavily,"{'count': 1, 'score': {5: 1}}"
-"effective,","{'count': 1, 'score': {5: 1}}"
-cramp,"{'count': 1, 'score': {5: 1}}"
-hundred,"{'count': 1, 'score': {5: 1}}"
-mile,"{'count': 1, 'score': {5: 1}}"
-Same,"{'count': 1, 'score': {5: 1}}"
-racing,"{'count': 1, 'score': {5: 1}}"
-"buggy,","{'count': 1, 'score': {5: 1}}"
-Now,"{'count': 1, 'score': {5: 1}}"
-Fizz...what,"{'count': 1, 'score': {5: 1}}"
-product!,"{'count': 1, 'score': {5: 1}}"
-"Firstly,","{'count': 1, 'score': {5: 1}}"
-Hammer's,"{'count': 1, 'score': {5: 1}}"
-endurance,"{'count': 1, 'score': {5: 1}}"
-athlete's,"{'count': 1, 'score': {5: 1}}"
-world,"{'count': 1, 'score': {5: 1}}"
-products.,"{'count': 1, 'score': {5: 1}}"
-Second,"{'count': 1, 'score': {5: 1}}"
-"convenient,","{'count': 1, 'score': {5: 1}}"
-handly,"{'count': 1, 'score': {5: 1}}"
-dissovle,"{'count': 1, 'score': {5: 1}}"
-fizz.,"{'count': 1, 'score': {5: 1}}"
-Third,"{'count': 1, 'score': {5: 1}}"
-great!,"{'count': 1, 'score': {5: 1}}"
-Imagine,"{'count': 1, 'score': {5: 1}}"
-starving,"{'count': 1, 'score': {5: 1}}"
-hydration,"{'count': 1, 'score': {5: 1}}"
-rather,"{'count': 1, 'score': {5: 1}}"
-"""salty""","{'count': 1, 'score': {5: 1}}"
-refreshing,"{'count': 1, 'score': {5: 1}}"
-lemon-lime,"{'count': 1, 'score': {5: 1}}"
-mango!,"{'count': 1, 'score': {5: 1}}"
-Fizz,"{'count': 1, 'score': {5: 1}}"
-drop,"{'count': 1, 'score': {5: 1}}"
-tablet,"{'count': 1, 'score': {5: 1}}"
-bottled,"{'count': 1, 'score': {5: 1}}"
-whenever,"{'count': 1, 'score': {5: 1}}"
-exercise,"{'count': 1, 'score': {5: 1}}"
-chock,"{'count': 1, 'score': {5: 1}}"
-electrolytes.,"{'count': 1, 'score': {5: 1}}"
-hammer,"{'count': 1, 'score': {5: 1}}"
-enough.,"{'count': 1, 'score': {5: 1}}"
-serves,"{'count': 1, 'score': {5: 1}}"
-source,"{'count': 1, 'score': {5: 1}}"
-run,"{'count': 1, 'score': {5: 1}}"
-ride.<br,"{'count': 1, 'score': {5: 1}}"
-grapefruit,"{'count': 1, 'score': {5: 1}}"
-flavor...,"{'count': 1, 'score': {5: 1}}"
-after-taste,"{'count': 1, 'score': {5: 1}}"
-slight,"{'count': 1, 'score': {5: 1}}"
-carbonation.<br,"{'count': 1, 'score': {5: 1}}"
-Hammer,"{'count': 1, 'score': {5: 1}}"
-line.,"{'count': 1, 'score': {5: 1}}"
-preventing,"{'count': 1, 'score': {5: 1}}"
-middle,"{'count': 1, 'score': {5: 1}}"
-latter,"{'count': 1, 'score': {5: 1}}"
-stages,"{'count': 1, 'score': {5: 1}}"
-Pop,"{'count': 1, 'score': {5: 1}}"
-set.,"{'count': 1, 'score': {5: 1}}"
-Flavor,"{'count': 1, 'score': {5: 1}}"
-easy.,"{'count': 1, 'score': {5: 1}}"
-carb,"{'count': 1, 'score': {5: 1}}"
-thing.<br,"{'count': 1, 'score': {5: 1}}"
-/>Two,"{'count': 1, 'score': {5: 1}}"
-cycling,"{'count': 1, 'score': {5: 1}}"
-arrhythmia,"{'count': 1, 'score': {5: 1}}"
-heat.,"{'count': 1, 'score': {5: 1}}"
-drinking,"{'count': 1, 'score': {5: 1}}"
-plain,"{'count': 1, 'score': {5: 1}}"
-research,"{'count': 1, 'score': {5: 1}}"
-issue.,"{'count': 1, 'score': {5: 1}}"
-Gatorade,"{'count': 1, 'score': {5: 1}}"
-option,"{'count': 1, 'score': {5: 1}}"
-loaded,"{'count': 1, 'score': {5: 1}}"
-carbohydrates,"{'count': 1, 'score': {5: 1}}"
-low-carb,"{'count': 1, 'score': {5: 1}}"
-alternative.,"{'count': 1, 'score': {5: 1}}"
-"""zero","{'count': 1, 'score': {5: 1}}"
-"carb""","{'count': 1, 'score': {5: 1}}"
-drinks,"{'count': 1, 'score': {5: 1}}"
-help,"{'count': 1, 'score': {5: 1}}"
-do?,"{'count': 1, 'score': {5: 1}}"
-ran,"{'count': 1, 'score': {5: 1}}"
-shop,"{'count': 1, 'score': {5: 1}}"
-tube,"{'count': 1, 'score': {5: 1}}"
-them.....voila!...problem,"{'count': 1, 'score': {5: 1}}"
-solved!!<br,"{'count': 1, 'score': {5: 1}}"
-/>I've,"{'count': 1, 'score': {5: 1}}"
-leg,"{'count': 1, 'score': {5: 1}}"
-cramps,"{'count': 1, 'score': {5: 1}}"
-resolved,"{'count': 1, 'score': {5: 1}}"
-these.<br,"{'count': 1, 'score': {5: 1}}"
-guys,"{'count': 1, 'score': {5: 1}}"
-superbly,"{'count': 1, 'score': {5: 1}}"
-formulated,"{'count': 1, 'score': {5: 1}}"
-work.....,"{'count': 1, 'score': {5: 1}}"
-aftertaste,"{'count': 1, 'score': {2: 1}}"
-licorice.,"{'count': 1, 'score': {2: 1}}"
-nutrition,"{'count': 1, 'score': {2: 1}}"
-"decades,","{'count': 1, 'score': {2: 1}}"
-mango,"{'count': 1, 'score': {2: 1}}"
-appealing,"{'count': 1, 'score': {2: 1}}"
-"terrible,","{'count': 1, 'score': {2: 1}}"
-notice,"{'count': 1, 'score': {2: 1}}"
-sip,"{'count': 1, 'score': {2: 1}}"
-take.,"{'count': 1, 'score': {2: 1}}"
-impulsive,"{'count': 1, 'score': {3: 1}}"
-$6,"{'count': 1, 'score': {3: 1}}"
-ok.,"{'count': 1, 'score': {3: 1}}"
-Don't,"{'count': 1, 'score': {3: 1}}"
-"wrong,","{'count': 1, 'score': {3: 1}}"
-babies,"{'count': 1, 'score': {3: 1}}"
-complaints.,"{'count': 1, 'score': {3: 1}}"
-"retrospect,","{'count': 1, 'score': {3: 1}}"
-ridiculous,"{'count': 1, 'score': {3: 1}}"
-(esp.,"{'count': 1, 'score': {3: 1}}"
-shipping).,"{'count': 1, 'score': {3: 1}}"
-sooooo,"{'count': 1, 'score': {5: 1}}"
-deliscious,"{'count': 1, 'score': {5: 1}}"
-ate,"{'count': 1, 'score': {5: 1}}"
-em,"{'count': 1, 'score': {5: 1}}"
-gained,"{'count': 1, 'score': {5: 1}}"
-pds!,"{'count': 1, 'score': {5: 1}}"
-fault,"{'count': 1, 'score': {5: 1}}"
-Albanese,"{'count': 1, 'score': {5: 1}}"
-rings,"{'count': 1, 'score': {5: 1}}"
-faces.,"{'count': 1, 'score': {5: 1}}"
-"(bears,","{'count': 1, 'score': {5: 1}}"
-"rings,","{'count': 1, 'score': {5: 1}}"
-"snakes,","{'count': 1, 'score': {5: 1}}"
-"balls,","{'count': 1, 'score': {5: 1}}"
-"worms,","{'count': 1, 'score': {5: 1}}"
-whatever),"{'count': 1, 'score': {5: 1}}"
-$10/lb.,"{'count': 1, 'score': {5: 1}}"
-twin,"{'count': 1, 'score': {5: 1}}"
-4.5,"{'count': 1, 'score': {5: 1}}"
-5,"{'count': 1, 'score': {5: 1}}"
-screaming,"{'count': 1, 'score': {5: 1}}"
-far,"{'count': 1, 'score': {5: 1}}"
-concerned.,"{'count': 1, 'score': {5: 1}}"
-50,"{'count': 1, 'score': {5: 1}}"
-deep,"{'count': 1, 'score': {5: 1}}"
-friggin',"{'count': 1, 'score': {5: 1}}"
-things.,"{'count': 1, 'score': {5: 1}}"
-Consumed!,"{'count': 1, 'score': {5: 1}}"
-Grape,"{'count': 1, 'score': {5: 1}}"
-area.,"{'count': 1, 'score': {5: 1}}"
-anyone,"{'count': 1, 'score': {5: 1}}"
-talk,"{'count': 1, 'score': {5: 1}}"
-lying.,"{'count': 1, 'score': {5: 1}}"
-10lbs...,"{'count': 1, 'score': {5: 1}}"
-:,"{'count': 1, 'score': {5: 1}}"
-),"{'count': 1, 'score': {5: 1}}"
-bigger,"{'count': 1, 'score': {5: 1}}"
-kind,"{'count': 1, 'score': {5: 1}}"
-sour,"{'count': 1, 'score': {5: 1}}"
-"kick,","{'count': 1, 'score': {5: 1}}"
-strong.,"{'count': 1, 'score': {5: 1}}"
-candy/soda,"{'count': 1, 'score': {5: 1}}"
-another,"{'count': 1, 'score': {5: 1}}"
-company,"{'count': 1, 'score': {5: 1}}"
-"opinion,","{'count': 1, 'score': {5: 1}}"
-Popsicles,"{'count': 1, 'score': {5: 1}}"
-drink.,"{'count': 1, 'score': {5: 1}}"
-salt,"{'count': 1, 'score': {5: 1}}"
-softer,"{'count': 1, 'score': {5: 1}}"
-"popsicles,","{'count': 1, 'score': {5: 1}}"
-awesome,"{'count': 1, 'score': {5: 1}}"
-frozen.,"{'count': 1, 'score': {5: 1}}"
-raspberry,"{'count': 1, 'score': {5: 1}}"
-latice,"{'count': 1, 'score': {5: 1}}"
-tarts,"{'count': 1, 'score': {5: 1}}"
-directly,"{'count': 1, 'score': {5: 1}}"
-FantasiCakes,"{'count': 1, 'score': {5: 1}}"
-website,"{'count': 1, 'score': {5: 1}}"
-dinner,"{'count': 1, 'score': {5: 1}}"
-hosting.,"{'count': 1, 'score': {5: 1}}"
-intact.,"{'count': 1, 'score': {5: 1}}"
-froze,"{'count': 1, 'score': {5: 1}}"
-use.,"{'count': 1, 'score': {5: 1}}"
-lover,"{'count': 1, 'score': {5: 1}}"
-jam,"{'count': 1, 'score': {5: 1}}"
-guests,"{'count': 1, 'score': {5: 1}}"
-impressed.,"{'count': 1, 'score': {5: 1}}"
-Buyer,"{'count': 1, 'score': {1: 1}}"
-Beware,"{'count': 1, 'score': {1: 1}}"
-Please!,"{'count': 1, 'score': {1: 1}}"
-everybody.,"{'count': 1, 'score': {1: 1}}"
-Maltitol,"{'count': 1, 'score': {1: 1}}"
-alcohol,"{'count': 1, 'score': {1: 1}}"
-undigestible,"{'count': 1, 'score': {1: 1}}"
-unsuspecting,"{'count': 1, 'score': {1: 1}}"
-digest,"{'count': 1, 'score': {1: 1}}"
-intestinal,"{'count': 1, 'score': {1: 1}}"
-bloating,"{'count': 1, 'score': {1: 1}}"
-massive,"{'count': 1, 'score': {1: 1}}"
-gas,"{'count': 1, 'score': {1: 1}}"
-experience.,"{'count': 1, 'score': {1: 1}}"
-"Nausea,","{'count': 1, 'score': {1: 1}}"
-diarrhea,"{'count': 1, 'score': {1: 1}}"
-headaches,"{'count': 1, 'score': {1: 1}}"
-experienced.,"{'count': 1, 'score': {1: 1}}"
-lesson,"{'count': 1, 'score': {1: 1}}"
-fell,"{'count': 1, 'score': {1: 1}}"
-suzanne,"{'count': 1, 'score': {1: 1}}"
-sommers,"{'count': 1, 'score': {1: 1}}"
-sell.,"{'count': 1, 'score': {1: 1}}"
-nirvana,"{'count': 1, 'score': {1: 1}}"
-bliss,"{'count': 1, 'score': {1: 1}}"
-terrible,"{'count': 1, 'score': {1: 1}}"
-side,"{'count': 1, 'score': {1: 1}}"
-effects,"{'count': 1, 'score': {1: 1}}"
-kicked,"{'count': 1, 'score': {1: 1}}"
-in.,"{'count': 1, 'score': {1: 1}}"
-discomfort,"{'count': 1, 'score': {1: 1}}"
-unlike,"{'count': 1, 'score': {1: 1}}"
-anything,"{'count': 1, 'score': {1: 1}}"
-felt,"{'count': 1, 'score': {1: 1}}"
-before.,"{'count': 1, 'score': {1: 1}}"
-blew,"{'count': 1, 'score': {1: 1}}"
-balloon,"{'count': 1, 'score': {1: 1}}"
-painful,"{'count': 1, 'score': {1: 1}}"
-abdominal,"{'count': 1, 'score': {1: 1}}"
-cramping.,"{'count': 1, 'score': {1: 1}}"
-"passed,","{'count': 1, 'score': {1: 1}}"
-unpleasant.,"{'count': 1, 'score': {1: 1}}"
-calorie,"{'count': 1, 'score': {1: 1}}"
-"culprit,","{'count': 1, 'score': {1: 1}}"
-stopped,"{'count': 1, 'score': {1: 1}}"
-hunch,"{'count': 1, 'score': {1: 1}}"
-confirmed,"{'count': 1, 'score': {1: 1}}"
-market.,"{'count': 1, 'score': {1: 1}}"
-amazing,"{'count': 1, 'score': {1: 1}}"
-wondering,"{'count': 1, 'score': {1: 1}}"
-possibly,"{'count': 1, 'score': {1: 1}}"
-"yummy,","{'count': 1, 'score': {1: 1}}"
-sank,"{'count': 1, 'score': {1: 1}}"
-asterisk,"{'count': 1, 'score': {1: 1}}"
-sweetener*,"{'count': 1, 'score': {1: 1}}"
-bottom,"{'count': 1, 'score': {1: 1}}"
-read,"{'count': 1, 'score': {1: 1}}"
-"""maltitol""","{'count': 1, 'score': {1: 1}}"
-letters!,"{'count': 1, 'score': {1: 1}}"
-goodness,"{'count': 1, 'score': {1: 1}}"
-little.,"{'count': 1, 'score': {1: 1}}"
-ended,"{'count': 1, 'score': {1: 1}}"
-side-effects,"{'count': 1, 'score': {1: 1}}"
-shorter,"{'count': 1, 'score': {1: 1}}"
-duration.,"{'count': 1, 'score': {1: 1}}"
-Some,"{'count': 1, 'score': {1: 1}}"
-heart's,"{'count': 1, 'score': {1: 1}}"
-content,"{'count': 1, 'score': {1: 1}}"
-"others,","{'count': 1, 'score': {1: 1}}"
-reaction,"{'count': 1, 'score': {1: 1}}"
-...,"{'count': 1, 'score': {1: 1}}"
-...it's,"{'count': 1, 'score': {1: 1}}"
-maltitol!,"{'count': 1, 'score': {1: 1}}"
-okay.,"{'count': 1, 'score': {2: 1}}"
-brunch,"{'count': 1, 'score': {1: 1}}"
-artifial,"{'count': 1, 'score': {1: 1}}"
-returnable.,"{'count': 1, 'score': {1: 1}}"
-wasted,"{'count': 1, 'score': {1: 1}}"
-20+,"{'count': 1, 'score': {1: 1}}"
-bucks.,"{'count': 1, 'score': {1: 1}}"
-snack,"{'count': 1, 'score': {5: 1}}"
-trail,"{'count': 1, 'score': {5: 1}}"
-mix.,"{'count': 1, 'score': {5: 1}}"
-solid,"{'count': 1, 'score': {5: 1}}"
-mass,"{'count': 1, 'score': {5: 1}}"
-melted,"{'count': 1, 'score': {5: 1}}"
-left,"{'count': 1, 'score': {5: 1}}"
-pantry,"{'count': 1, 'score': {5: 1}}"
-"days,","{'count': 1, 'score': {5: 1}}"
-opened,"{'count': 1, 'score': {5: 1}}"
-room,"{'count': 1, 'score': {5: 1}}"
-temperature,"{'count': 1, 'score': {5: 1}}"
-gooey.,"{'count': 1, 'score': {5: 1}}"
-fridge,"{'count': 1, 'score': {5: 1}}"
-breaking,"{'count': 1, 'score': {5: 1}}"
-hunks,"{'count': 1, 'score': {5: 1}}"
-grainy,"{'count': 1, 'score': {5: 1}}"
-melting,"{'count': 1, 'score': {5: 1}}"
-solidifying,"{'count': 1, 'score': {5: 1}}"
-pick,"{'count': 1, 'score': {5: 1}}"
-texture.,"{'count': 1, 'score': {5: 1}}"
-agree,"{'count': 1, 'score': {5: 1}}"
-reviewer,"{'count': 1, 'score': {5: 1}}"
-regarding,"{'count': 1, 'score': {5: 1}}"
-summer.,"{'count': 1, 'score': {5: 1}}"
-insulating,"{'count': 1, 'score': {5: 1}}"
-packaging,"{'count': 1, 'score': {5: 1}}"
-ice,"{'count': 1, 'score': {5: 1}}"
-melt,"{'count': 1, 'score': {5: 1}}"
-warm,"{'count': 1, 'score': {5: 1}}"
-Order,"{'count': 1, 'score': {5: 1}}"
-last!!!,"{'count': 1, 'score': {5: 1}}"
-berries,"{'count': 1, 'score': {3: 1}}"
-melted.,"{'count': 1, 'score': {3: 1}}"
-May,"{'count': 1, 'score': {3: 1}}"
-winter.,"{'count': 1, 'score': {3: 1}}"
-enjoy,"{'count': 1, 'score': {3: 1}}"
-"granted,","{'count': 1, 'score': {5: 1}}"
-being,"{'count': 1, 'score': {5: 1}}"
-crisp.,"{'count': 1, 'score': {5: 1}}"
-peppermint,"{'count': 1, 'score': {5: 1}}"
-stick,"{'count': 1, 'score': {5: 1}}"
-dad,"{'count': 1, 'score': {5: 1}}"
-Christmas,"{'count': 1, 'score': {5: 1}}"
-remembered,"{'count': 1, 'score': {5: 1}}"
-girl.,"{'count': 1, 'score': {5: 1}}"
-30,"{'count': 1, 'score': {5: 1}}"
-gift,"{'count': 1, 'score': {4: 1}}"
-ages!,"{'count': 1, 'score': {4: 1}}"
-giant,"{'count': 1, 'score': {4: 1}}"
-canes,"{'count': 1, 'score': {4: 1}}"
-recipients,"{'count': 1, 'score': {4: 1}}"
-"much,","{'count': 1, 'score': {4: 1}}"
-kept,"{'count': 1, 'score': {4: 1}}"
-title,"{'count': 1, 'score': {5: 1}}"
-says,"{'count': 1, 'score': {5: 1}}"
-Molecular,"{'count': 1, 'score': {5: 1}}"
-"Gastronomy,","{'count': 1, 'score': {5: 1}}"
-let,"{'count': 1, 'score': {5: 1}}"
-scare,"{'count': 1, 'score': {5: 1}}"
-off.,"{'count': 1, 'score': {5: 1}}"
-"science,","{'count': 1, 'score': {5: 1}}"
-earth.,"{'count': 1, 'score': {5: 1}}"
-creamer.<br,"{'count': 1, 'score': {5: 1}}"
-blonde,"{'count': 1, 'score': {5: 1}}"
-kinds,"{'count': 1, 'score': {5: 1}}"
-"fat,","{'count': 1, 'score': {5: 1}}"
-"honestly,","{'count': 1, 'score': {5: 1}}"
-manufactured,"{'count': 1, 'score': {5: 1}}"
-"""food""","{'count': 1, 'score': {5: 1}}"
-"hand,","{'count': 1, 'score': {5: 1}}"
-HOT,"{'count': 1, 'score': {5: 1}}"
-coffee.<br,"{'count': 1, 'score': {5: 1}}"
-stumbled,"{'count': 1, 'score': {5: 1}}"
-making,"{'count': 1, 'score': {5: 1}}"
-creamer.,"{'count': 1, 'score': {5: 1}}"
-(non-instant),"{'count': 1, 'score': {5: 1}}"
-lowfat,"{'count': 1, 'score': {5: 1}}"
-sweeter,"{'count': 1, 'score': {5: 1}}"
-fresher,"{'count': 1, 'score': {5: 1}}"
-dissolve,"{'count': 1, 'score': {5: 1}}"
-coffee.,"{'count': 1, 'score': {5: 1}}"
-play,"{'count': 1, 'score': {5: 1}}"
-ratios,"{'count': 1, 'score': {5: 1}}"
-heavy,"{'count': 1, 'score': {5: 1}}"
-rich.,"{'count': 1, 'score': {5: 1}}"
-own.,"{'count': 1, 'score': {5: 1}}"
-together.<br,"{'count': 1, 'score': {5: 1}}"
-/>For,"{'count': 1, 'score': {5: 1}}"
-"flavoring,","{'count': 1, 'score': {5: 1}}"
-bough,"{'count': 1, 'score': {5: 1}}"
-cocoa,"{'count': 1, 'score': {5: 1}}"
-vanilla,"{'count': 1, 'score': {5: 1}}"
-caster,"{'count': 1, 'score': {5: 1}}"
-(superfine),"{'count': 1, 'score': {5: 1}}"
-batches,"{'count': 1, 'score': {5: 1}}"
-nutmeg,"{'count': 1, 'score': {5: 1}}"
-creamers.,"{'count': 1, 'score': {5: 1}}"
-"wanted,","{'count': 1, 'score': {5: 1}}"
-fake,"{'count': 1, 'score': {5: 1}}"
-sweetner,"{'count': 1, 'score': {5: 1}}"
-instead.,"{'count': 1, 'score': {5: 1}}"
-jelly,"{'count': 1, 'score': {5: 1}}"
-canning,"{'count': 1, 'score': {5: 1}}"
-jars.,"{'count': 1, 'score': {5: 1}}"
-chopper/food,"{'count': 1, 'score': {5: 1}}"
-processor,"{'count': 1, 'score': {5: 1}}"
-blend,"{'count': 1, 'score': {5: 1}}"
-"everything,","{'count': 1, 'score': {5: 1}}"
-heavier,"{'count': 1, 'score': {5: 1}}"
-sinks,"{'count': 1, 'score': {5: 1}}"
-bottom.,"{'count': 1, 'score': {5: 1}}"
-Let,"{'count': 1, 'score': {5: 1}}"
-settle,"{'count': 1, 'score': {5: 1}}"
-opening,"{'count': 1, 'score': {5: 1}}"
-though.<br,"{'count': 1, 'score': {5: 1}}"
-WAY,"{'count': 1, 'score': {5: 1}}"
-storebought,"{'count': 1, 'score': {5: 1}}"
-essential,"{'count': 1, 'score': {5: 1}}"
-oils,"{'count': 1, 'score': {5: 1}}"
-chocolate/orange,"{'count': 1, 'score': {5: 1}}"
-mix.<br,"{'count': 1, 'score': {5: 1}}"
-ingredients,"{'count': 1, 'score': {5: 1}}"
-mentioned,"{'count': 1, 'score': {5: 1}}"
-online.,"{'count': 1, 'score': {5: 1}}"
-Take,"{'count': 1, 'score': {5: 1}}"
-experiment.,"{'count': 1, 'score': {5: 1}}"
-milk.,"{'count': 1, 'score': {5: 1}}"
-Or,"{'count': 1, 'score': {5: 1}}"
-flavorings.,"{'count': 1, 'score': {5: 1}}"
-housewarming/host(ess),"{'count': 1, 'score': {5: 1}}"
-gifts.<br,"{'count': 1, 'score': {5: 1}}"
-molecular,"{'count': 1, 'score': {5: 1}}"
-cooking,"{'count': 1, 'score': {5: 1}}"
-main,"{'count': 1, 'score': {5: 1}}"
-creamer,"{'count': 1, 'score': {5: 1}}"
-worked,"{'count': 1, 'score': {5: 1}}"
-rice.,"{'count': 1, 'score': {3: 1}}"
-itchy,"{'count': 1, 'score': {3: 1}}"
-help.,"{'count': 1, 'score': {3: 1}}"
-duck,"{'count': 1, 'score': {3: 1}}"
-potato,"{'count': 1, 'score': {3: 1}}"
-"significantly,","{'count': 1, 'score': {3: 1}}"
-rice,"{'count': 1, 'score': {3: 1}}"
-ingredients.,"{'count': 1, 'score': {3: 1}}"
-Awesome,"{'count': 1, 'score': {3: 1}}"
-given,"{'count': 1, 'score': {3: 1}}"
-"""Boston"",","{'count': 1, 'score': {3: 1}}"
-severe,"{'count': 1, 'score': {3: 1}}"
-reactions,"{'count': 1, 'score': {3: 1}}"
-ingredients;,"{'count': 1, 'score': {3: 1}}"
-violent,"{'count': 1, 'score': {3: 1}}"
-jumping,"{'count': 1, 'score': {3: 1}}"
-bed,"{'count': 1, 'score': {3: 1}}"
-"night,","{'count': 1, 'score': {3: 1}}"
-scratching.,"{'count': 1, 'score': {3: 1}}"
-soon,"{'count': 1, 'score': {3: 1}}"
-changed,"{'count': 1, 'score': {3: 1}}"
-"formula,","{'count': 1, 'score': {3: 1}}"
-scratching,"{'count': 1, 'score': {3: 1}}"
-stopped.,"{'count': 1, 'score': {3: 1}}"
-choices.,"{'count': 1, 'score': {3: 1}}"
-"each,","{'count': 1, 'score': {3: 1}}"
-until,"{'count': 1, 'score': {3: 1}}"
-what's,"{'count': 1, 'score': {3: 1}}"
-specifically,"{'count': 1, 'score': {5: 1}}"
-"him,","{'count': 1, 'score': {5: 1}}"
-spots,"{'count': 1, 'score': {5: 1}}"
-tummy,"{'count': 1, 'score': {5: 1}}"
-problems.<br,"{'count': 1, 'score': {5: 1}}"
-LOVE,"{'count': 1, 'score': {5: 1}}"
-ships,"{'count': 1, 'score': {5: 1}}"
-shipping.,"{'count': 1, 'score': {5: 1}}"
-ton,"{'count': 1, 'score': {5: 1}}"
-tested,"{'count': 1, 'score': {5: 1}}"
-has.,"{'count': 1, 'score': {5: 1}}"
-test,"{'count': 1, 'score': {5: 1}}"
-"back,","{'count': 1, 'score': {5: 1}}"
-this!,"{'count': 1, 'score': {5: 1}}"
-"triggers,","{'count': 1, 'score': {5: 1}}"
-pain.,"{'count': 1, 'score': {5: 1}}"
-shepherd/collie,"{'count': 1, 'score': {5: 1}}"
-IBS.,"{'count': 1, 'score': {5: 1}}"
-Amazon...it's,"{'count': 1, 'score': {5: 1}}"
-$10,"{'count': 1, 'score': {5: 1}}"
-shipping!,"{'count': 1, 'score': {5: 1}}"
-Dog,"{'count': 1, 'score': {5: 1}}"
-Food,"{'count': 1, 'score': {5: 1}}"
-Meal,"{'count': 1, 'score': {5: 1}}"
-Recipe,"{'count': 1, 'score': {5: 1}}"
-Jack,"{'count': 1, 'score': {5: 1}}"
-Russell.,"{'count': 1, 'score': {5: 1}}"
-awful,"{'count': 1, 'score': {5: 1}}"
-hope,"{'count': 1, 'score': {5: 1}}"
-SOMETHING,"{'count': 1, 'score': {5: 1}}"
-normally,"{'count': 1, 'score': {5: 1}}"
-Wet,"{'count': 1, 'score': {5: 1}}"
-Rice..,"{'count': 1, 'score': {5: 1}}"
-feeding,"{'count': 1, 'score': {5: 1}}"
-(a,"{'count': 1, 'score': {5: 1}}"
-Bichon),"{'count': 1, 'score': {5: 1}}"
-stomach,"{'count': 1, 'score': {5: 1}}"
-issue..,"{'count': 1, 'score': {5: 1}}"
-food--,"{'count': 1, 'score': {5: 1}}"
-breeds.,"{'count': 1, 'score': {5: 1}}"
-Ît's,"{'count': 1, 'score': {5: 1}}"
-real,"{'count': 1, 'score': {5: 1}}"
-"less,","{'count': 1, 'score': {5: 1}}"
-"gas,","{'count': 1, 'score': {5: 1}}"
-poop,"{'count': 1, 'score': {5: 1}}"
-"consistency,","{'count': 1, 'score': {5: 1}}"
-mom,"{'count': 1, 'score': {5: 1}}"
-ask,"{'count': 1, 'score': {5: 1}}"
-for!!,"{'count': 1, 'score': {5: 1}}"
-poodle,"{'count': 1, 'score': {5: 1}}"
-pomeranian,"{'count': 1, 'score': {5: 1}}"
-(due,"{'count': 1, 'score': {5: 1}}"
-price),"{'count': 1, 'score': {5: 1}}"
-severs,"{'count': 1, 'score': {5: 1}}"
-feed,"{'count': 1, 'score': {5: 1}}"
-him.,"{'count': 1, 'score': {5: 1}}"
-puppy.,"{'count': 1, 'score': {5: 1}}"
-hardly,"{'count': 1, 'score': {5: 1}}"
-sick.,"{'count': 1, 'score': {5: 1}}"
-Prime,"{'count': 1, 'score': {5: 1}}"
-retriever,"{'count': 1, 'score': {5: 1}}"
-picky,"{'count': 1, 'score': {5: 1}}"
-met.,"{'count': 1, 'score': {5: 1}}"
-experimenting,"{'count': 1, 'score': {5: 1}}"
-types,"{'count': 1, 'score': {5: 1}}"
-multiple,"{'count': 1, 'score': {5: 1}}"
-varieties.,"{'count': 1, 'score': {5: 1}}"
-"Furthermore,","{'count': 1, 'score': {5: 1}}"
-"boring,","{'count': 1, 'score': {5: 1}}"
-figured,"{'count': 1, 'score': {5: 1}}"
-not.,"{'count': 1, 'score': {5: 1}}"
-tend,"{'count': 1, 'score': {5: 1}}"
-away,"{'count': 1, 'score': {5: 1}}"
-fish,"{'count': 1, 'score': {5: 1}}"
-though,"{'count': 1, 'score': {5: 1}}"
-smells...<br,"{'count': 1, 'score': {5: 1}}"
-"/>Additionally,","{'count': 1, 'score': {5: 1}}"
-Petco,"{'count': 1, 'score': {5: 1}}"
-cans.,"{'count': 1, 'score': {5: 1}}"
-surprise,"{'count': 1, 'score': {5: 1}}"
-$20,"{'count': 1, 'score': {5: 1}}"
-Amazon.<br,"{'count': 1, 'score': {5: 1}}"
-"all,","{'count': 1, 'score': {5: 1}}"
-stamp,"{'count': 1, 'score': {5: 1}}"
-approval,"{'count': 1, 'score': {5: 1}}"
-pet,"{'count': 1, 'score': {5: 1}}"
-store.,"{'count': 1, 'score': {5: 1}}"
-door!,"{'count': 1, 'score': {5: 1}}"
-less.,"{'count': 1, 'score': {5: 1}}"
-pleased,"{'count': 1, 'score': {5: 1}}"
-issues,"{'count': 1, 'score': {5: 1}}"
-past,"{'count': 1, 'score': {5: 1}}"
-grain,"{'count': 1, 'score': {5: 1}}"
-possible,"{'count': 1, 'score': {5: 1}}"
-grains.,"{'count': 1, 'score': {5: 1}}"
-Since,"{'count': 1, 'score': {5: 1}}"
-switching,"{'count': 1, 'score': {5: 1}}"
-haven't,"{'count': 1, 'score': {5: 1}}"
-issues.,"{'count': 1, 'score': {5: 1}}"
-helpful,"{'count': 1, 'score': {5: 1}}"
-kibble,"{'count': 1, 'score': {5: 1}}"
-size,"{'count': 1, 'score': {5: 1}}"
-larger/smaller,"{'count': 1, 'score': {5: 1}}"
-basenji/jack,"{'count': 1, 'score': {5: 1}}"
-russell,"{'count': 1, 'score': {5: 1}}"
-He's,"{'count': 1, 'score': {5: 1}}"
-noticeably,"{'count': 1, 'score': {5: 1}}"
-healthier,"{'count': 1, 'score': {5: 1}}"
-energetic,"{'count': 1, 'score': {5: 1}}"
-earlier,"{'count': 1, 'score': {5: 1}}"
-year.,"{'count': 1, 'score': {5: 1}}"
-Despite,"{'count': 1, 'score': {5: 1}}"
-cost,"{'count': 1, 'score': {5: 1}}"
-significantly,"{'count': 1, 'score': {5: 1}}"
-stays,"{'count': 1, 'score': {5: 1}}"
-full.,"{'count': 1, 'score': {5: 1}}"
-he'd,"{'count': 1, 'score': {5: 1}}"
-cups,"{'count': 1, 'score': {5: 1}}"
-(the,"{'count': 1, 'score': {5: 1}}"
-serving,"{'count': 1, 'score': {5: 1}}"
-"size),","{'count': 1, 'score': {5: 1}}"
-whereas,"{'count': 1, 'score': {5: 1}}"
-day.,"{'count': 1, 'score': {5: 1}}"
-"account,","{'count': 1, 'score': {5: 1}}"
-"""bang","{'count': 1, 'score': {5: 1}}"
-"buck""","{'count': 1, 'score': {5: 1}}"
-foods...,"{'count': 1, 'score': {5: 1}}"
-"healthier,","{'count': 1, 'score': {5: 1}}"
-happier,"{'count': 1, 'score': {5: 1}}"
-"dog,","{'count': 1, 'score': {5: 1}}"
-boot!,"{'count': 1, 'score': {5: 1}}"
-Add,"{'count': 1, 'score': {5: 1}}"
-"free,","{'count': 1, 'score': {5: 1}}"
-2-day,"{'count': 1, 'score': {5: 1}}"
-Prime...,"{'count': 1, 'score': {5: 1}}"
-sold!!,"{'count': 1, 'score': {5: 1}}"
-pup,"{'count': 1, 'score': {5: 1}}"
-experienced,"{'count': 1, 'score': {5: 1}}"
-forms,"{'count': 1, 'score': {5: 1}}"
-hotspots,"{'count': 1, 'score': {5: 1}}"
-foods.,"{'count': 1, 'score': {5: 1}}"
-cheap,"{'count': 1, 'score': {5: 1}}"
-'you,"{'count': 1, 'score': {5: 1}}"
-anywhere',"{'count': 1, 'score': {5: 1}}"
-crazy,"{'count': 1, 'score': {5: 1}}"
-preservatives,"{'count': 1, 'score': {5: 1}}"
-pets.,"{'count': 1, 'score': {5: 1}}"
-reducing,"{'count': 1, 'score': {5: 1}}"
-food.<br,"{'count': 1, 'score': {5: 1}}"
-message,"{'count': 1, 'score': {5: 1}}"
-RAMSEY,"{'count': 1, 'score': {5: 1}}"
-FrAnkenSteiN,"{'count': 1, 'score': {5: 1}}"
-approved.,"{'count': 1, 'score': {5: 1}}"
-English,"{'count': 1, 'score': {5: 1}}"
-Bulldog,"{'count': 1, 'score': {5: 1}}"
-skin,"{'count': 1, 'score': {5: 1}}"
-summer,"{'count': 1, 'score': {5: 1}}"
-age,"{'count': 1, 'score': {5: 1}}"
-3.,"{'count': 1, 'score': {5: 1}}"
-wean,"{'count': 1, 'score': {5: 1}}"
-previous,"{'count': 1, 'score': {5: 1}}"
-owner,"{'count': 1, 'score': {5: 1}}"
-gave,"{'count': 1, 'score': {5: 1}}"
-(Iams,"{'count': 1, 'score': {5: 1}}"
-Rice),"{'count': 1, 'score': {5: 1}}"
-onto,"{'count': 1, 'score': {5: 1}}"
-kind.,"{'count': 1, 'score': {5: 1}}"
-"tried,","{'count': 1, 'score': {5: 1}}"
-working,"{'count': 1, 'score': {5: 1}}"
-sensitive,"{'count': 1, 'score': {5: 1}}"
-additives,"{'count': 1, 'score': {5: 1}}"
-proteins,"{'count': 1, 'score': {5: 1}}"
-commonly,"{'count': 1, 'score': {5: 1}}"
-commercial,"{'count': 1, 'score': {5: 1}}"
-(like,"{'count': 1, 'score': {5: 1}}"
-chicken,"{'count': 1, 'score': {5: 1}}"
-beef).,"{'count': 1, 'score': {5: 1}}"
+word,count,1,2,3,4,5
+the,288,32,10,17,53,176
+i,226,20,15,9,30,152
+and,216,11,6,11,35,153
+a,171,10,2,6,28,125
+to,130,11,6,8,19,86
+it,128,9,7,6,20,86
+of,122,7,5,5,19,86
+is,112,7,6,8,28,63
+this,93,5,1,7,17,63
+in,86,8,2,4,10,62
+for,84,5,3,4,13,59
+br,83,0,0,1,13,69
+my,75,6,2,3,11,53
+you,64,4,1,7,7,45
+with,57,3,0,2,12,40
+have,56,2,2,5,6,41
+food,55,4,0,4,1,46
+s,54,3,2,1,13,35
+was,48,6,1,3,5,33
+that,47,1,1,2,7,36
+but,46,3,1,4,7,31
+!,45,3,1,0,5,36
+good,41,2,2,3,7,27
+so,39,2,3,2,7,25
+t,39,1,1,4,4,29
+we,38,0,0,3,0,35
+not,37,7,3,2,12,13
+are,37,1,2,3,6,25
+like,36,4,4,3,4,21
+as,35,3,0,3,7,22
+these,35,0,0,2,6,27
+dog,33,0,0,3,0,30
+them,33,1,3,1,5,23
+they,33,1,2,2,7,21
+all,31,3,1,3,5,19
+can,31,5,1,1,5,19
+on,31,0,0,3,2,26
+or,30,1,1,1,6,21
+great,29,0,0,1,6,22
+oatmeal,29,1,0,0,10,18
+at,28,4,2,6,3,13
+product,27,2,0,0,2,23
+very,26,3,1,3,5,14
+if,23,3,1,2,2,15
+taste,23,3,2,2,2,14
+be,22,3,0,0,6,13
+has,22,0,0,3,1,18
+sugar,22,4,0,0,10,8
+up,22,2,0,1,1,18
+when,22,6,0,4,4,8
+were,21,4,0,0,1,16
+your,21,0,0,3,6,12
+just,21,4,0,1,1,15
+me,21,4,1,2,4,10
+one,21,1,1,0,1,18
+instant,21,0,0,0,8,13
+too,20,1,1,0,5,13
+mccann,20,0,0,0,9,11
+really,19,0,0,0,1,18
+little,19,3,0,2,0,14
+love,18,1,1,0,1,15
+use,18,1,0,0,3,14
+than,17,1,0,1,1,14
+she,17,0,0,0,0,17
+other,17,0,0,1,2,14
+more,16,1,0,2,0,13
+don,16,1,0,1,2,12
+will,16,3,0,0,2,11
+no,16,2,1,1,2,10
+natural,16,0,0,2,1,13
+had,15,3,0,1,1,10
+ve,15,1,3,0,1,10
+time,15,1,1,0,5,8
+get,15,0,0,3,1,11
+water,15,0,0,0,3,12
+better,14,0,0,0,4,10
+some,14,2,1,5,2,4
+flavors,14,1,0,2,2,9
+now,14,2,0,0,1,11
+our,14,0,0,0,0,14
+been,13,1,1,0,2,9
+flavor,13,2,3,2,3,3
+well,13,0,0,0,1,12
+m,13,0,1,0,3,9
+hot,13,0,0,0,1,12
+sauce,13,0,0,0,1,12
+because,13,0,0,0,1,12
+what,13,1,0,1,0,11
+make,13,1,0,0,4,8
+from,13,0,0,0,2,11
+amazon,13,0,0,0,1,12
+buy,13,1,1,2,1,8
+coffee,13,0,0,0,3,10
+balance,13,0,0,2,0,11
+price,12,0,0,2,1,9
+much,12,1,0,2,2,7
+would,12,1,1,0,2,8
+candy,12,1,0,0,0,11
+variety,12,0,0,0,4,8
+got,11,1,1,0,1,8
+there,11,0,2,1,2,6
+only,11,1,0,0,4,6
+brand,11,0,0,1,4,6
+eat,11,2,0,0,1,8
+also,11,1,0,0,0,10
+about,11,1,0,1,0,9
+take,11,0,3,1,2,5
+store,11,0,0,0,2,9
+after,11,1,0,0,2,8
+do,11,1,0,1,2,7
+brown,11,0,0,0,5,6
+regular,11,0,0,0,3,8
+find,10,1,0,1,1,7
+by,10,1,0,0,1,8
+tried,10,1,1,3,1,4
+twizzlers,10,0,0,0,1,9
+am,10,0,0,1,0,9
+pack,10,0,0,0,3,7
+free,10,3,0,0,0,7
+cinnamon,10,0,0,0,3,7
+milk,10,0,0,0,2,8
+dogs,10,0,0,2,0,8
+bought,9,0,0,0,0,9
+found,9,1,1,0,2,5
+1,9,0,0,0,0,9
+who,9,1,0,1,1,6
+he,9,0,0,0,3,6
+again,9,1,1,3,1,3
+chocolate,9,2,0,0,0,7
+could,9,3,0,1,0,5
+since,9,0,0,0,1,8
+foods,9,0,0,1,0,8
+powder,9,0,0,0,0,9
+bears,9,0,0,0,0,9
+quality,8,0,0,2,0,6
+recommend,8,0,0,0,2,6
+taffy,8,0,0,0,3,5
+two,8,1,0,1,2,4
+her,8,0,0,0,0,8
+know,8,1,0,0,0,7
+never,8,1,0,0,0,7
+any,8,1,0,1,0,6
+while,8,1,0,2,1,4
+loves,8,0,0,0,0,8
+ever,8,1,0,0,0,7
+re,8,1,0,2,0,5
+6,8,2,0,1,1,4
+still,8,1,0,0,1,6
+tastes,8,0,0,0,1,7
+maple,8,0,0,0,5,3
+same,8,1,0,1,0,6
+day,8,0,0,0,1,7
+3,8,0,0,1,0,7
+mix,8,0,0,0,0,8
+peanuts,7,2,0,0,5,0
+an,7,2,0,0,2,3
+out,7,0,1,1,2,3
+made,7,0,1,0,1,5
+each,7,0,0,1,0,6
+their,7,2,0,1,0,4
+every,7,0,1,0,1,5
+back,7,0,0,0,1,6
+home,7,0,0,0,1,6
+both,7,0,0,1,0,6
+different,7,1,0,1,0,5
+sweet,7,0,1,1,1,4
+always,7,0,0,0,0,7
+ll,7,0,0,0,5,2
+best,7,0,0,1,3,3
+its,7,1,0,0,0,6
+apples,7,0,0,0,2,5
+low,7,1,0,0,0,6
+something,7,1,0,1,0,5
+own,7,0,0,0,1,6
+2,7,0,0,0,0,7
+bad,7,1,2,0,0,4
+allergies,7,0,0,0,0,7
+products,6,0,2,0,0,4
+cut,6,0,0,1,3,2
+into,6,0,0,0,3,3
+his,6,0,0,1,2,3
+bag,6,1,0,0,1,4
+flavored,6,0,0,0,1,5
+!!,6,1,0,0,0,5
+bottle,6,0,0,0,0,6
+us,6,0,0,0,0,6
+want,6,0,0,0,0,6
+go,6,1,1,0,2,2
+eating,6,2,2,0,0,2
+years,6,2,0,0,0,4
+need,6,1,0,0,3,2
+dry,6,0,0,0,0,6
+perfect,6,0,0,0,0,6
+over,6,0,0,0,1,5
+size,6,0,0,0,1,5
+less,6,0,0,1,0,5
+stuff,6,0,0,1,1,4
+thing,6,0,0,0,1,5
+though,6,1,0,0,1,4
+oats,6,1,0,1,3,1
+cold,6,0,0,1,2,3
+morning,6,0,0,0,2,4
+add,6,0,0,1,0,5
+see,6,0,0,1,1,4
+order,6,0,0,2,1,3
+maltitol,6,6,0,0,0,0
+lamb,6,0,0,2,0,4
+rice,6,0,0,2,0,4
+him,6,0,0,0,0,6
+most,5,0,1,0,0,4
+arrived,5,2,0,0,0,3
+small,5,1,0,0,0,4
+sure,5,1,0,0,0,4
+then,5,0,0,1,2,2
+ordered,5,0,1,0,1,3
+which,5,0,1,0,1,3
+many,5,1,0,0,1,3
+grape,5,0,0,0,1,4
+bit,5,0,0,0,1,4
+licorice,5,0,1,0,1,3
+soft,5,1,0,0,0,4
+expensive,5,0,0,0,0,5
+right,5,0,0,0,0,5
+ingredients,5,0,0,2,0,3
+makes,5,0,0,0,0,5
+once,5,0,0,1,0,4
+didn,5,0,0,1,0,4
+new,5,4,0,0,0,1
+fresh,5,0,1,0,1,3
+delicious,5,1,0,0,1,3
+strawberry,5,0,0,0,0,5
+six,5,0,0,0,0,5
+apple,5,0,0,0,3,2
+purchased,5,1,1,0,1,2
+bags,5,1,0,0,0,4
+won,5,0,0,1,1,3
+excellent,5,0,0,0,0,5
+getting,5,0,0,0,0,5
+convenient,5,0,0,0,1,4
+should,5,0,0,1,2,2
+meal,5,0,0,0,1,4
+10,5,0,0,0,1,4
+try,5,0,0,2,2,1
+almost,5,0,1,0,0,4
+fat,5,0,0,0,0,5
+here,5,0,0,1,0,4
+box,5,0,0,2,1,2
+last,5,0,0,0,1,4
+down,5,1,0,2,0,2
+before,5,1,0,0,1,3
+shipping,5,0,0,1,0,4
+gummy,5,0,0,0,0,5
+off,5,0,0,0,0,5
+itching,5,0,0,4,0,1
+actually,4,1,0,0,1,2
+around,4,0,0,0,1,3
+case,4,1,0,0,1,2
+chewy,4,1,0,0,1,2
+yummy,4,1,0,0,1,2
+treat,4,1,0,0,3,0
+looking,4,1,2,0,0,1
+deal,4,0,0,0,1,3
+candies,4,0,0,0,0,4
+did,4,0,0,1,0,3
+loved,4,0,0,0,1,3
+healthy,4,0,0,1,0,3
+tequila,4,0,0,0,0,4
+combination,4,0,0,0,0,4
+kind,4,0,0,0,0,4
+simply,4,0,0,0,0,4
+thank,4,1,0,0,0,3
+going,4,0,0,0,1,3
+ounce,4,0,0,0,0,4
+full,4,1,0,0,0,3
+unfortunately,4,2,1,0,0,1
+pounds,4,0,0,0,0,4
+recommended,4,0,0,0,0,4
+tasty,4,0,0,0,1,3
+likes,4,0,0,0,0,4
+say,4,0,0,0,2,2
+hard,4,2,0,0,1,1
+watch,4,0,0,1,0,3
+pretty,4,0,0,0,0,4
+instead,4,0,0,0,2,2
+however,4,0,0,2,1,1
+non,4,0,0,0,0,4
+three,4,0,0,0,2,2
+minutes,4,0,0,0,1,3
+fact,4,0,0,0,1,3
+even,4,0,0,0,3,1
+brands,4,0,0,1,1,2
+high,4,0,0,0,2,2
+why,4,0,0,0,1,3
+second,4,0,0,0,1,3
+irish,4,0,0,0,2,2
+count,4,0,0,0,1,3
+boxes,4,0,0,0,1,3
+d,4,2,0,0,1,1
+give,4,0,0,0,3,1
+half,4,0,0,0,0,4
+happy,4,0,0,0,0,4
+body,4,1,0,0,0,3
+top,4,0,0,0,1,3
+experiment,4,0,0,0,0,4
+way,4,2,1,0,0,1
+nice,4,0,0,0,0,4
+bean,4,0,0,0,2,2
+used,4,1,0,2,0,1
+beans,4,0,0,0,2,2
+enough,4,0,1,0,0,3
+rides,4,0,0,0,0,4
+electrolytes,4,0,0,0,0,4
+mango,4,0,3,0,0,1
+started,4,0,0,1,0,3
+sports,4,0,1,0,0,3
+think,4,0,0,0,0,4
+year,4,1,0,0,0,3
+wet,4,0,0,0,0,4
+several,3,0,0,0,0,3
+tiny,3,1,0,0,2,0
+highly,3,0,0,0,1,2
+ingredient,3,0,1,1,0,1
+quick,3,0,0,0,1,2
+between,3,0,0,1,1,1
+kids,3,0,0,1,1,1
+husband,3,0,0,0,1,2
+together,3,0,0,0,1,2
+everyone,3,0,0,0,0,3
+definitely,3,0,0,0,0,3
+buying,3,0,0,0,0,3
+cats,3,2,0,0,0,1
+eats,3,0,0,0,0,3
+unique,3,0,0,0,1,2
+away,3,0,0,0,0,3
+realized,3,0,0,0,0,3
+anywhere,3,0,0,0,0,3
+put,3,1,0,0,0,2
+higher,3,0,0,0,0,3
+first,3,2,0,0,1,0
+similar,3,1,0,0,0,2
+came,3,0,0,0,2,1
+shared,3,0,0,0,0,3
+enjoyed,3,0,0,0,0,3
+ordering,3,0,0,0,0,3
+favorite,3,0,0,0,0,3
+company,3,0,0,0,0,3
+world,3,0,0,0,1,2
+fast,3,0,0,0,0,3
+amounts,3,1,0,0,0,2
+16,3,0,0,0,0,3
+href,3,0,0,0,0,3
+http,3,0,0,0,0,3
+www,3,0,0,0,0,3
+com,3,0,0,0,0,3
+gp,3,0,0,0,0,3
+able,3,0,0,0,0,3
+door,3,0,0,0,1,2
+easy,3,0,0,0,1,2
+minute,3,0,0,0,0,3
+prepare,3,0,0,0,1,2
+microwave,3,0,0,0,1,2
+issue,3,0,0,0,1,2
+syrup,3,0,0,0,3,0
+plus,3,0,0,0,3,0
+maybe,3,0,0,0,1,2
+bowl,3,0,0,0,1,2
+steel,3,0,0,0,2,1
+texture,3,0,0,0,0,3
+may,3,0,0,1,0,2
+eaten,3,1,0,0,0,2
+thought,3,1,0,0,1,1
+grocery,3,0,0,0,0,3
+!!!,3,0,0,0,0,3
+cup,3,0,0,0,0,3
+goes,3,0,0,0,1,2
+least,3,0,1,1,1,0
+packs,3,0,0,0,0,3
+earth,3,0,0,0,0,3
+followed,3,1,0,0,0,2
+cooks,3,0,0,0,0,3
+giving,3,0,0,1,1,1
+whole,3,1,0,0,0,2
+family,3,0,0,0,0,3
+save,3,0,0,1,0,2
+seems,3,0,0,1,0,2
+mushy,3,1,0,2,0,0
+probably,3,0,0,1,1,1
+looked,3,0,0,0,1,2
+work,3,0,0,0,2,1
+people,3,1,0,0,1,1
+whose,3,0,0,0,2,1
+roasted,3,0,0,0,1,2
+awesome,3,0,0,1,0,2
+local,3,1,0,0,0,2
+online,3,0,0,0,0,3
+endurolyte,3,0,0,0,0,3
+long,3,0,0,0,0,3
+bike,3,0,0,0,0,3
+fizz,3,0,0,0,0,3
+hammer,3,0,0,0,0,3
+drink,3,0,0,0,0,3
+cannot,3,1,0,0,0,2
+works,3,0,0,0,0,3
+cramping,3,2,0,0,0,1
+carb,3,0,0,0,0,3
+heart,3,2,0,0,0,1
+problem,3,0,0,0,0,3
+problems,3,0,0,0,0,3
+using,3,0,0,0,0,3
+sweetener,3,3,0,0,0,0
+symptoms,3,2,0,0,0,1
+tea,3,1,0,0,0,2
+weather,3,0,0,1,0,2
+ages,3,0,0,0,1,2
+creamer,3,0,0,0,0,3
+creamers,3,0,0,0,0,3
+limited,3,0,0,1,0,2
+pet,3,0,0,1,0,2
+allergic,3,0,0,0,0,3
+smells,2,0,0,0,0,2
+jumbo,2,2,0,0,0,0
+sized,2,1,0,0,0,1
+few,2,0,0,0,1,1
+nuts,2,0,0,0,2,0
+powdered,2,0,0,0,2,0
+familiar,2,0,1,0,1,0
+witch,2,0,0,0,2,0
+selling,2,0,0,0,1,1
+believe,2,1,1,0,0,0
+root,2,0,1,0,1,0
+beer,2,0,1,0,1,0
+soda,2,0,1,0,0,1
+assortment,2,0,0,1,0,1
+lover,2,0,0,0,0,2
+five,2,0,0,0,1,1
+pound,2,0,0,0,1,1
+peppermint,2,0,0,0,1,1
+etc,2,0,0,0,1,1
+red,2,1,0,0,1,0
+black,2,0,0,0,2,0
+particular,2,0,0,0,1,1
+none,2,0,0,0,0,2
+party,2,0,0,0,0,2
+amazing,2,1,0,0,0,1
+satisfying,2,0,0,0,1,1
+amount,2,0,0,0,0,2
+feeding,2,0,0,0,0,2
+cactus,2,0,0,0,0,2
+flavour,2,0,0,0,0,2
+picked,2,0,0,0,0,2
+trip,2,0,0,0,0,2
+brought,2,0,0,0,0,2
+totally,2,0,0,0,0,2
+blown,2,0,0,0,0,2
+couldn,2,0,0,0,0,2
+city,2,0,0,0,0,2
+bummed,2,0,0,0,0,2
+magic,2,0,0,0,0,2
+internet,2,0,0,0,0,2
+ecstatic,2,0,0,0,0,2
+mean,2,0,0,0,0,2
+tastelessly,2,0,0,0,0,2
+burns,2,0,0,0,0,2
+throat,2,0,0,0,0,2
+grab,2,0,0,0,0,2
+picante,2,0,0,0,0,2
+gourmet,2,0,0,0,0,2
+de,2,0,0,0,0,2
+inclan,2,0,0,0,0,2
+realize,2,0,0,0,0,2
+personal,2,0,0,0,0,2
+incredible,2,0,0,0,0,2
+service,2,0,0,0,0,2
+weight,2,0,0,0,0,2
+chubby,2,0,0,0,0,2
+rich,2,0,0,0,0,2
+boy,2,0,0,0,0,2
+stale,2,1,0,0,0,1
+bowls,2,2,0,0,0,0
+touch,2,1,0,0,1,0
+noticed,2,1,0,0,0,1
+reviews,2,1,0,0,0,1
+formula,2,1,0,1,0,0
+past,2,1,0,0,0,1
+packed,2,0,0,0,1,1
+daughter,2,0,0,0,0,2
+stay,2,0,1,0,0,1
+purchase,2,0,0,1,0,1
+others,2,1,0,0,0,1
+y,2,0,0,0,0,2
+inc,2,0,0,0,0,2
+twists,2,0,0,0,0,2
+green,2,0,0,0,1,1
+raspberry,2,0,0,0,0,2
+cool,2,0,0,0,0,2
+fridge,2,0,0,0,0,2
+guinness,2,0,0,0,0,2
+twist,2,0,0,0,0,2
+record,2,0,0,0,0,2
+breaking,2,0,0,0,0,2
+delivered,2,0,0,0,0,2
+times,2,0,0,0,0,2
+overseas,2,0,0,0,0,2
+country,2,0,0,0,1,1
+worth,2,0,0,0,0,2
+b001gvisjm,2,0,0,0,0,2
+lived,2,1,0,0,0,1
+someone,2,0,0,0,0,2
+stock,2,0,0,0,1,1
+sell,2,1,0,0,0,1
+buyer,2,1,0,0,0,1
+often,2,0,0,0,0,2
+advertised,2,0,0,0,1,1
+glad,2,0,0,1,1,0
+intake,2,0,0,0,0,2
+guess,2,0,0,1,0,1
+impressed,2,0,0,0,0,2
+myself,2,0,0,0,0,2
+dark,2,0,0,0,1,1
+sugary,2,0,0,0,0,2
+fan,2,0,0,0,1,1
+machine,2,0,0,0,0,2
+trying,2,0,0,0,1,1
+latte,2,0,0,0,0,2
+shop,2,0,0,0,0,2
+anyone,2,0,0,0,0,2
+thanks,2,0,0,0,0,2
+varieties,2,0,0,0,1,1
+boiling,2,0,0,0,1,1
+extreme,2,1,0,0,1,0
+cane,2,0,0,0,2,0
+corn,2,0,0,0,2,0
+helped,2,0,0,0,1,1
+real,2,0,0,0,1,1
+heat,2,0,0,0,1,1
+without,2,0,0,0,1,1
+guar,2,0,0,0,2,0
+gum,2,0,0,0,2,0
+convenience,2,0,0,0,1,1
+thick,2,0,0,0,1,1
+does,2,0,0,0,1,1
+sweetness,2,0,1,0,1,0
+form,2,0,0,0,1,1
+tell,2,0,0,0,1,1
+longer,2,0,0,0,0,2
+those,2,0,0,0,0,2
+health,2,0,0,0,0,2
+else,2,0,0,0,0,2
+seconds,2,0,0,0,0,2
+?,2,0,0,0,0,2
+nate,2,0,0,0,2,0
+room,2,0,0,0,1,1
+packet,2,0,0,0,1,1
+chance,2,0,0,0,1,1
+ended,2,1,0,0,1,0
+30,2,0,0,0,0,2
+per,2,0,0,0,0,2
+isn,2,0,0,0,0,2
+empty,2,0,0,0,1,1
+cheap,2,0,0,0,0,2
+done,2,0,0,0,0,2
+under,2,0,0,0,1,1
+experience,2,1,0,0,0,1
+difference,2,0,0,0,0,2
+end,2,0,0,0,0,2
+person,2,1,0,0,0,1
+overly,2,0,0,0,0,2
+breakfast,2,0,0,0,1,1
+anything,2,1,0,0,0,1
+doesn,2,0,1,1,0,0
+quite,2,0,0,1,0,1
+package,2,0,0,0,0,2
+fine,2,0,0,0,1,1
+ok,2,0,0,1,1,0
+stores,2,0,0,1,0,1
+nothing,2,0,0,1,0,1
+worked,2,0,0,0,0,2
+yet,2,0,0,0,1,1
+wasn,2,0,0,0,1,1
+vermont,2,0,0,0,2,0
+along,2,0,0,0,1,1
+jaw,2,0,0,0,2,0
+harp,2,0,0,0,2,0
+jelly,2,0,0,0,1,1
+ass,2,0,0,0,2,0
+kickin,2,0,0,0,2,0
+nose,2,0,0,0,2,0
+run,2,0,0,0,1,1
+ordinary,2,0,0,0,2,0
+especially,2,0,0,0,1,1
+greg,2,0,0,0,2,0
+spices,2,0,0,0,1,1
+christmas,2,0,0,0,1,1
+spicy,2,0,0,2,0,0
+south,2,0,0,1,0,1
+roast,2,0,0,0,1,1
+popcorn,2,1,0,0,1,0
+slightly,2,0,0,0,1,1
+strong,2,0,0,0,1,1
+smooth,2,0,0,0,1,1
+wonderful,2,0,0,0,0,2
+aftertaste,2,0,1,0,0,1
+friends,2,0,0,0,0,2
+halloween,2,0,0,0,0,2
+everything,2,0,0,0,0,2
+chocolates,2,1,0,0,0,1
+4,2,0,0,1,0,1
+cheaper,2,0,0,0,0,2
+days,2,1,0,0,0,1
+desert,2,0,0,0,0,2
+laced,2,0,0,0,0,2
+camelbaks,2,0,0,0,0,2
+tablets,2,0,0,0,0,2
+during,2,0,0,0,0,2
+diet,2,0,0,0,0,2
+ago,2,1,0,0,0,1
+having,2,0,0,0,0,2
+might,2,0,0,0,0,2
+help,2,0,0,1,0,1
+across,2,0,0,0,0,2
+hint,2,0,2,0,0,0
+consuming,2,1,1,0,0,0
+various,2,0,1,0,0,1
+come,2,0,1,0,0,1
+tasted,2,0,1,0,0,1
+terrible,2,1,1,0,0,0
+gummi,2,0,0,0,0,2
+rings,2,0,0,0,0,2
+type,2,0,0,0,0,2
+5,2,0,0,0,0,2
+popsicles,2,0,0,0,0,2
+later,2,1,0,0,0,1
+pastry,2,0,0,0,0,2
+gone,2,1,0,0,0,1
+short,2,2,0,0,0,0
+gas,2,1,0,0,0,1
+experienced,2,1,0,0,0,1
+learned,2,1,0,0,0,1
+side,2,2,0,0,0,0
+effects,2,2,0,0,0,0
+stopped,2,1,0,1,0,0
+label,2,2,0,0,0,0
+sugarfree,2,2,0,0,0,0
+next,2,1,0,0,0,1
+bottom,2,1,0,0,0,1
+20,2,1,0,0,0,1
+through,2,0,0,0,0,2
+melted,2,0,0,1,0,1
+purchasing,2,0,0,0,0,2
+summer,2,0,0,0,0,2
+items,2,0,0,0,0,2
+fun,2,0,0,0,0,2
+molecular,2,0,0,0,0,2
+let,2,0,0,0,0,2
+hate,2,0,0,0,0,2
+cream,2,0,0,0,0,2
+idea,2,0,0,0,0,2
+mixing,2,0,0,0,0,2
+reason,2,0,0,1,0,1
+increased,2,0,0,2,0,0
+significantly,2,0,0,1,0,1
+scratching,2,0,0,2,0,0
+environmental,2,0,0,0,0,2
+prescription,2,0,0,0,0,2
+finally,2,0,0,0,0,2
+cause,2,0,0,0,0,2
+vet,2,0,0,0,0,2
+wonders,2,0,0,0,0,2
+jack,2,0,0,0,0,2
+russell,2,0,0,0,0,2
+allergy,2,0,0,0,0,2
+standard,2,0,0,0,0,2
+switched,2,0,0,0,0,2
+couple,2,0,0,0,0,2
+old,2,0,0,0,0,2
+prime,2,0,0,0,0,2
+golden,2,0,0,0,0,2
+issues,2,0,0,0,0,2
+healthier,2,0,0,0,0,2
+normal,2,0,0,0,0,2
+vitality,1,0,0,0,0,1
+canned,1,0,0,0,0,1
+looks,1,0,0,0,0,1
+stew,1,0,0,0,0,1
+processed,1,0,0,0,0,1
+meat,1,0,0,0,0,1
+labrador,1,0,0,0,0,1
+finicky,1,0,0,0,0,1
+appreciates,1,0,0,0,0,1
+labeled,1,1,0,0,0,0
+salted,1,1,0,0,0,0
+unsalted,1,1,0,0,0,0
+error,1,1,0,0,0,0
+vendor,1,1,0,0,0,0
+intended,1,1,0,0,0,0
+represent,1,1,0,0,0,0
+confection,1,0,0,0,1,0
+centuries,1,0,0,0,1,0
+light,1,0,0,0,1,0
+pillowy,1,0,0,0,1,0
+citrus,1,0,0,0,1,0
+gelatin,1,0,0,0,1,0
+filberts,1,0,0,0,1,0
+squares,1,0,0,0,1,0
+liberally,1,0,0,0,1,0
+coated,1,0,0,0,1,0
+mouthful,1,0,0,0,1,0
+heaven,1,0,0,0,1,0
+flavorful,1,0,0,0,1,0
+story,1,0,0,0,1,0
+c,1,0,0,0,1,0
+lewis,1,0,0,0,1,0
+lion,1,0,0,0,1,0
+wardrobe,1,0,0,0,1,0
+seduces,1,0,0,0,1,0
+edmund,1,0,0,0,1,0
+brother,1,0,0,0,1,0
+sisters,1,0,0,0,1,0
+secret,1,0,1,0,0,0
+robitussin,1,0,1,0,0,0
+addition,1,0,1,0,0,0
+extract,1,0,1,0,0,0
+cherry,1,0,1,0,0,0
+medicinal,1,0,1,0,0,0
+wide,1,0,0,0,0,1
+delivery,1,0,0,0,0,1
+wild,1,0,0,0,1,0
+hair,1,0,0,0,1,0
+enjoyable,1,0,0,0,1,0
+watermelon,1,0,0,0,1,0
+melon,1,0,0,0,1,0
+complaint,1,0,0,0,1,0
+pieces,1,0,0,0,1,0
+favorites,1,0,0,0,1,0
+lasted,1,0,0,0,1,0
+weeks,1,0,0,0,1,0
+delightful,1,0,0,0,1,0
+saltwater,1,0,0,0,0,1
+individually,1,0,0,0,0,1
+wrapped,1,0,0,0,0,1
+stuck,1,0,0,0,0,1
+happen,1,0,0,0,0,1
+version,1,0,0,0,0,1
+fralinger,1,0,0,0,0,1
+served,1,0,0,0,0,1
+beach,1,0,0,0,0,1
+themed,1,0,0,0,0,1
+mostly,1,0,0,0,0,1
+sprouting,1,0,0,0,0,1
+grass,1,0,0,0,0,1
+rotate,1,0,0,0,0,1
+wheatgrass,1,0,0,0,0,1
+rye,1,0,0,0,0,1
+digestion,1,0,0,0,0,1
+puppies,1,0,0,0,0,1
+required,1,0,0,0,0,1
+boys,1,0,0,0,0,1
+needed,1,0,0,0,0,1
+lose,1,0,0,0,0,1
+floor,1,0,0,0,0,1
+guy,1,0,0,0,0,1
+protein,1,0,0,0,0,1
+where,1,0,0,0,0,1
+skinny,1,0,0,0,0,1
+jump,1,0,0,0,0,1
+sits,1,0,0,0,0,1
+losing,1,0,0,0,0,1
+week,1,0,0,0,0,1
+happily,1,1,0,0,0,0
+felidae,1,1,0,0,0,0
+platinum,1,1,0,0,0,0
+shape,1,1,0,0,0,0
+sit,1,1,0,0,0,0
+kitties,1,1,0,0,0,0
+related,1,1,0,0,0,0
+changes,1,1,0,0,0,0
+securely,1,0,0,0,1,0
+guilty,1,0,0,0,0,1
+pleasure,1,0,0,0,0,1
+son,1,0,0,0,0,1
+shipment,1,0,0,0,0,1
+hit,1,0,0,0,0,1
+spot,1,0,0,0,0,1
+exactly,1,0,0,0,0,1
+expect,1,0,0,0,0,1
+packages,1,0,0,0,0,1
+watching,1,0,1,0,0,0
+tv,1,0,1,0,0,0
+movies,1,0,1,0,0,0
+transfer,1,0,1,0,0,0
+zip,1,0,1,0,0,0
+lock,1,0,1,0,0,0
+baggie,1,0,1,0,0,0
+satisfied,1,0,0,0,0,1
+twizzler,1,0,0,0,0,1
+childhood,1,0,0,0,0,1
+lancaster,1,0,0,0,0,1
+pennsylvania,1,0,0,0,0,1
+oldest,1,0,0,0,0,1
+confectionery,1,0,0,0,0,1
+firms,1,0,0,0,0,1
+united,1,0,0,0,0,1
+states,1,0,0,0,0,1
+subsidiary,1,0,0,0,0,1
+hershey,1,0,0,0,0,1
+established,1,0,0,0,0,1
+1845,1,0,0,0,0,1
+young,1,0,0,0,0,1
+smylie,1,0,0,0,0,1
+color,1,0,0,0,0,1
+blue,1,0,0,0,0,1
+keep,1,0,0,0,0,1
+place,1,0,0,0,0,1
+according,1,0,0,0,0,1
+book,1,0,0,0,0,1
+records,1,0,0,0,0,1
+longest,1,0,0,0,0,1
+measured,1,0,0,0,0,1
+200,1,0,0,0,0,1
+feet,1,0,0,0,0,1
+370,1,0,0,0,0,1
+weighted,1,0,0,0,0,1
+100,1,0,0,0,0,1
+45,1,0,0,0,0,1
+kg,1,0,0,0,0,1
+became,1,0,0,0,0,1
+july,1,0,0,0,0,1
+19,1,0,0,0,0,1
+1998,1,0,0,0,0,1
+kosher,1,0,0,0,0,1
+reasonable,1,0,0,0,0,1
+bound,1,0,0,0,0,1
+unable,1,0,0,0,0,1
+addict,1,0,0,0,0,1
+government,1,0,0,0,0,1
+employees,1,0,0,0,0,1
+living,1,0,0,0,0,1
+assigned,1,0,0,0,0,1
+arrive,1,0,0,0,0,1
+timely,1,0,0,0,0,1
+manner,1,0,0,0,0,1
+currently,1,0,0,0,0,1
+apparently,1,0,0,0,0,1
+staff,1,0,0,0,0,1
+generous,1,0,0,0,0,1
+remember,1,0,0,0,0,1
+kid,1,0,0,0,0,1
+hasn,1,0,0,0,0,1
+dropped,1,0,0,0,0,1
+superb,1,0,0,0,0,1
+disappointed,1,0,0,0,0,1
+watchers,1,0,0,0,0,1
+craving,1,0,0,0,0,1
+7,1,0,0,0,0,1
+yrs,1,0,0,0,0,1
+miss,1,0,0,0,0,1
+visit,1,0,0,0,0,1
+visits,1,0,0,0,0,1
+yum,1,0,0,0,0,1
+mexico,1,0,0,0,0,1
+faithful,1,0,0,0,0,1
+received,1,0,0,0,0,1
+plan,1,1,0,0,0,0
+carried,1,0,0,0,1,0
+batteries,1,0,0,0,1,0
+finding,1,0,0,0,1,0
+elsewhere,1,0,0,0,1,0
+such,1,0,0,0,1,0
+garage,1,0,0,0,1,0
+opener,1,0,0,0,1,0
+mum,1,0,0,0,0,1
+diabetic,1,0,0,0,0,1
+needs,1,0,0,0,0,1
+father,1,0,0,0,0,1
+chooses,1,0,0,0,0,1
+limit,1,0,0,0,0,1
+unnecessary,1,0,0,0,0,1
+tooth,1,0,0,0,0,1
+toffees,1,0,0,0,0,1
+guilt,1,0,0,0,0,1
+w,1,0,0,0,0,1
+office,1,0,0,0,0,1
+snacking,1,0,0,0,0,1
+sweets,1,0,0,0,0,1
+huge,1,0,0,0,0,1
+mother,1,0,0,0,0,1
+talked,1,0,0,0,0,1
+macciato,1,0,0,0,0,1
+usually,1,0,0,0,0,1
+drinker,1,0,0,0,0,1
+dolche,1,0,0,0,0,1
+guesto,1,0,0,0,0,1
+super,1,0,0,0,0,1
+prepares,1,0,0,0,0,1
+cappuccino,1,0,0,0,0,1
+heated,1,0,0,0,0,1
+dolce,1,0,0,0,0,1
+gusto,1,0,0,0,0,1
+offer,1,0,0,0,0,1
+staral,1,0,0,0,0,1
+must,1,0,0,0,1,0
+scrape,1,0,0,0,1,0
+escaping,1,0,0,0,1,0
+nowhere,1,0,0,0,1,0
+near,1,0,0,0,1,0
+requiring,1,0,0,0,1,0
+stovetop,1,0,0,0,1,0
+preparation,1,0,0,0,1,0
+gets,1,0,0,0,1,0
+organic,1,0,0,0,1,0
+prepared,1,0,0,0,1,0
+adding,1,0,0,0,1,0
+actual,1,0,0,0,1,0
+fructose,1,0,0,0,1,0
+decide,1,0,0,0,1,0
+harmful,1,0,0,0,1,0
+thickeners,1,0,0,0,1,0
+creamy,1,0,0,0,1,0
+sitting,1,0,0,0,1,0
+becomes,1,0,0,0,1,0
+gluey,1,0,0,0,1,0
+uses,1,0,0,0,1,0
+fructouse,1,0,0,0,1,0
+doctors,1,0,0,0,1,0
+require,1,0,0,0,1,0
+doctoring,1,0,0,0,1,0
+apart,1,0,0,0,1,0
+become,1,0,0,0,0,1
+soggy,1,0,0,0,0,1
+hits,1,0,0,0,0,1
+holds,1,0,0,0,0,1
+oat,1,0,0,0,0,1
+close,1,0,0,0,0,1
+hardy,1,0,0,0,1,0
+folks,1,0,0,0,1,0
+post,1,0,0,0,1,0
+bariatric,1,0,0,0,1,0
+surgery,1,0,0,0,1,0
+palatable,1,0,0,0,1,0
+easily,1,0,0,0,1,0
+digestible,1,0,0,0,1,0
+fiber,1,0,0,0,1,0
+bloat,1,0,0,0,1,0
+celiac,1,0,0,0,0,1
+disease,1,0,0,0,0,1
+lifesaver,1,0,0,0,0,1
+abby,1,0,0,0,0,1
+raisins,1,0,0,0,0,1
+nuke,1,0,0,0,0,1
+90,1,0,0,0,0,1
+kroger,1,0,0,0,0,1
+tastier,1,0,0,0,0,1
+mmm,1,0,0,0,0,1
+visiting,1,0,0,0,1,0
+friend,1,0,0,0,1,0
+storage,1,0,0,0,1,0
+mccanns,1,0,0,0,1,0
+suggested,1,0,0,0,1,0
+stash,1,0,0,0,1,0
+sometimes,1,0,0,0,1,0
+dose,1,0,0,0,1,0
+cinn,1,0,0,0,1,0
+tastefull,1,0,0,0,1,0
+o,1,0,0,0,1,0
+j,1,0,0,0,1,0
+slice,1,0,0,0,1,0
+toast,1,0,0,0,1,0
+ready,1,0,0,0,1,0
+jerry,1,0,0,0,1,0
+reith,1,0,0,0,1,0
+wife,1,0,0,0,0,1
+reccomended,1,0,0,0,0,1
+b001eo5qw8,1,0,0,0,0,1
+0,1,0,0,0,0,1
+cents,1,0,0,0,0,1
+understand,1,0,0,0,0,1
+terrific,1,0,0,0,0,1
+tired,1,0,0,0,0,1
+ole,1,0,0,0,0,1
+boil,1,0,0,0,0,1
+pot,1,0,0,0,0,1
+pour,1,0,0,0,0,1
+expand,1,0,0,0,0,1
+2x,1,0,0,0,0,1
+takes,1,0,0,0,0,1
+extremely,1,0,0,0,0,1
+connoisseur,1,0,0,0,0,1
+whether,1,0,0,0,0,1
+raw,1,0,0,0,0,1
+pellet,1,0,0,0,0,1
+state,1,0,0,0,0,1
+hour,1,0,0,0,0,1
+sloth,1,0,0,0,0,1
+addled,1,0,0,0,0,1
+beauty,1,0,0,0,0,1
+available,1,0,0,0,0,1
+allows,1,0,0,0,0,1
+explored,1,0,0,0,0,1
+known,1,0,0,0,0,1
+oatmeals,1,0,0,0,0,1
+personally,1,0,0,0,0,1
+thicker,1,0,0,0,0,1
+america,1,0,0,0,0,1
+tends,1,0,0,0,0,1
+liquidy,1,0,0,0,0,1
+1300watt,1,0,0,0,0,1
+twenty,1,0,0,0,0,1
+seven,1,0,0,0,0,1
+handle,1,0,0,0,0,1
+how,1,0,0,0,0,1
+consider,1,0,0,0,0,1
+offering,1,0,0,0,0,1
+lot,1,0,0,0,0,1
+ten,1,0,0,0,0,1
+eaters,1,0,0,0,0,1
+single,1,0,0,0,0,1
+alone,1,0,0,0,0,1
+00,1,0,0,0,0,1
+choice,1,0,0,0,0,1
+cook,1,0,0,0,0,1
+keeps,1,0,0,0,0,1
+regularly,1,0,0,0,0,1
+wholesome,1,0,0,1,0,0
+supermarket,1,0,0,1,0,0
+somewhat,1,0,0,1,0,0
+either,1,0,0,1,0,0
+pass,1,0,0,1,0,0
+muster,1,0,0,1,0,0
+wouldn,1,0,0,0,0,1
+follow,1,0,0,0,0,1
+directions,1,0,0,0,0,1
+comes,1,0,0,0,0,1
+soupy,1,0,0,0,0,1
+differce,1,0,0,1,0,0
+oaker,1,0,0,1,0,0
+added,1,0,0,0,1,0
+big,1,0,0,1,0,0
+carbs,1,0,0,1,0,0
+sugars,1,0,0,1,0,0
+money,1,0,0,1,0,0
+quaker,1,1,0,0,0,0
+bloody,1,0,0,0,0,1
+mary,1,0,0,0,0,1
+seller,1,0,0,0,0,1
+advertising,1,0,0,0,0,1
+lol,1,0,0,0,0,1
+buddies,1,0,0,0,0,1
+im,1,0,0,0,0,1
+burn,1,0,0,0,0,1
+mouth,1,0,0,0,0,1
+forever,1,0,0,0,0,1
+temp,1,0,0,0,0,1
+weston,1,0,0,0,1,0
+cranberry,1,0,0,0,1,0
+horseradish,1,0,0,0,1,0
+fartless,1,0,0,0,1,0
+salsa,1,0,0,0,1,0
+cider,1,0,0,0,1,0
+newton,1,0,0,0,1,0
+cradle,1,0,0,0,1,0
+art,1,0,0,0,1,0
+motion,1,0,0,0,1,0
+staple,1,0,0,0,1,0
+activate,1,0,0,0,1,0
+perspiration,1,0,0,0,1,0
+glands,1,0,0,0,1,0
+behind,1,0,0,0,1,0
+ears,1,0,0,0,1,0
+arms,1,0,0,0,1,0
+requires,1,0,0,0,1,0
+beverage,1,0,0,0,1,0
+glass,1,0,0,0,1,0
+kleenex,1,0,0,0,1,0
+look,1,0,0,0,1,0
+already,1,0,0,0,1,0
+ideas,1,0,0,0,1,0
+suspect,1,0,0,0,1,0
+hitting,1,0,0,0,1,0
+goodies,1,0,0,0,1,0
+absence,1,0,0,0,1,0
+colleague,1,0,0,0,1,0
+earliest,1,0,0,0,1,0
+opportunity,1,0,0,0,1,0
+contents,1,0,0,0,1,0
+planters,1,0,0,0,1,0
+crying,1,0,0,0,1,0
+running,1,0,0,0,1,0
+return,1,0,0,0,1,0
+shaken,1,0,0,0,1,0
+ensure,1,0,0,0,1,0
+evenly,1,0,0,0,1,0
+distributed,1,0,0,0,1,0
+important,1,0,0,0,1,0
+wash,1,0,0,0,1,0
+hands,1,0,0,0,1,0
+consumption,1,0,0,0,1,0
+eyes,1,0,0,0,1,0
+p,1,0,0,0,1,0
+sharing,1,0,0,0,1,0
+deliberately,1,0,0,0,1,0
+insulted,1,0,0,0,1,0
+texas,1,0,0,1,0,0
+doubt,1,0,0,1,0,0
+habanero,1,0,0,1,0,0
+notch,1,0,0,1,0,0
+stove,1,0,0,0,1,0
+popper,1,0,0,0,1,0
+outside,1,0,0,0,1,0
+course,1,0,0,0,1,0
+direct,1,0,0,0,1,0
+mexican,1,0,0,0,1,0
+altura,1,0,0,0,1,0
+seem,1,0,0,0,1,0
+suited,1,0,0,0,1,0
+method,1,0,0,0,1,0
+cracks,1,0,0,0,1,0
+distinct,1,0,0,0,1,0
+medium,1,0,0,0,1,0
+results,1,0,0,0,1,0
+aroma,1,0,0,0,1,0
+persistent,1,0,0,0,1,0
+velvety,1,0,0,0,1,0
+lively,1,0,0,0,1,0
+large,1,0,0,0,0,1
+cast,1,0,0,0,0,1
+iron,1,0,0,0,0,1
+pan,1,0,0,0,0,1
+grill,1,0,0,0,0,1
+smell,1,0,0,0,0,1
+importantly,1,0,0,0,0,1
+bitter,1,0,0,0,0,1
+numerous,1,0,0,0,0,1
+occasions,1,0,0,0,0,1
+send,1,0,0,0,0,1
+indicated,1,0,0,0,0,1
+satisfy,1,0,0,0,0,1
+trick,1,0,0,0,0,1
+treaters,1,0,0,0,0,1
+kit,1,0,0,0,0,1
+kat,1,0,0,0,0,1
+reeses,1,0,0,0,0,1
+plenty,1,0,0,0,0,1
+shipped,1,0,0,0,0,1
+promptly,1,0,0,0,0,1
+neighborhood,1,0,0,0,0,1
+liked,1,0,0,0,0,1
+sent,1,0,0,0,0,1
+daughters,1,0,0,0,0,1
+class,1,0,0,0,0,1
+share,1,0,0,0,0,1
+prices,1,0,0,1,0,0
+gold,1,0,0,1,0,0
+target,1,0,0,1,0,0
+compete,1,0,0,0,0,1
+pill,1,0,0,0,0,1
+dirt,1,0,0,0,0,1
+camelbak,1,0,0,0,0,1
+heavily,1,0,0,0,0,1
+effective,1,0,0,0,0,1
+cramp,1,0,0,0,0,1
+hundred,1,0,0,0,0,1
+mile,1,0,0,0,0,1
+racing,1,0,0,0,0,1
+buggy,1,0,0,0,0,1
+firstly,1,0,0,0,0,1
+endurance,1,0,0,0,0,1
+athlete,1,0,0,0,0,1
+handly,1,0,0,0,0,1
+dissovle,1,0,0,0,0,1
+third,1,0,0,0,0,1
+imagine,1,0,0,0,0,1
+starving,1,0,0,0,0,1
+hydration,1,0,0,0,0,1
+rather,1,0,0,0,0,1
+salty,1,0,0,0,0,1
+refreshing,1,0,0,0,0,1
+lemon,1,0,0,0,0,1
+lime,1,0,0,0,0,1
+drop,1,0,0,0,0,1
+tablet,1,0,0,0,0,1
+bottled,1,0,0,0,0,1
+whenever,1,0,0,0,0,1
+exercise,1,0,0,0,0,1
+chock,1,0,0,0,0,1
+serves,1,0,0,0,0,1
+source,1,0,0,0,0,1
+ride,1,0,0,0,0,1
+grapefruit,1,0,0,0,0,1
+slight,1,0,0,0,0,1
+carbonation,1,0,0,0,0,1
+line,1,0,0,0,0,1
+preventing,1,0,0,0,0,1
+middle,1,0,0,0,0,1
+latter,1,0,0,0,0,1
+stages,1,0,0,0,0,1
+pop,1,0,0,0,0,1
+set,1,0,0,0,0,1
+cycling,1,0,0,0,0,1
+arrhythmia,1,0,0,0,0,1
+drinking,1,0,0,0,0,1
+plain,1,0,0,0,0,1
+research,1,0,0,0,0,1
+gatorade,1,0,0,0,0,1
+option,1,0,0,0,0,1
+loaded,1,0,0,0,0,1
+carbohydrates,1,0,0,0,0,1
+alternative,1,0,0,0,0,1
+zero,1,0,0,0,0,1
+drinks,1,0,0,0,0,1
+ran,1,0,0,0,0,1
+tube,1,0,0,0,0,1
+voila,1,0,0,0,0,1
+solved,1,0,0,0,0,1
+leg,1,0,0,0,0,1
+cramps,1,0,0,0,0,1
+resolved,1,0,0,0,0,1
+guys,1,0,0,0,0,1
+superbly,1,0,0,0,0,1
+formulated,1,0,0,0,0,1
+nutrition,1,0,1,0,0,0
+decades,1,0,1,0,0,0
+appealing,1,0,1,0,0,0
+notice,1,0,1,0,0,0
+sip,1,0,1,0,0,0
+impulsive,1,0,0,1,0,0
+wrong,1,0,0,1,0,0
+babies,1,0,0,1,0,0
+complaints,1,0,0,1,0,0
+retrospect,1,0,0,1,0,0
+ridiculous,1,0,0,1,0,0
+esp,1,0,0,1,0,0
+sooooo,1,0,0,0,0,1
+deliscious,1,0,0,0,0,1
+ate,1,0,0,0,0,1
+em,1,0,0,0,0,1
+gained,1,0,0,0,0,1
+pds,1,0,0,0,0,1
+fault,1,0,0,0,0,1
+albanese,1,0,0,0,0,1
+faces,1,0,0,0,0,1
+snakes,1,0,0,0,0,1
+balls,1,0,0,0,0,1
+worms,1,0,0,0,0,1
+whatever,1,0,0,0,0,1
+lb,1,0,0,0,0,1
+twin,1,0,0,0,0,1
+screaming,1,0,0,0,0,1
+far,1,0,0,0,0,1
+concerned,1,0,0,0,0,1
+50,1,0,0,0,0,1
+deep,1,0,0,0,0,1
+friggin,1,0,0,0,0,1
+things,1,0,0,0,0,1
+consumed,1,0,0,0,0,1
+area,1,0,0,0,0,1
+talk,1,0,0,0,0,1
+lying,1,0,0,0,0,1
+10lbs,1,0,0,0,0,1
+bigger,1,0,0,0,0,1
+sour,1,0,0,0,0,1
+kick,1,0,0,0,0,1
+another,1,0,0,0,0,1
+opinion,1,0,0,0,0,1
+salt,1,0,0,0,0,1
+softer,1,0,0,0,0,1
+frozen,1,0,0,0,0,1
+latice,1,0,0,0,0,1
+tarts,1,0,0,0,0,1
+directly,1,0,0,0,0,1
+fantasicakes,1,0,0,0,0,1
+website,1,0,0,0,0,1
+dinner,1,0,0,0,0,1
+hosting,1,0,0,0,0,1
+intact,1,0,0,0,0,1
+froze,1,0,0,0,0,1
+jam,1,0,0,0,0,1
+guests,1,0,0,0,0,1
+beware,1,1,0,0,0,0
+please,1,1,0,0,0,0
+everybody,1,1,0,0,0,0
+alcohol,1,1,0,0,0,0
+undigestible,1,1,0,0,0,0
+unsuspecting,1,1,0,0,0,0
+digest,1,1,0,0,0,0
+intestinal,1,1,0,0,0,0
+bloating,1,1,0,0,0,0
+massive,1,1,0,0,0,0
+nausea,1,1,0,0,0,0
+diarrhea,1,1,0,0,0,0
+headaches,1,1,0,0,0,0
+lesson,1,1,0,0,0,0
+fell,1,1,0,0,0,0
+suzanne,1,1,0,0,0,0
+sommers,1,1,0,0,0,0
+nirvana,1,1,0,0,0,0
+bliss,1,1,0,0,0,0
+kicked,1,1,0,0,0,0
+discomfort,1,1,0,0,0,0
+unlike,1,1,0,0,0,0
+felt,1,1,0,0,0,0
+blew,1,1,0,0,0,0
+balloon,1,1,0,0,0,0
+painful,1,1,0,0,0,0
+abdominal,1,1,0,0,0,0
+passed,1,1,0,0,0,0
+unpleasant,1,1,0,0,0,0
+calorie,1,1,0,0,0,0
+culprit,1,1,0,0,0,0
+hunch,1,1,0,0,0,0
+confirmed,1,1,0,0,0,0
+market,1,1,0,0,0,0
+wondering,1,1,0,0,0,0
+possibly,1,1,0,0,0,0
+sank,1,1,0,0,0,0
+asterisk,1,1,0,0,0,0
+read,1,1,0,0,0,0
+letters,1,1,0,0,0,0
+goodness,1,1,0,0,0,0
+shorter,1,1,0,0,0,0
+duration,1,1,0,0,0,0
+content,1,1,0,0,0,0
+reaction,1,1,0,0,0,0
+okay,1,0,1,0,0,0
+brunch,1,1,0,0,0,0
+artifial,1,1,0,0,0,0
+returnable,1,1,0,0,0,0
+wasted,1,1,0,0,0,0
+bucks,1,1,0,0,0,0
+snack,1,0,0,0,0,1
+trail,1,0,0,0,0,1
+solid,1,0,0,0,0,1
+mass,1,0,0,0,0,1
+left,1,0,0,0,0,1
+pantry,1,0,0,0,0,1
+opened,1,0,0,0,0,1
+temperature,1,0,0,0,0,1
+gooey,1,0,0,0,0,1
+hunks,1,0,0,0,0,1
+grainy,1,0,0,0,0,1
+melting,1,0,0,0,0,1
+solidifying,1,0,0,0,0,1
+pick,1,0,0,0,0,1
+agree,1,0,0,0,0,1
+reviewer,1,0,0,0,0,1
+regarding,1,0,0,0,0,1
+insulating,1,0,0,0,0,1
+packaging,1,0,0,0,0,1
+ice,1,0,0,0,0,1
+melt,1,0,0,0,0,1
+warm,1,0,0,0,0,1
+berries,1,0,0,1,0,0
+winter,1,0,0,1,0,0
+enjoy,1,0,0,1,0,0
+granted,1,0,0,0,0,1
+being,1,0,0,0,0,1
+crisp,1,0,0,0,0,1
+stick,1,0,0,0,0,1
+dad,1,0,0,0,0,1
+remembered,1,0,0,0,0,1
+girl,1,0,0,0,0,1
+gift,1,0,0,0,1,0
+giant,1,0,0,0,1,0
+canes,1,0,0,0,1,0
+recipients,1,0,0,0,1,0
+kept,1,0,0,0,1,0
+title,1,0,0,0,0,1
+says,1,0,0,0,0,1
+gastronomy,1,0,0,0,0,1
+scare,1,0,0,0,0,1
+science,1,0,0,0,0,1
+blonde,1,0,0,0,0,1
+kinds,1,0,0,0,0,1
+honestly,1,0,0,0,0,1
+manufactured,1,0,0,0,0,1
+hand,1,0,0,0,0,1
+stumbled,1,0,0,0,0,1
+making,1,0,0,0,0,1
+lowfat,1,0,0,0,0,1
+sweeter,1,0,0,0,0,1
+fresher,1,0,0,0,0,1
+dissolve,1,0,0,0,0,1
+play,1,0,0,0,0,1
+ratios,1,0,0,0,0,1
+heavy,1,0,0,0,0,1
+flavoring,1,0,0,0,0,1
+bough,1,0,0,0,0,1
+cocoa,1,0,0,0,0,1
+vanilla,1,0,0,0,0,1
+caster,1,0,0,0,0,1
+superfine,1,0,0,0,0,1
+batches,1,0,0,0,0,1
+nutmeg,1,0,0,0,0,1
+wanted,1,0,0,0,0,1
+fake,1,0,0,0,0,1
+sweetner,1,0,0,0,0,1
+canning,1,0,0,0,0,1
+jars,1,0,0,0,0,1
+chopper,1,0,0,0,0,1
+processor,1,0,0,0,0,1
+blend,1,0,0,0,0,1
+heavier,1,0,0,0,0,1
+sinks,1,0,0,0,0,1
+settle,1,0,0,0,0,1
+opening,1,0,0,0,0,1
+storebought,1,0,0,0,0,1
+essential,1,0,0,0,0,1
+oils,1,0,0,0,0,1
+orange,1,0,0,0,0,1
+mentioned,1,0,0,0,0,1
+flavorings,1,0,0,0,0,1
+housewarming,1,0,0,0,0,1
+host,1,0,0,0,0,1
+ess,1,0,0,0,0,1
+gifts,1,0,0,0,0,1
+cooking,1,0,0,0,0,1
+main,1,0,0,0,0,1
+itchy,1,0,0,1,0,0
+duck,1,0,0,1,0,0
+potato,1,0,0,1,0,0
+given,1,0,0,1,0,0
+boston,1,0,0,1,0,0
+severe,1,0,0,1,0,0
+reactions,1,0,0,1,0,0
+violent,1,0,0,1,0,0
+jumping,1,0,0,1,0,0
+bed,1,0,0,1,0,0
+night,1,0,0,1,0,0
+soon,1,0,0,1,0,0
+changed,1,0,0,1,0,0
+choices,1,0,0,1,0,0
+until,1,0,0,1,0,0
+specifically,1,0,0,0,0,1
+spots,1,0,0,0,0,1
+tummy,1,0,0,0,0,1
+ships,1,0,0,0,0,1
+ton,1,0,0,0,0,1
+tested,1,0,0,0,0,1
+test,1,0,0,0,0,1
+triggers,1,0,0,0,0,1
+pain,1,0,0,0,0,1
+shepherd,1,0,0,0,0,1
+collie,1,0,0,0,0,1
+ibs,1,0,0,0,0,1
+recipe,1,0,0,0,0,1
+awful,1,0,0,0,0,1
+hope,1,0,0,0,0,1
+normally,1,0,0,0,0,1
+bichon,1,0,0,0,0,1
+stomach,1,0,0,0,0,1
+breeds,1,0,0,0,0,1
+poop,1,0,0,0,0,1
+consistency,1,0,0,0,0,1
+mom,1,0,0,0,0,1
+ask,1,0,0,0,0,1
+poodle,1,0,0,0,0,1
+pomeranian,1,0,0,0,0,1
+due,1,0,0,0,0,1
+severs,1,0,0,0,0,1
+feed,1,0,0,0,0,1
+puppy,1,0,0,0,0,1
+hardly,1,0,0,0,0,1
+sick,1,0,0,0,0,1
+retriever,1,0,0,0,0,1
+picky,1,0,0,0,0,1
+met,1,0,0,0,0,1
+experimenting,1,0,0,0,0,1
+types,1,0,0,0,0,1
+multiple,1,0,0,0,0,1
+furthermore,1,0,0,0,0,1
+boring,1,0,0,0,0,1
+figured,1,0,0,0,0,1
+tend,1,0,0,0,0,1
+fish,1,0,0,0,0,1
+additionally,1,0,0,0,0,1
+petco,1,0,0,0,0,1
+cans,1,0,0,0,0,1
+surprise,1,0,0,0,0,1
+stamp,1,0,0,0,0,1
+approval,1,0,0,0,0,1
+pleased,1,0,0,0,0,1
+grain,1,0,0,0,0,1
+possible,1,0,0,0,0,1
+grains,1,0,0,0,0,1
+switching,1,0,0,0,0,1
+haven,1,0,0,0,0,1
+helpful,1,0,0,0,0,1
+kibble,1,0,0,0,0,1
+larger,1,0,0,0,0,1
+smaller,1,0,0,0,0,1
+basenji,1,0,0,0,0,1
+noticeably,1,0,0,0,0,1
+energetic,1,0,0,0,0,1
+earlier,1,0,0,0,0,1
+despite,1,0,0,0,0,1
+cost,1,0,0,0,0,1
+stays,1,0,0,0,0,1
+cups,1,0,0,0,0,1
+serving,1,0,0,0,0,1
+whereas,1,0,0,0,0,1
+account,1,0,0,0,0,1
+bang,1,0,0,0,0,1
+buck,1,0,0,0,0,1
+happier,1,0,0,0,0,1
+boot,1,0,0,0,0,1
+sold,1,0,0,0,0,1
+pup,1,0,0,0,0,1
+forms,1,0,0,0,0,1
+hotspots,1,0,0,0,0,1
+crazy,1,0,0,0,0,1
+preservatives,1,0,0,0,0,1
+pets,1,0,0,0,0,1
+reducing,1,0,0,0,0,1
+message,1,0,0,0,0,1
+ramsey,1,0,0,0,0,1
+frankenstein,1,0,0,0,0,1
+approved,1,0,0,0,0,1
+english,1,0,0,0,0,1
+bulldog,1,0,0,0,0,1
+skin,1,0,0,0,0,1
+age,1,0,0,0,0,1
+wean,1,0,0,0,0,1
+previous,1,0,0,0,0,1
+owner,1,0,0,0,0,1
+gave,1,0,0,0,0,1
+iams,1,0,0,0,0,1
+onto,1,0,0,0,0,1
+working,1,0,0,0,0,1
+sensitive,1,0,0,0,0,1
+additives,1,0,0,0,0,1
+proteins,1,0,0,0,0,1
+commonly,1,0,0,0,0,1
+commercial,1,0,0,0,0,1
+chicken,1,0,0,0,0,1
+beef,1,0,0,0,0,1

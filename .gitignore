@@ -1,3 +1,4 @@
+# This file is used to ignore files and directories in a Git repository.
 datasets/Reviews_short.csv
 datasets/Reviews_without_stopwords_and_br.csv
 datasets/Reviews_without_stopwords_br_I.csv

@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("Reviews.csv")
+df = pd.read_csv("datasets/Reviews.csv")
 
 score_list = df['Score']
 

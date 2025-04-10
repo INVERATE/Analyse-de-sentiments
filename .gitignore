@@ -9,3 +9,6 @@ datasets/Reviews_without_stopwords_short.csv
 datasets/Reviews_without_stopwords_br.csv
 datasets/Reviews_copy.csv
 datasets/Reviews_clean.csv
+datasets/Reviews_clean_copy_short.csv
+datasets/Reviews_clean_copy.csv
+datasets/Reviews_lemmatized.csv

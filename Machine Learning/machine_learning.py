@@ -1,5 +1,5 @@
 # Etape 4 : Modélisation avec du Machine Learning
-
+#%%
 
 # Importation des bibliothèques
 import pandas as pd
@@ -20,6 +20,10 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+
+# importation pour shap
+import shap
+import matplotlib.pyplot as plt
 
 # Récupération des données nettoyées
 print("Loading data...")
@@ -74,6 +78,7 @@ for model_name, model in models.items():
     grid_search = GridSearchCV(model, parameters[model_name], cv=5)
     grid_search.fit(X_train, y_train)
     model.set_params(**grid_search.best_params_)
+    print("best param : ",grid_search.best_params_)
     model.fit(X_train, y_train)
     
     # Prédictions sur l'ensemble de test
@@ -91,13 +96,15 @@ for model_name, model in models.items():
     # Sauvegarde du meilleur modèle
     best_models[model_name] = model
 
+    
+
 # Création d'un DataFrame pour les résultats
 results_df = pd.DataFrame(results)
 
 # Affichage des résultats
 print(results_df)
 
-
+"""
 # Utilisation du meilleur modèle
 model = best_models['Logistic Regression']
 
@@ -113,3 +120,80 @@ sentence_vector = tfidf.fit_transform([sentence])
 sentence_score_predict = model.predict(sentence_vector)
 
 print(sentence_score_predict)
+"""
+
+#%%
+"""
+print("Loading data...")
+data = pd.read_csv('./../../datasets/Reviews_clean_lemmatized_short.csv')
+
+# matrice df-idf
+print("Loading sparse matrix...")
+sparse_matrix = load_npz('./../../Machine Learning/tfidf_matrix_sparse.npz')
+# print("Matrix shape:", sparse_matrix.shape)
+# print("Data shape:", data.shape)
+df = pd.read_csv('./../../datasets/Reviews_clean_lemmatized_short.csv')
+# Séparation des données en variables explicatives (X) et variable cible (y)
+X = sparse_matrix
+y = data['Score']
+
+# Séparation des données en ensembles d'entraînement et de test
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Etude de l'importance des variables pour random forest avec shap
+# utilisation des meilleurs hyperparametre
+rf_clf = RandomForestClassifier(max_depth=8, n_estimators =10)
+
+rf_clf.fit(X_train, y_train)
+
+# Make prediction on the testing data
+y_pred = rf_clf.predict(X_test)
+
+
+# load JS visualization code to notebook
+shap.initjs()
+
+# Create the explainer
+
+explainer = shap.TreeExplainer(rf_clf)
+shap_values = explainer.shap_values(X_train)
+
+explainer = shap.TreeExplainer(model, data=sparse_matrix[:100].todense())
+shap_values = explainer.shap_values(sparse_matrix[:100].todense())
+print(f"Variable Importance Plot - Global Interpretation for {model_name}")
+figure = plt.figure()
+shap.summary_plot(shap_values, X_test)
+
+
+# Import the LimeTabularExplainer module
+from lime.lime_tabular import LimeTabularExplainer
+
+# Get the class names
+class_names = ['1', '5']
+
+# Get the feature names
+#feature_names = list(X_train.columns)
+feature_names = list(df.columns)
+# Fit the Explainer on the training data set using the LimeTabularExplainer
+explainer = LimeTabularExplainer(X_train.values, feature_names =     
+                                 feature_names,
+                                 class_names = class_names, 
+                                 mode = 'classification')
+
+def display_feat_imp_rforest(model):
+    feature_imp = model_3_xgboost.get_booster().get_score(importance_type='weight')
+    keys = list(feature_imp.keys())
+    values = list(feature_imp.values())
+    data = pd.DataFrame(data=values, index=keys, columns=["score"]).sort_values(by = "score", ascending=False)
+    data.nlargest(40, columns="score").plot(kind='barh', figsize = (10,5)) 
+display_feat_imp_rforest(model_3_xgboost)
+
+def display_feat_imp_rforest(rforest):
+    feat_imp = rforest.feature_importances_
+    df_featimp = pd.DataFrame(feat_imp, columns = {"Feature Importance"})
+    df_featimp["Feature Name"] = df.columns
+    df_featimp = df_featimp.sort_values(by="Feature Importance", ascending=False)
+    print(df_featimp)
+    df_featimp.plot.barh(y="Feature Importance", x="Feature Name", title="Feature importance", color="red")
+display_feat_imp_rforest(rf_clf)
+"""

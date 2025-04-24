@@ -74,6 +74,7 @@ for model_name, model in models.items():
     grid_search = GridSearchCV(model, parameters[model_name], cv=5)
     grid_search.fit(X_train, y_train)
     model.set_params(**grid_search.best_params_)
+    print(f"Best parameters for {model_name}: {grid_search.best_params_}")
     model.fit(X_train, y_train)
     
     # Prédictions sur l'ensemble de test
@@ -104,12 +105,17 @@ model = best_models['Logistic Regression']
 # test sur une phrase
 sentence = "i read the review i was hestitant as it was reported the drawer did not out easy well it comes out easy i room for plenty of choices in the drawer as family likes hot chocolate tea personally i like coffee the best thing is that it is a space saver i put the kcup machine on it i plemnty of room for condiments with other storage syatems you it next to the kcup machine this takes a lot of spce space is important in cottage which is now home i think this was a great buy for me it is funny how sometimes you buy something it turns out to be a dud this is definitely the money"
 sentence_score = 5
+
 # convertir la phrase en vecteur TF-IDF
 from sklearn.feature_extraction.text import TfidfVectorizer
+import pickle
 
-tfidf = TfidfVectorizer(max_features=10000)
-sentence_vector = tfidf.fit_transform([sentence])
+with open('Machine Learning/tfidf_vectorizer.pkl', 'rb') as f:
+    tfidf = pickle.load(f)
+# on s'assure que la phrase soit convertie en vecteur avec les mêmes dimensions que la matrice
+sentence_vector = tfidf.transform([sentence]) # PAS FIT !!!
 
 sentence_score_predict = model.predict(sentence_vector)
 
-print(sentence_score_predict)
+print(f"Score réel : {sentence_score}")
+print(f"Score prédit : {sentence_score_predict[0]}")

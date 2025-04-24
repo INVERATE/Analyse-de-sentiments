@@ -11,8 +11,6 @@ texts = df['Text_without_stopwords']
 print('TF-IDF Vectorizer processing...')
 tfidf = TfidfVectorizer(
     max_features=10000,       # Limite le nombre de caractéristiques
-    min_df=5,                 # Ignore les termes trop rares
-    max_df=0.9,              # Ignore les termes trop fréquents
 )
 
 # Ne pas convertir en matrice dense
@@ -44,3 +42,9 @@ from scipy.sparse import save_npz
 
 print('Saving sparse matrix...')
 save_npz('Machine Learning/tfidf_matrix_sparse.npz', result)
+
+import pickle
+
+print('Saving vectorizer...')
+with open('Machine Learning/tfidf_vectorizer.pkl', 'wb') as f:
+    pickle.dump(tfidf, f)

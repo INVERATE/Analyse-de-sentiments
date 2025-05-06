@@ -2,13 +2,16 @@
 from __future__ import print_function
 # Télécharger Keras 
 import keras
+import tensorflow
 # Télécharger les dossiers de formation et de test MNIST
-
+from tensorflow import keras
+from tensorflow.keras.models import Model
+from keras.layers import Dense
 # Télécharger le modèle séquentiel 
 #from keras.models import Sequential
 from tensorflow.keras import Sequential
 # Télécharger les couches des cellules neuronales 
-from keras.layers import Dense, Dropout, Flatten
+from keras.layers import Dropout, Flatten
 from keras.layers import Conv2D, MaxPooling2D
 from keras import backend as K
 import pandas as pd

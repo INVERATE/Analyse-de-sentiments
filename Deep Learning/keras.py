@@ -7,8 +7,9 @@ df = pd.read_csv('datasets/Reviews_clean_lemmatized_short.csv')
 X = df.loc[:, df.columns != 'Score']
 Y = df.loc[:, 'Score']
 import keras
+import tensorflow
 # Télécharger les dossiers de formation et de test MNIST
-from keras.datasets import mnist
+from tensorflow.keras.datasets import mnist
 # Télécharger le modèle séquentiel 
 from keras.models import Sequential
 # Télécharger les couches des cellules neuronales 

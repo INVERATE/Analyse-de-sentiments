@@ -34,16 +34,21 @@ parameters = {
     'Random Forest': {'n_estimators': range(10, 100, 10), 'max_depth': range(1, 10)}
 }
 
-results = {'Model': [], 'Accuracy': [], 'ROC AUC': []}
+results = {'Model': [], 'Accuracy': [], 'ROC AUC': [], 'Time': []}
 best_models = {}
 
 # Entraînement et évaluation
 for name, model in models.items():
     print(f"\n{ name } - Entraînement...")
     grid_search = GridSearchCV(model, parameters[name], cv=5)
+    
     grid_search.fit(X_train, y_train)
     best_model = grid_search.best_estimator_
+    time_start = perf_counter()
     best_model.fit(X_train, y_train)
+    time_stop = perf_counter()
+    time_model = time_stop - time_start
+    print(f"Temps d'entraînement : {round(time_model,2)} secondes")
     
     y_pred = best_model.predict(X_test)
     y_proba = best_model.predict_proba(X_test)
@@ -54,6 +59,7 @@ for name, model in models.items():
     results['Model'].append(name)
     results['Accuracy'].append(acc)
     results['ROC AUC'].append(roc)
+    results['Time'].append(time_model)
     best_models[name] = best_model
 
 results_df = pd.DataFrame(results)

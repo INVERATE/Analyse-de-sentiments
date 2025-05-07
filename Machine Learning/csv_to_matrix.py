@@ -1,50 +1,30 @@
-# import required module
-from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd
-
-# assign documents
-df = pd.read_csv("datasets/Reviews_clean_lemmatized_short.csv")
-texts = df['Text_without_stopwords']
-
-
-# create object
-print('TF-IDF Vectorizer processing...')
-tfidf = TfidfVectorizer(
-    max_features=10000,       # Limite le nombre de caractéristiques
-)
-
-# Ne pas convertir en matrice dense
-result = tfidf.fit_transform(texts)
-
-# Pour l'analyse exploratoire, utiliser des échantillons
-print("Exemple de caractéristiques :", tfidf.get_feature_names_out()[:10])
-print("Dimension de la matrice TF-IDF :", result.shape)
-
-# get idf values
-print('\nidf values:')
-for ele1, ele2 in zip(tfidf.get_feature_names_out(), tfidf.idf_):
-    print(ele1, ':', ele2)
-
-# get indexing
-print('\nWord indexes:')
-print(tfidf.vocabulary_)
-
-# display tf-idf values
-print('\ntf-idf value:')
-print(result)
-
-# in matrix form
-# print('\ntf-idf values in matrix form:')
-# print(result.toarray())
-
-
+from sklearn.model_selection import train_test_split
+from sklearn.feature_extraction.text import TfidfVectorizer
 from scipy.sparse import save_npz
-
-print('Saving sparse matrix...')
-save_npz('Machine Learning/tfidf_matrix_sparse.npz', result)
-
 import pickle
 
-print('Saving vectorizer...')
+# Charger les données
+df = pd.read_csv("datasets/Reviews_clean_lemmatized_short.csv")
+texts = df['Text_without_stopwords']
+y = df['Score']
+
+# Séparer avant TF-IDF
+X_train_texts, X_test_texts, y_train, y_test = train_test_split(texts, y, test_size=0.2, random_state=42)
+
+# Créer le vectorizer
+print("TF-IDF Vectorizer training uniquement sur le jeu d'entraînement...")
+tfidf = TfidfVectorizer(max_features=10000)
+
+# Fit sur le train, transform sur train et test
+X_train_tfidf = tfidf.fit_transform(X_train_texts)
+X_test_tfidf = tfidf.transform(X_test_texts)
+
+# Sauvegarde
+save_npz('Machine Learning/X_train_tfidf.npz', X_train_tfidf)
+save_npz('Machine Learning/X_test_tfidf.npz', X_test_tfidf)
+pd.DataFrame({'y_train': y_train}).to_csv('Machine Learning/y_train.csv', index=False)
+pd.DataFrame({'y_test': y_test}).to_csv('Machine Learning/y_test.csv', index=False)
+
 with open('Machine Learning/tfidf_vectorizer.pkl', 'wb') as f:
     pickle.dump(tfidf, f)

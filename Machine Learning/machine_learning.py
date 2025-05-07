@@ -90,7 +90,7 @@ sentence_vector = tfidf.transform([sentence])
 predicted_score = best_model.predict(sentence_vector)
 
 print(sentence_score_predict)
-"""
+
 
 #%%
 """

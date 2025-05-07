@@ -14,7 +14,7 @@ def ExtractSPecificWordDistribution(word, data="Nettoyage/wordDistribution/most_
 
 
 score_distribution = {'1': 52268, '2': 29769, '3': 42640, '4': 80655, '5': 363122}
-word = "the"
+word = "!!!!!!!!!!!!!!!!"
 scores_specific_word = ExtractSPecificWordDistribution(word)
 
 # Normalize the data

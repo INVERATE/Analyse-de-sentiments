@@ -80,8 +80,15 @@ print(results_df)
 best_model_name = results_df.sort_values(by='Accuracy', ascending=False).iloc[0]['Model']
 best_model = best_models[best_model_name]
 print(f"\nMeilleur modèle retenu : {best_model_name}")
+print(f"Hyperparamètres : {best_model.get_params()}")
+
+# Sauvegarde du meilleur modèle
+print("\nSauvegarde du meilleur modèle...")
+with open('Machine Learning/best_model.pkl', 'wb') as f:
+    pickle.dump(best_model, f)
 
 
+# Utilisation du meilleur modèle pour prédire un commentaire
 with open('Machine Learning/tfidf_vectorizer.pkl', 'rb') as f:
     tfidf = pickle.load(f)
 
@@ -89,7 +96,7 @@ sentence = "i read the review i was hestitant..."
 sentence_vector = tfidf.transform([sentence])
 predicted_score = best_model.predict(sentence_vector)
 
-print(sentence_score_predict)
+print(f"Predicted score : {predicted_score}")
 
 
 #%%

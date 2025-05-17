@@ -13,3 +13,4 @@ datasets/Reviews_clean_copy.csv
 datasets/Reviews_clean_copy_short.csv
 datasets/Reviews_lemmatized.csv
 Projet amazon  Fanny BADOULES-Néo COLPIN.pdf
+fine_tuned_roberta/model.safetensors

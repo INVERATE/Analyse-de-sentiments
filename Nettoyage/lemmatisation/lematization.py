@@ -46,11 +46,11 @@ def lemmatize_text(text):
 
 
 # Lire les données
-df = pd.read_csv("datasets/Reviews_clean_short.csv")
+df = pd.read_csv("datasets/Reviews_clean_medium.csv")
 nom_colonne = "Text_without_stopwords"
 
 # Appliquer la lemmatisation à toute la colonne avec `.apply`
 df[nom_colonne] = df[nom_colonne].apply(lemmatize_text)
 
 # Sauvegarder les résultats
-df.to_csv("datasets/Reviews_clean_lemmatized_short.csv", index=False)
+df.to_csv("datasets/Reviews_clean_lemmatized_medium.csv", index=False)

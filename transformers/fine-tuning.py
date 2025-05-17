@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Chargement du fichier CSV
-df = pd.read_csv("datasets/Reviews_clean_lemmatized_short.csv")  # Correction de "daatasets" -> "datasets"
+df = pd.read_csv("datasets/Reviews_clean_lemmatized_medium.csv")  # Correction de "daatasets" -> "datasets"
 
 # Texte = Text_without_stopwords, Label = Score - 1 (pour avoir des classes 0 à 4)
 df['label'] = df['Score'] - 1

@@ -38,12 +38,12 @@ result = predict_sentiment(exemple)
 print("Prédiction :", result)
 
 # prédiction sur un dataframe
-df = pd.read_csv("datasets/Reviews_clean_lemmatized_short.csv")
+df = pd.read_csv("datasets/Reviews_clean_lemmatized_medium.csv")
 df["predictions"] = df["Text_without_stopwords"].apply(lambda x: predict_sentiment(x)["predicted_score"])
 
 
 # Sauvegarde des prédictions
-df.to_csv("datasets/Reviews_clean_lemmatized_short_with_predictions.csv", index=False)
+df.to_csv("datasets/Reviews_clean_lemmatized_medium_with_predictions.csv", index=False)
 
 from sklearn.metrics import classification_report
 

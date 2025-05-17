@@ -4,9 +4,9 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
 
 # Charger modèle + tokenizer
-model_path = "fine_tuned_roberta"
-tokenizer = AutoTokenizer.from_pretrained(model_path)
-model = AutoModelForSequenceClassification.from_pretrained(model_path)
+model_path = "inverate/roberta-fine-tuned-amazon"
+tokenizer = AutoTokenizer.from_pretrained(model_path, use_auth_token=True)
+model = AutoModelForSequenceClassification.from_pretrained(model_path, use_auth_token=True)
 model.eval()
 
 # Device

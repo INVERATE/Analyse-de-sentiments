@@ -5,8 +5,14 @@ import torch
 
 # Charger modèle + tokenizer
 model_path = "inverate/roberta-fine-tuned-web"
-tokenizer = AutoTokenizer.from_pretrained(model_path, use_auth_token=True)
-model = AutoModelForSequenceClassification.from_pretrained(model_path, use_auth_token=True)
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+token_huggingface = os.getenv("HF_TOKEN")
+
+tokenizer = AutoTokenizer.from_pretrained(model_path, use_auth_token=token_huggingface)
+model = AutoModelForSequenceClassification.from_pretrained(model_path, use_auth_token=token_huggingface)
 model.eval()
 
 # Device

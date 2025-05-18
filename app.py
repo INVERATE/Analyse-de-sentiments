@@ -4,7 +4,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
 
 # Charger modèle + tokenizer
-model_path = "inverate/roberta-fine-tuned-amazon"
+model_path = "inverate/roberta-fine-tuned-web"
 tokenizer = AutoTokenizer.from_pretrained(model_path, use_auth_token=True)
 model = AutoModelForSequenceClassification.from_pretrained(model_path, use_auth_token=True)
 model.eval()

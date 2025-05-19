@@ -12,6 +12,8 @@ y = df['Score']
 # Séparer avant TF-IDF
 X_train_texts, X_test_texts, y_train, y_test = train_test_split(texts, y, test_size=0.2, random_state=42)
 
+
+
 # Créer le vectorizer
 print("TF-IDF Vectorizer training uniquement sur le jeu d'entraînement...")
 tfidf = TfidfVectorizer(max_features=10000)

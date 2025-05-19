@@ -27,15 +27,29 @@ importance_df = pd.DataFrame({
     'Abs_Coef': np.abs(coefs)
 }).sort_values('Abs_Coef', ascending=False)
 
-# Afficher les 20 mots les plus influents
+# Afficher les 50 mots les plus influents
 print(importance_df.head(50))
 
 # Visualisation graphique
 import matplotlib.pyplot as plt
 
-importance_df.head(50).sort_values('Coefficient').plot.barh(
+# Créer une figure
+fig = plt.figure(figsize=(6, 6))
+
+# Ajouter une sous-figure (axes) à cette figure
+ax = fig.add_subplot(1, 1, 1)
+
+# Dessiner le barplot sur ces axes
+importance_df.head(20).sort_values('Coefficient').plot.barh(
     x='Feature', 
     y='Coefficient',
+    ax=ax,
     title='Top 20 des termes les plus influents'
 )
+
+# Sauvegarder la figure en image
+fig.savefig("Machine Learning/graphs/importance_20.png", bbox_inches='tight', dpi=300)
+
+# Afficher la figure (facultatif)
 plt.show()
+

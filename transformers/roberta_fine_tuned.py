@@ -27,7 +27,7 @@ def predict_sentiment(text):
 
 
 # Chargement du modèle pré-entraîné RoBERTa pour la sentiment analysis
-model_path = "./fine_tuned_roberta"
+model_path = "./fine_tuned_roberta_local"
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 model = AutoModelForSequenceClassification.from_pretrained(model_path)
 

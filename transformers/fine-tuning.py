@@ -61,7 +61,7 @@ training_args = TrainingArguments(
     num_train_epochs=3,
     learning_rate=2e-5,
     load_best_model_at_end=True,
-    metric_for_best_model="accuracy"
+    metric_for_best_model="f1"
 )
 
 trainer = Trainer(

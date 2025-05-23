@@ -34,7 +34,6 @@ models = {
     'Logistic Regression': LogisticRegression(max_iter=1000, class_weight='balanced'),
     'Support Vector Machine': SVC(probability=True),
     'Decision Tree': DecisionTreeClassifier(),
-    'K-Nearest Neighbors': KNeighborsClassifier(),
     'Random Forest': RandomForestClassifier()
 }
 
@@ -42,7 +41,6 @@ parameters = {
     'Logistic Regression': {'C': np.linspace(0.01, 100, 10)},
     'Support Vector Machine': {'C': [0.1, 1, 10], 'kernel': ['linear', 'rbf']},
     'Decision Tree': {'max_depth': range(1, 10)},
-    'K-Nearest Neighbors': {'n_neighbors': range(1, 20)},
     'Random Forest': {'n_estimators': range(10, 100, 10), 'max_depth': range(1, 10)}
 }
 

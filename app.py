@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
@@ -20,7 +21,17 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
 # App FastAPI
+# App FastAPI avec CORS
 app = FastAPI(title="API Sentiment Analysis", version="1.0")
+
+# Configuration CORS essentielle
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Autorise toutes les origines (à ajuster en production)
+    allow_credentials=True,
+    allow_methods=["*"],  # Autorise toutes les méthodes
+    allow_headers=["*"],  # Autorise tous les en-têtes
+)
 
 # Schéma de requête
 class ReviewRequest(BaseModel):
